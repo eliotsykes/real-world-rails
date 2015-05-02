@@ -11,5 +11,5 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 
 ```bash
 # Inside real-world-rails root:
-git submodule add git@github.com:githubuser/foo.git apps/foo
+git submodule add -b master git@github.com:githubuser/foo.git apps/foo
 ```
