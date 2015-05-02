@@ -1,6 +1,12 @@
 [submodule "apps/trailmix"]
 	path = apps/trailmix
 	url = git@github.com:codecation/trailmix.git
+	branch = master
 [submodule "apps/lobsters"]
 	path = apps/lobsters
 	url = git@github.com:jcs/lobsters.git
+	branch = master
+[submodule "apps/spree"]
+	path = apps/spree
+	url = git@github.com:spree/spree.git
+	branch = master
