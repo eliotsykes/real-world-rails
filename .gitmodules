@@ -1,0 +1,6 @@
+[submodule "apps/trailmix"]
+	path = apps/trailmix
+	url = git@github.com:codecation/trailmix.git
+[submodule "apps/lobsters"]
+	path = apps/lobsters
+	url = git@github.com:jcs/lobsters.git
