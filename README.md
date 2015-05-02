@@ -4,3 +4,12 @@
 
 https://eliotsykes.com/real-world-rails
 
+
+## Adding a Real World Rails app
+
+Given a GitHub repo for a Rails app `githubuser/foo`:
+
+```bash
+# Inside real-world-rails root:
+git submodule add git@github.com:githubuser/foo.git apps/foo
+```
