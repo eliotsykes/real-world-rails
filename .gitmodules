@@ -10,3 +10,7 @@
 	path = apps/spree
 	url = git@github.com:spree/spree.git
 	branch = master
+[submodule "apps/huginn"]
+	path = apps/huginn
+	url = git@github.com:cantino/huginn.git
+	branch = master
