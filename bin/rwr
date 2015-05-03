@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+# Much of this script borrowed from:
+# https://github.com/whitequark/parser/blob/master/lib/parser/runner.rb and friends
+
+$LOAD_PATH.unshift(File.expand_path('../../lib', __FILE__))
+require 'parser/current'
+require 'real_world_rails/model_processor'
+
+def create_parser
+  parser = Parser::CurrentRuby.new
+  parser.diagnostics.all_errors_are_fatal = false
+  parser.diagnostics.ignore_warnings      = true
+  parser.diagnostics.consumer = lambda do |diagnostic|
+    puts(diagnostic.render)
+  end
+  parser
+end
+
+def list_models
+  parser = create_parser
+  model_files = Dir.glob("**/models/**/*.rb")
+  model_processor = ModelProcessor.new
+  model_files.each do |filename|
+    # filename = "apps/trailmix/app/models/subscription.rb"
+    source = File.read(filename)
+    buffer = Parser::Source::Buffer.new filename
+    buffer.source = source
+    parser.reset
+    ast = parser.parse(buffer)
+    model_processor.process(ast)
+  end
+end
+
+list_models
