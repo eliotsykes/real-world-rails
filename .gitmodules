@@ -14,3 +14,119 @@
 	path = apps/huginn
 	url = git@github.com:cantino/huginn.git
 	branch = master
+[submodule "apps/discourse"]
+	path = apps/discourse
+	url = git@github.com:discourse/discourse.git
+	branch = master
+[submodule "apps/diaspora"]
+	path = apps/diaspora
+	url = git@github.com:diaspora/diaspora.git
+	branch = master
+[submodule "apps/enki"]
+	path = apps/enki
+	url = git@github.com:xaviershay/enki.git
+	branch = master
+[submodule "apps/storytime"]
+	path = apps/storytime
+	url = git@github.com:FlyoverWorks/storytime.git
+	branch = master
+[submodule "apps/refinerycms"]
+	path = apps/refinerycms
+	url = git@github.com:refinery/refinerycms.git
+	branch = master
+[submodule "apps/radiant"]
+	path = apps/radiant
+	url = git@github.com:radiant/radiant.git
+	branch = master
+[submodule "apps/gitlabhq"]
+	path = apps/gitlabhq
+	url = git@github.com:gitlabhq/gitlabhq.git
+	branch = master
+[submodule "apps/fat_free_crm"]
+	path = apps/fat_free_crm
+	url = git@github.com:fatfreecrm/fat_free_crm.git
+	branch = master
+[submodule "apps/errbit"]
+	path = apps/errbit
+	url = git@github.com:errbit/errbit.git
+	branch = master
+[submodule "apps/dashing-rails"]
+	path = apps/dashing-rails
+	url = git@github.com:gottfrois/dashing-rails.git
+	branch = master
+[submodule "apps/onebody"]
+	path = apps/onebody
+	url = git@github.com:churchio/onebody.git
+	branch = master
+[submodule "apps/fulcrum"]
+	path = apps/fulcrum
+	url = git@github.com:fulcrum-agile/fulcrum.git
+	branch = master
+[submodule "apps/squash-web"]
+	path = apps/squash-web
+	url = git@github.com:SquareSquash/web.git
+	branch = master
+[submodule "apps/obtvse2"]
+	path = apps/obtvse2
+	url = git@github.com:natew/obtvse2.git
+	branch = master
+[submodule "apps/locomotivecms-engine"]
+	path = apps/locomotivecms-engine
+	url = git@github.com:locomotivecms/engine.git
+	branch = master
+[submodule "apps/redmine"]
+	path = apps/redmine
+	url = git@github.com:edavis10/redmine.git
+	branch = master
+[submodule "apps/amahi-platform"]
+	path = apps/amahi-platform
+	url = git@github.com:amahi/platform.git
+	branch = master
+[submodule "apps/netguru-people"]
+	path = apps/netguru-people
+	url = git@github.com:netguru/people.git
+	branch = master
+[submodule "apps/catarse"]
+	path = apps/catarse
+	url = git@github.com:catarse/catarse.git
+	branch = master
+[submodule "apps/projectmonitor"]
+	path = apps/projectmonitor
+	url = git@github.com:pivotal/projectmonitor.git
+	branch = master
+[submodule "apps/canvas-lms"]
+	path = apps/canvas-lms
+	url = git@github.com:instructure/canvas-lms.git
+	branch = master
+[submodule "apps/hours"]
+	path = apps/hours
+	url = git@github.com:DefactoSoftware/Hours.git
+	branch = master
+[submodule "apps/hound"]
+	path = apps/hound
+	url = git@github.com:thoughtbot/hound.git
+	branch = master
+[submodule "apps/loomio"]
+	path = apps/loomio
+	url = git@github.com:loomio/loomio.git
+	branch = master
+[submodule "apps/netguru-help"]
+	path = apps/netguru-help
+	url = git@github.com:netguru/help.git
+	branch = master
+[submodule "apps/tracks"]
+	path = apps/tracks
+	url = git@github.com:TracksApp/tracks.git
+	branch = master
+[submodule "apps/rubygems"]
+	path = apps/rubygems
+	url = git@github.com:rubygems/rubygems.org.git
+	branch = master
+[submodule "apps/calagator"]
+	path = apps/calagator
+	url = git@github.com:calagator/calagator.git
+	branch = master
+[submodule "apps/24pullrequests"]
+	path = apps/24pullrequests
+	url = git@github.com:24pullrequests/24pullrequests.git
+	branch = master
