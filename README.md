@@ -14,7 +14,12 @@ https://eliotsykes.com/real-world-rails
 
 ## List models from *every* Real World Rails application
 
-Interested in seeing how your fellow developers name their models? Run `bin/rwr`
+Interested in seeing how your fellow developers name their models? Run:
+
+```bash
+bin/rwr | sort -f | uniq -c | sort -k 1nr -k 2f
+```
+
 
 
 ## Adding a Real World Rails app
