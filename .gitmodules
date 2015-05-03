@@ -130,3 +130,23 @@
 	path = apps/24pullrequests
 	url = git@github.com:24pullrequests/24pullrequests.git
 	branch = master
+[submodule "apps/publify"]
+	path = apps/publify
+	url = git@github.com:publify/publify.git
+	branch = master
+[submodule "apps/rails-contributors"]
+	path = apps/rails-contributors
+	url = git@github.com:fxn/rails-contributors.git
+	branch = master
+[submodule "apps/tomatoes"]
+	path = apps/tomatoes
+	url = git@github.com:potomak/tomatoes.git
+	branch = master
+[submodule "apps/openstreetmap-website"]
+	path = apps/openstreetmap-website
+	url = git@github.com:openstreetmap/openstreetmap-website.git
+	branch = master
+[submodule "apps/alaveteli"]
+	path = apps/alaveteli
+	url = git@github.com:mysociety/alaveteli.git
+	branch = master
