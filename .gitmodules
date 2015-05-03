@@ -150,3 +150,7 @@
 	path = apps/alaveteli
 	url = git@github.com:mysociety/alaveteli.git
 	branch = master
+[submodule "apps/open-source-billing"]
+	path = apps/open-source-billing
+	url = git@github.com:vteams/open-source-billing.git
+	branch = master
