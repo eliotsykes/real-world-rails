@@ -30,3 +30,10 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 # Inside real-world-rails root:
 git submodule add -b master git@github.com:githubuser/foo.git apps/foo
 ```
+
+
+## Docs to help understand AST, Parser
+
+- http://whitequark.github.io/ast/AST/Node.html
+- http://www.rubydoc.info/github/whitequark/parser/master/Parser/AST/Processor
+- http://whitequark.github.io/ast/AST/Processor.html
