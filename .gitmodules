@@ -154,3 +154,7 @@
 	path = apps/open-source-billing
 	url = git@github.com:vteams/open-source-billing.git
 	branch = master
+[submodule "apps/asciinema.org"]
+	path = apps/asciinema.org
+	url = git@github.com:asciinema/asciinema.org.git
+	branch = master
