@@ -166,3 +166,7 @@
 	path = apps/spina
 	url = git@github.com:denkGroot/Spina.git
 	branch = master
+[submodule "apps/peatio"]
+	path = apps/peatio
+	url = git@github.com:peatio/peatio.git
+	branch = master
