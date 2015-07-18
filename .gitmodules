@@ -174,3 +174,7 @@
 	path = apps/scumblr
 	url = git@github.com:Netflix/Scumblr.git
 	branch = master
+[submodule "apps/bridge_troll"]
+	path = apps/bridge_troll
+	url = git@github.com:railsbridge/bridge_troll.git
+	branch = master
