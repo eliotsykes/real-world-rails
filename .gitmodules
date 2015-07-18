@@ -170,3 +170,7 @@
 	path = apps/peatio
 	url = git@github.com:peatio/peatio.git
 	branch = master
+[submodule "apps/scumblr"]
+	path = apps/scumblr
+	url = git@github.com:Netflix/Scumblr.git
+	branch = master
