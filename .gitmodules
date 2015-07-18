@@ -162,3 +162,7 @@
 	path = apps/brimir
 	url = git@github.com:ivaldi/brimir.git
 	branch = master
+[submodule "apps/spina"]
+	path = apps/spina
+	url = git@github.com:denkGroot/Spina.git
+	branch = master
