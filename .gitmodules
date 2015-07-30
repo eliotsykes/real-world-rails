@@ -178,3 +178,7 @@
 	path = apps/bridge_troll
 	url = git@github.com:railsbridge/bridge_troll.git
 	branch = master
+[submodule "apps/shoppe"]
+	path = apps/shoppe
+	url = git@github.com:tryshoppe/shoppe.git
+	branch = master
