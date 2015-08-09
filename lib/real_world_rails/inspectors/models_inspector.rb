@@ -11,7 +11,7 @@ module RealWorldRails
       def run
         parser = ParserFactory.create
         model_files = Dir.glob("**/models/**/*.rb")
-        model_processor = ModelProcessor.new
+        processor = Processor.new
         model_files.each do |filename|
           # filename = "apps/trailmix/app/models/subscription.rb"
           source = File.read(filename)
@@ -19,12 +19,12 @@ module RealWorldRails
           buffer.source = source
           parser.reset
           ast = parser.parse(buffer)
-          model_processor.process(ast)
+          processor.process(ast)
         end
       end
     end
 
-    class ModelProcessor < Parser::AST::Processor
+    class Processor < Parser::AST::Processor
       def on_class(node)
         # binding.pry
         # pp node.inspect
