@@ -1,25 +1,14 @@
 #!/usr/bin/env ruby
-
-# Much of this script borrowed from:
-# https://github.com/whitequark/parser/blob/master/lib/parser/runner.rb and friends
-
 $LOAD_PATH.unshift(File.expand_path('../../lib', __FILE__))
 require 'real_world_rails/parser_factory'
-require 'real_world_rails/model_processor'
 
-def list_models
-  parser = ParserFactory.create
-  model_files = Dir.glob("**/models/**/*.rb")
-  model_processor = ModelProcessor.new
-  model_files.each do |filename|
-    # filename = "apps/trailmix/app/models/subscription.rb"
-    source = File.read(filename)
-    buffer = Parser::Source::Buffer.new filename
-    buffer.source = source
-    parser.reset
-    ast = parser.parse(buffer)
-    model_processor.process(ast)
-  end
+def init_inspector
+  inspector_name = ARGV.first || 'models'
+  require "real_world_rails/inspectors/#{inspector_name}_inspector"
+
+  inspector_class_name = "RealWorldRails::Inspectors::#{inspector_name.capitalize}Inspector"
+  inspector_class = Object.const_get inspector_class_name
+  inspector_class.new
 end
 
-list_models
+init_inspector.run
