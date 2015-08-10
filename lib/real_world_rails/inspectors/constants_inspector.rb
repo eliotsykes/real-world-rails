@@ -6,7 +6,7 @@ module RealWorldRails
     class ConstantsInspector
       def run
         parser = ParserFactory.create
-        files = Dir.glob("apps/**/**/*.rb")
+        files = Dir.glob("apps/**/*.rb")
         processor = Processor.new
         files.each do |filename|
           if inspectable?(filename)
