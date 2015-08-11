@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 $LOAD_PATH.unshift(File.expand_path('../../lib', __FILE__))
 require 'real_world_rails/parser_factory'
+require 'real_world_rails/inspectors/inspector'
 
 def init_inspector
   inspector_name = ARGV.first || 'models'
