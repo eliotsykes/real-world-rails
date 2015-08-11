@@ -22,14 +22,14 @@ module RealWorldRails
           processor.process(ast)
         end
       end
-    end
 
-    class Processor < Parser::AST::Processor
-      def on_class(node)
-        # binding.pry
-        # pp node.inspect
-        class_name = node.children.first.children.last
-        puts class_name
+      class Processor < Parser::AST::Processor
+        def on_class(node)
+          # binding.pry
+          # pp node.inspect
+          class_name = node.children.first.children.last
+          puts class_name
+        end
       end
     end
 
