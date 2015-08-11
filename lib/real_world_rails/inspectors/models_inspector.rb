@@ -10,17 +10,20 @@ module RealWorldRails
     class ModelsInspector
       def run
         parser = ParserFactory.create
-        model_files = Dir.glob("**/models/**/*.rb")
+        files = Dir.glob("**/models/**/*.rb")
         processor = Processor.new
-        model_files.each do |filename|
-          # filename = "apps/trailmix/app/models/subscription.rb"
-          source = File.read(filename)
-          buffer = Parser::Source::Buffer.new filename
-          buffer.source = source
-          parser.reset
-          ast = parser.parse(buffer)
-          processor.process(ast)
+        files.each do |filename|
+          if inspectable?(filename)
+            buffer = Parser::Source::Buffer.new filename
+            buffer.read
+            ast = parser.reset.parse(buffer)
+            processor.process(ast)
+          end
         end
+      end
+
+      def inspectable?(filename)
+        true
       end
 
       class Processor < Parser::AST::Processor
