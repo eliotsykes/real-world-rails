@@ -17,10 +17,14 @@ https://eliotsykes.com/real-world-rails
 Interested in seeing how your fellow developers name their models? Run:
 
 ```bash
-bin/rwr | sort -f | uniq -c | sort -k 1nr -k 2f
+bin/rwr models | sort -f | uniq -c | sort -k 1nr -k 2f
 ```
 
+## Show constants of every Real World Rails app
 
+```bash
+bin/rwr constants
+```
 
 ## Adding a Real World Rails app
 
