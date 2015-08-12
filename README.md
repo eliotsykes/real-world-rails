@@ -26,6 +26,14 @@ bin/rwr models | sort -f | uniq -c | sort -k 1nr -k 2f
 bin/rwr constants
 ```
 
+## Analyzing directories outside of `apps/`
+
+Use the `FILES_PATTERN` environment variable:
+
+```bash
+FILES_PATTERN=~/dev/my-rails-app/**/*.rb bin/rwr
+```
+
 ## Adding a Real World Rails app
 
 Given a GitHub repo for a Rails app `githubuser/foo`:

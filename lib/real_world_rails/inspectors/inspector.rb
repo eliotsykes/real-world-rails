@@ -4,7 +4,7 @@ module RealWorldRails
 
       def run
         parser = ParserFactory.create
-        files = Dir.glob files_pattern
+        files = Dir.glob ENV.fetch('FILES_PATTERN', files_pattern)
         processor = create_processor
         files.each do |filename|
           if inspectable?(filename)
