@@ -4,11 +4,12 @@ require 'real_world_rails/parser_factory'
 require 'real_world_rails/inspectors/inspector'
 
 def init_inspector
-  inspector_name = ARGV.first || 'models'
+  inspector_name = (ARGV.first || 'models').gsub '-', '_'
   require "real_world_rails/inspectors/#{inspector_name}_inspector"
 
-  inspector_class_name = "RealWorldRails::Inspectors::#{inspector_name.capitalize}Inspector"
-  inspector_class = Object.const_get inspector_class_name
+  inspector_class_name = inspector_name.capitalize.gsub(/_[a-z]/, &:upcase).gsub('_','') + "Inspector"
+  fully_qualified_inspector_class_name = "RealWorldRails::Inspectors::#{inspector_class_name}"
+  inspector_class = Object.const_get fully_qualified_inspector_class_name
   inspector_class.new
 end
 
