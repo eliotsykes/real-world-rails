@@ -2,17 +2,40 @@
 
 > Real World Rails applications and their open source codebases for developers to learn from
 
-https://eliotsykes.com/real-world-rails
+Learn from Rails apps written by experienced developers.
 
-## Installation
+You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory.
 
-1. Clone this git repo
-2. `cd real-world-rails/`
-3. Clone the git submodules in `real-world-rails/apps/` using the git submodule command (TODO: add exact command)
-4. `bundle install`
+## How to install on your computer
+
+```bash
+# Clone this git repo:
+git clone git@github.com:eliotsykes/real-world-rails.git
+
+cd real-world-rails/
+
+# The Rails apps are linked to as git submodules.
+# This will take some time...
+git submodule update --init  
+
+# To run the `bin/rwr` inspectors, install gems:
+bundle install
+
+echo "All done! Why not run some inspections? Run bin/rwr"
+```
+
+## Analyze Real World Rails apps using the Inspectors!
+
+The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
+
+As and when I need them for research, I'm adding inspectors.
+
+If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, contribute your idea on the issue tracker and maybe someone will write an inspector to match your request.
+
+All contributions welcome!
 
 
-## List models from *every* Real World Rails application
+### List models from *every* Real World Rails application
 
 Interested in seeing how your fellow developers name their models? Run:
 
@@ -20,21 +43,22 @@ Interested in seeing how your fellow developers name their models? Run:
 bin/rwr models | sort -f | uniq -c | sort -k 1nr -k 2f
 ```
 
-## Show constants of every Real World Rails app
+### Show constants of every Real World Rails app
 
 ```bash
 bin/rwr constants
 ```
+(this helped when researching [Magic Numbers in Ruby & How You Make Them Disappear](https://eliotsykes.com/magic-numbers))
 
-## Analyzing directories outside of `apps/`
+### Analyzing directories outside of `apps/`
 
-Use the `FILES_PATTERN` environment variable:
+Prefix the `bin/rwr` command with the `FILES_PATTERN` environment variable:
 
 ```bash
 FILES_PATTERN=~/dev/my-rails-app/**/*.rb bin/rwr
 ```
 
-## Adding a Real World Rails app
+## How to add a Real World Rails app
 
 Given a GitHub repo for a Rails app `githubuser/foo`:
 
@@ -43,8 +67,20 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 git submodule add -b master git@github.com:githubuser/foo.git apps/foo
 ```
 
+## Updating the Rails apps submodules to latest
 
-## Docs to help understand AST, Parser
+The Rails apps in `apps/` are git submodules. Git submodules are locked to a revision and don't stay in sync with the latest revision.
+
+To update the revisions, run:
+
+```bash
+# This will take some time:
+git pull --recurse-submodules
+```
+
+## Writing an Inspector? Some docs to help understand AST, Parser&hellip;
+
+Review the existing [inspectors](lib/real_world_rails/inspectors) if you're looking for some info on how to write a new one, and see these API docs:
 
 - http://whitequark.github.io/ast/AST/Node.html
 - http://www.rubydoc.info/github/whitequark/parser/master/Parser/AST/Processor
