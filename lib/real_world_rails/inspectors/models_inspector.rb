@@ -4,7 +4,7 @@ module RealWorldRails
     class ModelsInspector < Inspector
 
       def files_pattern
-        "**/models/**/*.rb"
+        "apps/**/models/**/*.rb"
       end
 
       class Processor < Parser::AST::Processor
@@ -13,7 +13,7 @@ module RealWorldRails
           puts class_name
         end
       end
-      
+
     end
 
   end
