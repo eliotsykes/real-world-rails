@@ -74,8 +74,9 @@ The Rails apps in `apps/` are git submodules. Git submodules are locked to a rev
 To update the revisions, run:
 
 ```bash
+#git pull --recurse-submodules # Probably not needed, try without.
 # This will take some time:
-git pull --recurse-submodules
+git submodule foreach git pull origin master
 ```
 
 ## Writing an Inspector? Some docs to help understand AST, Parser&hellip;
