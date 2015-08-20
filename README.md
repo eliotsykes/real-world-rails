@@ -30,7 +30,7 @@ The [inspectors](lib/real_world_rails/inspectors) are responsible for the analys
 
 As and when I need them for research, I'm adding inspectors.
 
-If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, contribute your idea on the issue tracker and maybe someone will write an inspector to match your request.
+If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, [contribute your idea on the issue tracker](https://github.com/eliotsykes/real-world-rails/issues) and maybe someone will write an inspector to match your request.
 
 All contributions welcome!
 
