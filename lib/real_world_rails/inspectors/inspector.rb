@@ -30,10 +30,13 @@ module RealWorldRails
       end
 
       def inspect_file(filename)
-        buffer = Parser::Source::Buffer.new filename
-        buffer.read
+        buffer = create_buffer(filename)
         ast = parser.reset.parse(buffer)
         processor.process(ast)
+      end
+
+      def create_buffer(filename)
+        Parser::Source::Buffer.new(filename).read
       end
 
       def parser

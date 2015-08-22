@@ -7,8 +7,7 @@ module RealWorldRails
 
       def inspect_file(filename)
         puts formatted_filename(filename)
-        buffer = Parser::Source::Buffer.new filename
-        buffer.read
+        buffer = create_buffer(filename)
         puts buffer.source
         puts
         # pretty print with colors!
