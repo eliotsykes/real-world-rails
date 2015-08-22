@@ -66,12 +66,21 @@ See the model method source and file paths:
 bin/rwr model-methods
 ```
 
+## Settings
+
 ### Analyzing directories outside of `apps/`
 
 Prefix the `bin/rwr` command with the `FILES_PATTERN` environment variable:
 
 ```bash
 FILES_PATTERN=~/dev/my-rails-app/**/*.rb bin/rwr
+```
+
+### Change source output format to markdown
+
+Prefix `bin/rwr` with the `SOURCE_OUTPUT_FORMAT` environment variable:
+```bash
+SOURCE_OUTPUT_FORMAT=markdown bin/rwr view-specs
 ```
 
 ## How to add a Real World Rails app
