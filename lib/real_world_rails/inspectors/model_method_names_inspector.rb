@@ -5,7 +5,7 @@ module RealWorldRails
 
       inspects :models
 
-      class Processor < Parser::AST::Processor
+      class Processor < BaseProcessor
         def on_def(node)
           method_name = node.children.first
           expression = node.location.expression

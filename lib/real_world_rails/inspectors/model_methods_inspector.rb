@@ -5,11 +5,11 @@ module RealWorldRails
 
       inspects :models
 
-      class Processor < Parser::AST::Processor
+      class Processor < BaseProcessor
         def on_def(node)
           expression = node.location.expression
           filename = expression.source_buffer.name
-          puts "File: #{filename}"
+          puts formatted_filename(filename)
           puts expression.source
           puts "\n"
         end

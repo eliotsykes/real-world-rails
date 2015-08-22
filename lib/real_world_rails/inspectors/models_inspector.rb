@@ -5,7 +5,7 @@ module RealWorldRails
 
       inspects :models
 
-      class Processor < Parser::AST::Processor
+      class Processor < BaseProcessor
         def on_class(node)
           class_name = node.children.first.children.last
           puts class_name

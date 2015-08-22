@@ -50,6 +50,16 @@ module RealWorldRails
         processor_class.new
       end
 
+      def formatted_filename(filename)
+        "File: #{filename}"
+      end
+
+      class BaseProcessor < Parser::AST::Processor
+        def formatted_filename(filename)
+          "File: #{filename}"
+        end
+      end
+
     end
   end
 end

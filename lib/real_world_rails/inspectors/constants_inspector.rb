@@ -5,13 +5,13 @@ module RealWorldRails
 
       inspects :all, except: [:gems, :tests, :specs, :generators]
 
-      class Processor < Parser::AST::Processor
+      class Processor < BaseProcessor
 
         # on_casgn: on constant assignment
         def on_casgn(node)
           expression = node.location.expression
           filename = expression.source_buffer.name
-          puts "File: #{filename}"
+          puts formatted_filename(filename)
           puts expression.source
         end
 
