@@ -3,9 +3,7 @@ module RealWorldRails
 
     class ModelsInspector < Inspector
 
-      def files_pattern
-        "apps/**/models/**/*.rb"
-      end
+      inspects :models
 
       class Processor < Parser::AST::Processor
         def on_class(node)
