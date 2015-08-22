@@ -5,3 +5,5 @@ source 'https://rubygems.org'
 # https://github.com/whitequark/parser
 # https://github.com/whitequark/parser/blob/master/doc/AST_FORMAT.md
 gem 'parser'
+
+gem 'coderay'
