@@ -1,13 +1,9 @@
-require_relative 'file_inspector'
-
 module RealWorldRails
   module Inspectors
 
     class ConstantsInspector < Inspector
 
-      def inspectable?(filename)
-        !FileInspector.from_gem?(filename) && !FileInspector.test?(filename) && !FileInspector.from_generator?(filename)
-      end
+      inspects :all, except: [:gems, :tests, :specs, :generators]
 
       class Processor < Parser::AST::Processor
 
