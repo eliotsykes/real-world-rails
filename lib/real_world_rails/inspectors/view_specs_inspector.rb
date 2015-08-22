@@ -10,7 +10,7 @@ module RealWorldRails
       def inspect_file(filename)
         puts formatted_filename(filename)
         buffer = create_buffer(filename)
-        puts CodeRay.scan(buffer.source, :ruby).terminal(line_numbers: true)
+        pretty_print_source buffer.source
         puts
       end
     end

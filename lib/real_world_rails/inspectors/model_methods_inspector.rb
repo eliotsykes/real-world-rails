@@ -10,8 +10,8 @@ module RealWorldRails
           expression = node.location.expression
           filename = expression.source_buffer.name
           puts formatted_filename(filename)
-          puts expression.source
-          puts "\n"
+          pretty_print_source expression.source
+          puts
         end
       end
 

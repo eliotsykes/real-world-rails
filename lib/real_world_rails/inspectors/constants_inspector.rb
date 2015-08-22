@@ -12,7 +12,7 @@ module RealWorldRails
           expression = node.location.expression
           filename = expression.source_buffer.name
           puts formatted_filename(filename)
-          puts expression.source
+          pretty_print_source expression.source
         end
 
       end

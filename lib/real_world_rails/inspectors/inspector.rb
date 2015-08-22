@@ -1,3 +1,4 @@
+require 'coderay'
 require_relative '../specifications/filename_specification'
 
 module RealWorldRails
@@ -57,9 +58,17 @@ module RealWorldRails
         "File: #{filename}"
       end
 
+      def pretty_print_source(source)
+        puts CodeRay::Duo[:ruby, :terminal].highlight(source)
+      end
+
       class BaseProcessor < Parser::AST::Processor
         def formatted_filename(filename)
           "File: #{filename}"
+        end
+
+        def pretty_print_source(source)
+          puts CodeRay::Duo[:ruby, :terminal].highlight(source)
         end
       end
 
