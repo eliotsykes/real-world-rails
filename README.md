@@ -4,7 +4,13 @@
 
 Learn from Rails apps written by experienced developers.
 
+This project helps with my efforts coaching Rails developers and researching the articles I publish for them. Find out more at https://eliotsykes.com
+
 You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory.
+
+The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
+
+If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, [contribute your idea on the issue tracker](https://github.com/eliotsykes/real-world-rails/issues) or write your own inspector, contributions welcome! &mdash; [_Eliot Sykes_](https://eliotsykes.com)
 
 ## How to install on your computer
 
@@ -24,16 +30,7 @@ bundle install
 echo "All done! Why not run some inspections? Run bin/rwr"
 ```
 
-## Analyze Real World Rails apps using the Inspectors!
-
-The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
-
-As and when I need them for research, I'm adding inspectors.
-
-If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, [contribute your idea on the issue tracker](https://github.com/eliotsykes/real-world-rails/issues) and maybe someone will write an inspector to match your request.
-
-All contributions welcome!
-
+## How you can analyze Real World Rails apps
 
 ### List models from *every* Real World Rails application
 
@@ -105,3 +102,9 @@ Review the existing [inspectors](lib/real_world_rails/inspectors) if you're look
 - http://whitequark.github.io/ast/AST/Node.html
 - http://www.rubydoc.info/github/whitequark/parser/master/Parser/AST/Processor
 - http://whitequark.github.io/ast/AST/Processor.html
+
+
+# Contributors
+
+- Eliot Sykes https://eliotsykes.com/
+- Contributions are welcome, fork the GitHub repo, make your changes, then submit your pull request! Reach out if you'd like some help.
