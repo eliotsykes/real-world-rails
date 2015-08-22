@@ -32,7 +32,7 @@ echo "All done! Why not run some inspections? Run bin/rwr"
 
 ## How you can analyze Real World Rails apps
 
-### List models from *every* Real World Rails application
+#### List models from *every* Real World Rails application
 
 Interested in seeing how your fellow developers name their models? Run:
 
@@ -40,21 +40,21 @@ Interested in seeing how your fellow developers name their models? Run:
 bin/rwr models | sort -f | uniq -c | sort -k 1nr -k 2f
 ```
 
-### Show constants of every Real World Rails app
+#### Show constants of every Real World Rails app
 
 ```bash
 bin/rwr constants
 ```
 (this helped when researching [Magic Numbers in Ruby & How You Make Them Disappear](https://eliotsykes.com/magic-numbers))
 
-### Show view specs
+#### Show view specs
 
 See the file path and source of every view spec in every app:
 ```bash
 bin/rwr view-specs
 ```
 
-### Show model methods
+#### Show model methods
 
 See just the model method names and file paths:
 ```bash
@@ -68,7 +68,7 @@ bin/rwr model-methods
 
 ## Settings
 
-### Analyzing directories outside of `apps/`
+#### Analyzing directories outside of `apps/`
 
 Prefix the `bin/rwr` command with the `FILES_PATTERN` environment variable:
 
@@ -76,14 +76,16 @@ Prefix the `bin/rwr` command with the `FILES_PATTERN` environment variable:
 FILES_PATTERN=~/dev/my-rails-app/**/*.rb bin/rwr
 ```
 
-### Change source output format to markdown
+#### Change source output format to markdown
 
 Prefix `bin/rwr` with the `SOURCE_OUTPUT_FORMAT` environment variable:
 ```bash
 SOURCE_OUTPUT_FORMAT=markdown bin/rwr view-specs
 ```
 
-## How to add a Real World Rails app
+## Information for Contributors
+
+#### How to add a Real World Rails app
 
 Given a GitHub repo for a Rails app `githubuser/foo`:
 
@@ -92,7 +94,7 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 git submodule add -b master git@github.com:githubuser/foo.git apps/foo
 ```
 
-## Updating the Rails apps submodules to latest
+#### Updating the Rails apps submodules to latest
 
 The Rails apps in `apps/` are git submodules. Git submodules are locked to a revision and don't stay in sync with the latest revision.
 
@@ -104,7 +106,7 @@ To update the revisions, run:
 git submodule foreach git pull origin master
 ```
 
-## Writing an Inspector? Some docs to help understand AST, Parser&hellip;
+#### Writing an Inspector? Some docs to help understand AST, Parser&hellip;
 
 Review the existing [inspectors](lib/real_world_rails/inspectors) if you're looking for some info on how to write a new one, and see these API docs:
 
@@ -112,6 +114,7 @@ Review the existing [inspectors](lib/real_world_rails/inspectors) if you're look
 - http://www.rubydoc.info/github/whitequark/parser/master/Parser/AST/Processor
 - http://whitequark.github.io/ast/AST/Processor.html
 
+---
 
 # Contributors
 
