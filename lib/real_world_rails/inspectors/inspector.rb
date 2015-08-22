@@ -13,26 +13,12 @@ module RealWorldRails
       end
 
       def run
-        parser = ParserFactory.create
-        processor = create_processor
-        filenames.each do |filename|
-          if inspectable?(filename)
-            buffer = Parser::Source::Buffer.new filename
-            buffer.read
-            ast = parser.reset.parse(buffer)
-            processor.process(ast)
-          end
-        end
-      end
-
-      def create_processor
-        processor_class_name = "#{self.class}::Processor"
-        processor_class = Object.const_get processor_class_name
-        processor_class.new
+        filenames.each { |filename| inspect_file(filename) }
       end
 
       def filenames
-        Dir.glob ENV.fetch('FILES_PATTERN', files_pattern)
+        glob_pattern = ENV.fetch('FILES_PATTERN', files_pattern)
+        Dir.glob(glob_pattern).select { |filename| inspectable?(filename) }
       end
 
       def files_pattern
@@ -41,6 +27,27 @@ module RealWorldRails
 
       def inspectable?(filename)
         self.class.filename_specification.satisfied_by? filename
+      end
+
+      def inspect_file(filename)
+        buffer = Parser::Source::Buffer.new filename
+        buffer.read
+        ast = parser.reset.parse(buffer)
+        processor.process(ast)
+      end
+
+      def parser
+        @parser ||= ParserFactory.create
+      end
+
+      def processor
+        @processor ||= create_processor
+      end
+
+      def create_processor
+        processor_class_name = "#{self.class}::Processor"
+        processor_class = Object.const_get processor_class_name
+        processor_class.new
       end
 
     end
