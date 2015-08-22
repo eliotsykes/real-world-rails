@@ -21,6 +21,8 @@ module RealWorldRails
       VALID_ALIASES = (ALIASED_REGEXES.keys << :all).freeze
 
       def initialize(*specifications, except:[])
+        assert_valid_aliases(specifications + except)
+
         self.includes = ALIASED_REGEXES.values_at(*specifications).compact
 
         if except.empty?
@@ -35,6 +37,13 @@ module RealWorldRails
       end
 
       private
+
+      def assert_valid_aliases(aliases)
+        unknown_aliases = aliases - VALID_ALIASES
+        if unknown_aliases.any?
+          raise ArgumentError, "Unknown specification aliases: '#{unknown_aliases}'"
+        end
+      end
 
       def excluded?(filename)
         excludes.any? { |spec| filename.match(spec) }
