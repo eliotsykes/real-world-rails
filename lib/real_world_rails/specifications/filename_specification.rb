@@ -21,15 +21,16 @@ module RealWorldRails
       VALID_ALIASES = (ALIASED_REGEXES.keys << :all).freeze
 
       def initialize(*specifications, except:[])
-        assert_valid_aliases(specifications + except)
+        aliases = (specifications + except).delete_if { |option| option.is_a?(Regexp) }
+        assert_valid_aliases(aliases)
 
-        self.includes = ALIASED_REGEXES.values_at(*specifications).compact
+        self.includes = specifications.map { |spec| ALIASED_REGEXES[spec] || spec }
 
         if except.empty?
           except = ALIASED_REGEXES.keys - specifications
         end
 
-        self.excludes = ALIASED_REGEXES.values_at(*except)
+        self.excludes = except.map { |spec| ALIASED_REGEXES[spec] || spec }
       end
 
       def satisfied_by?(filename)
