@@ -6,6 +6,10 @@ module RealWorldRails
         attr_accessor :filename_specification
       end
       
+      def self.inspects(*specifications)
+        self.filename_specification = FilenameSpecification.new(*specifications)
+      end
+
       def run
         parser = ParserFactory.create
         processor = create_processor
@@ -35,10 +39,6 @@ module RealWorldRails
 
       def inspectable?(filename)
         self.class.filename_specification.satisfied_by? filename
-      end
-
-      def self.inspects(*specifications)
-        self.filename_specification = FilenameSpecification.new(*specifications)
       end
 
       class FilenameSpecification
