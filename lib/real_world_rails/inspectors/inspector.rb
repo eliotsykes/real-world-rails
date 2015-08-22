@@ -1,9 +1,11 @@
 require 'coderay'
+require_relative '../printer'
 require_relative '../specifications/filename_specification'
 
 module RealWorldRails
   module Inspectors
     class Inspector
+      include Printer
 
       class << self
         attr_accessor :filename_specification
@@ -54,22 +56,8 @@ module RealWorldRails
         processor_class.new
       end
 
-      def formatted_filename(filename)
-        "File: #{filename}"
-      end
-
-      def pretty_print_source(source)
-        puts CodeRay::Duo[:ruby, :terminal].highlight(source)
-      end
-
       class BaseProcessor < Parser::AST::Processor
-        def formatted_filename(filename)
-          "File: #{filename}"
-        end
-
-        def pretty_print_source(source)
-          puts CodeRay::Duo[:ruby, :terminal].highlight(source)
-        end
+        include Printer
       end
 
     end
