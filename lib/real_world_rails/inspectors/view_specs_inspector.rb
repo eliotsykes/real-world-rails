@@ -3,8 +3,11 @@ module RealWorldRails
 
     class ViewSpecsInspector < Inspector
 
-      inspects :specs, %r{/views?/}
+      inspects :specs, %r{/views/}
 
+      def inspect_file(filename)
+        puts filename
+      end
     end
 
   end
