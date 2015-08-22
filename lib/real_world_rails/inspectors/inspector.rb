@@ -2,6 +2,10 @@ module RealWorldRails
   module Inspectors
     class Inspector
 
+      class << self
+        attr_accessor :filename_specification
+      end
+      
       def run
         parser = ParserFactory.create
         processor = create_processor
@@ -31,10 +35,6 @@ module RealWorldRails
 
       def inspectable?(filename)
         self.class.filename_specification.satisfied_by? filename
-      end
-
-      class << self
-        attr_accessor :filename_specification
       end
 
       def self.inspects(*specifications)
