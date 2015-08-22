@@ -8,9 +8,8 @@ module RealWorldRails
       inspects :specs, %r{/views/}
 
       def inspect_file(filename)
-        puts formatted_filename(filename)
         buffer = create_buffer(filename)
-        pretty_print_source buffer.source
+        pretty_print_source source: buffer.source, filename: filename
         puts
       end
     end

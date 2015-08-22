@@ -9,8 +9,7 @@ module RealWorldRails
         def on_def(node)
           expression = node.location.expression
           filename = expression.source_buffer.name
-          puts formatted_filename(filename)
-          pretty_print_source expression.source
+          pretty_print_source source: expression.source, filename: filename
           puts
         end
       end
