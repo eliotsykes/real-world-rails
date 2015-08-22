@@ -1,3 +1,5 @@
+require 'coderay'
+
 module RealWorldRails
   module Inspectors
 
@@ -8,9 +10,8 @@ module RealWorldRails
       def inspect_file(filename)
         puts formatted_filename(filename)
         buffer = create_buffer(filename)
-        puts buffer.source
+        puts CodeRay.scan(buffer.source, :ruby).terminal(line_numbers: true)
         puts
-        # pretty print with colors!
       end
     end
 
