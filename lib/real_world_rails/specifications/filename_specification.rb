@@ -18,9 +18,10 @@ module RealWorldRails
         gems: GEM_FILENAMES_REGEX
       }
 
-      VALID_ALIASES = (ALIASED_REGEXES.keys << :all).freeze
+      VALID_ALIASES = ALIASED_REGEXES.keys.freeze
 
       def initialize(*specifications, except:[])
+        specifications.delete(:all)
         aliases = (specifications + except).delete_if { |option| option.is_a?(Regexp) }
         assert_valid_aliases(aliases)
 
