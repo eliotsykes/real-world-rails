@@ -4,9 +4,8 @@ module RealWorldRails
 
       def run
         parser = ParserFactory.create
-        files = Dir.glob ENV.fetch('FILES_PATTERN', files_pattern)
         processor = create_processor
-        files.each do |filename|
+        filenames.each do |filename|
           if inspectable?(filename)
             buffer = Parser::Source::Buffer.new filename
             buffer.read
@@ -22,12 +21,67 @@ module RealWorldRails
         processor_class.new
       end
 
+      def filenames
+        Dir.glob ENV.fetch('FILES_PATTERN', files_pattern)
+      end
+
       def files_pattern
         "apps/**/*.rb"
       end
 
       def inspectable?(filename)
-        true
+        self.class.filename_specification.satisfied_by? filename
+      end
+
+      class << self
+        attr_accessor :filename_specification
+      end
+
+      def self.inspects(*specifications)
+        self.filename_specification = FilenameSpecification.new(specifications)
+      end
+
+      class FilenameSpecification
+
+        attr_accessor :includes, :excludes
+
+        MODEL_FILENAMES_REGEX = %r{\Aapps/.+/models/.+\.rb\z}
+        GENERATOR_FILENAMES_REGEX = %r{\Aapps/.+/lib/(.+/)?generators/}
+        TEST_FILENAMES_REGEX = %r{_(test)\.rb\z}
+        SPEC_FILENAMES_REGEX = %r{_(spec)\.rb\z}
+        GEM_FILENAMES_REGEX = %r{canvas-lms/gems/}
+
+        ALIASED_REGEXES = {
+          models: MODEL_FILENAMES_REGEX,
+          specs: SPEC_FILENAMES_REGEX,
+          tests: TEST_FILENAMES_REGEX,
+          generators: GENERATOR_FILENAMES_REGEX,
+          gems: GEM_FILENAMES_REGEX
+        }
+
+        def initialize(specifications)
+          self.includes = specifications.map do |spec|
+            ALIASED_REGEXES[spec] || spec
+          end
+
+          self.excludes = (ALIASED_REGEXES.keys - specifications).map do |spec|
+            ALIASED_REGEXES[spec]
+          end
+        end
+
+        def satisfied_by?(filename)
+          !excluded?(filename) && included?(filename)
+        end
+
+        private
+
+        def excluded?(filename)
+          excludes.any? { |spec| filename.match(spec) }
+        end
+
+        def included?(filename)
+          includes.all? { |spec| filename.match(spec) }
+        end
       end
 
     end

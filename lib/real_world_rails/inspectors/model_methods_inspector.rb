@@ -3,10 +3,7 @@ module RealWorldRails
 
     class ModelMethodsInspector < Inspector
 
-      def files_pattern
-        raise 'Remove specs and tests'
-        "apps/**/models/**/*.rb"
-      end
+      inspects :models
 
       class Processor < Parser::AST::Processor
         def on_def(node)
