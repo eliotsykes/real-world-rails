@@ -4,7 +4,6 @@ module RealWorldRails
 
       attr_accessor :includes, :excludes
 
-      ALL_FILENAMES_REGEX = %r{.+}
       MODEL_FILENAMES_REGEX = %r{\A.+/models/.+\.rb\z}
       GENERATOR_FILENAMES_REGEX = %r{\A.+/lib/(.+/)?generators/}
       TEST_FILENAMES_REGEX = %r{_(test)\.rb\z}
@@ -12,7 +11,6 @@ module RealWorldRails
       GEM_FILENAMES_REGEX = %r{canvas-lms/gems/}
 
       ALIASED_REGEXES = {
-        all: ALL_FILENAMES_REGEX,
         models: MODEL_FILENAMES_REGEX,
         specs: SPEC_FILENAMES_REGEX,
         tests: TEST_FILENAMES_REGEX,
@@ -20,14 +18,16 @@ module RealWorldRails
         gems: GEM_FILENAMES_REGEX
       }
 
+      VALID_ALIASES = (ALIASED_REGEXES.keys << :all).freeze
+
       def initialize(*specifications, except:[])
-        self.includes = specifications.map { |spec| ALIASED_REGEXES[spec] }
+        self.includes = ALIASED_REGEXES.values_at(*specifications).compact
 
         if except.empty?
-          except = ALIASED_REGEXES.keys - [:all] - specifications
+          except = ALIASED_REGEXES.keys - specifications
         end
 
-        self.excludes = except.map { |spec| ALIASED_REGEXES[spec] }
+        self.excludes = ALIASED_REGEXES.values_at(*except)
       end
 
       def satisfied_by?(filename)
