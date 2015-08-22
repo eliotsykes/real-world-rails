@@ -50,6 +50,25 @@ bin/rwr constants
 ```
 (this helped when researching [Magic Numbers in Ruby & How You Make Them Disappear](https://eliotsykes.com/magic-numbers))
 
+### Show view specs
+
+See the file path and source of every view spec in every app:
+```bash
+bin/rwr view-specs
+```
+
+### Show model methods
+
+See just the model method names and file paths:
+```bash
+bin/rwr model-method-names
+```
+
+See the model method source and file paths:
+```bash
+bin/rwr model-methods
+```
+
 ### Analyzing directories outside of `apps/`
 
 Prefix the `bin/rwr` command with the `FILES_PATTERN` environment variable:
