@@ -11,6 +11,7 @@ module RealWorldRails
           filename = expression.source_buffer.name
           puts "File: #{filename}"
           puts expression.source
+          puts "\n"
         end
       end
 
