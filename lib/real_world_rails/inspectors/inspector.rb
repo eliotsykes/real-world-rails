@@ -46,8 +46,8 @@ module RealWorldRails
         attr_accessor :includes, :excludes
 
         ALL_FILENAMES_REGEX = %r{.+}
-        MODEL_FILENAMES_REGEX = %r{\Aapps/.+/models/.+\.rb\z}
-        GENERATOR_FILENAMES_REGEX = %r{\Aapps/.+/lib/(.+/)?generators/}
+        MODEL_FILENAMES_REGEX = %r{\A.+/models/.+\.rb\z}
+        GENERATOR_FILENAMES_REGEX = %r{\A.+/lib/(.+/)?generators/}
         TEST_FILENAMES_REGEX = %r{_(test)\.rb\z}
         SPEC_FILENAMES_REGEX = %r{_(spec)\.rb\z}
         GEM_FILENAMES_REGEX = %r{canvas-lms/gems/}
