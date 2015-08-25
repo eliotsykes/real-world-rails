@@ -53,6 +53,7 @@ See the file path and source of every view spec in every app:
 ```bash
 bin/rwr view-specs
 ```
+(this will show 250+ view specs, see them in [The Big List of View Specs](https://eliotsykes.com/view-specs))
 
 #### Show model methods
 
