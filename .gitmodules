@@ -182,3 +182,7 @@
 	path = apps/shoppe
 	url = git@github.com:tryshoppe/shoppe.git
 	branch = master
+[submodule "apps/whitehall"]
+	path = apps/whitehall
+	url = git@github.com:alphagov/whitehall.git
+	branch = master
