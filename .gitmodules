@@ -186,3 +186,7 @@
 	path = apps/whitehall
 	url = git@github.com:alphagov/whitehall.git
 	branch = master
+[submodule "apps/adopt-a-hydrant"]
+	path = apps/adopt-a-hydrant
+	url = git@github.com:codeforamerica/adopt-a-hydrant.git
+	branch = master
