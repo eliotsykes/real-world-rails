@@ -190,3 +190,7 @@
 	path = apps/adopt-a-hydrant
 	url = git@github.com:codeforamerica/adopt-a-hydrant.git
 	branch = master
+[submodule "apps/showterm.io"]
+	path = apps/showterm.io
+	url = git@github.com:ConradIrwin/showterm.io.git
+	branch = master
