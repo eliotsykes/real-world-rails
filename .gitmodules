@@ -198,3 +198,7 @@
 	path = apps/inch_ci-web
 	url = git@github.com:inch-ci/inch_ci-web.git
 	branch = master
+[submodule "apps/heaven"]
+	path = apps/heaven
+	url = git@github.com:atmos/heaven.git
+	branch = master
