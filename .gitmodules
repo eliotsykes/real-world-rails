@@ -202,3 +202,7 @@
 	path = apps/heaven
 	url = git@github.com:atmos/heaven.git
 	branch = master
+[submodule "apps/codemontage"]
+	path = apps/codemontage
+	url = git@github.com:CodeMontageHQ/codemontage.git
+	branch = master
