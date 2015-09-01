@@ -222,3 +222,7 @@
 	path = apps/opengovernment
 	url = git@github.com:opengovernment/opengovernment.git
 	branch = master
+[submodule "apps/growstuff"]
+	path = apps/growstuff
+	url = git@github.com:Growstuff/growstuff.git
+	branch = master
