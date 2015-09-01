@@ -226,3 +226,7 @@
 	path = apps/growstuff
 	url = git@github.com:Growstuff/growstuff.git
 	branch = master
+[submodule "apps/girldevelopit"]
+	path = apps/girldevelopit
+	url = git@github.com:girldevelopit/gdi-new-site.git
+	branch = production
