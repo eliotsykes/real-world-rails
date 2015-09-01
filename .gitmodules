@@ -214,3 +214,7 @@
 	path = apps/ohana-api
 	url = git@github.com:codeforamerica/ohana-api.git
 	branch = master
+[submodule "apps/askthem"]
+	path = apps/askthem
+	url = git@github.com:opengovernment/askthem.git
+	branch = master
