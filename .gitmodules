@@ -218,3 +218,7 @@
 	path = apps/askthem
 	url = git@github.com:opengovernment/askthem.git
 	branch = master
+[submodule "apps/opengovernment"]
+	path = apps/opengovernment
+	url = git@github.com:opengovernment/opengovernment.git
+	branch = master
