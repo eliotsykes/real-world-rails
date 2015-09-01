@@ -206,3 +206,7 @@
 	path = apps/codemontage
 	url = git@github.com:CodeMontageHQ/codemontage.git
 	branch = master
+[submodule "apps/empirical-core"]
+	path = apps/empirical-core
+	url = git@github.com:empirical-org/Empirical-Core.git
+	branch = master
