@@ -230,3 +230,7 @@
 	path = apps/girldevelopit
 	url = git@github.com:girldevelopit/gdi-new-site.git
 	branch = production
+[submodule "apps/huboard-web"]
+	path = apps/huboard-web
+	url = git@github.com:huboard/huboard-web.git
+	branch = master
