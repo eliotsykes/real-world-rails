@@ -238,3 +238,7 @@
 	path = apps/camaleon-cms
 	url = git@github.com:owen2345/camaleon-cms.git
 	branch = master
+[submodule "apps/contrib-hub"]
+	path = apps/contrib-hub
+	url = git@github.com:orendon/contrib-hub.git
+	branch = master
