@@ -234,3 +234,7 @@
 	path = apps/huboard-web
 	url = git@github.com:huboard/huboard-web.git
 	branch = master
+[submodule "apps/camaleon-cms"]
+	path = apps/camaleon-cms
+	url = git@github.com:owen2345/camaleon-cms.git
+	branch = master
