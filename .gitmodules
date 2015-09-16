@@ -242,3 +242,7 @@
 	path = apps/contrib-hub
 	url = git@github.com:orendon/contrib-hub.git
 	branch = master
+[submodule "apps/solidus"]
+	path = apps/solidus
+	url = git@github.com:solidusio/solidus.git
+	branch = master
