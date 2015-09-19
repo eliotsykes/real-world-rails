@@ -294,3 +294,7 @@
 	path = apps/myusa
 	url = git@github.com:18F/myusa.git
 	branch = devel
+[submodule "apps/c2"]
+	path = apps/c2
+	url = git@github.com:18F/C2.git
+	branch = master
