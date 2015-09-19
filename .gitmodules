@@ -258,3 +258,7 @@
 	path = apps/xrono
 	url = git@github.com:isotope11/xrono.git
 	branch = master
+[submodule "apps/signonotron2"]
+	path = apps/signonotron2
+	url = git@github.com:alphagov/signonotron2.git
+	branch = master
