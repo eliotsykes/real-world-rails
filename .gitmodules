@@ -322,3 +322,7 @@
 	path = apps/panamax-ui
 	url = git@github.com:CenturyLinkLabs/panamax-ui.git
 	branch = master
+[submodule "apps/git-scm"]
+	path = apps/git-scm
+	url = git@github.com:git/git-scm.com.git
+	branch = master
