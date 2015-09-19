@@ -326,3 +326,7 @@
 	path = apps/git-scm
 	url = git@github.com:git/git-scm.com.git
 	branch = master
+[submodule "apps/ror_ecommerce"]
+	path = apps/ror_ecommerce
+	url = git@github.com:drhenner/ror_ecommerce.git
+	branch = master
