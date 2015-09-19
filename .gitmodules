@@ -250,3 +250,7 @@
 	path = apps/e-petitions
 	url = git@github.com:alphagov/e-petitions.git
 	branch = master
+[submodule "apps/verboice"]
+	path = apps/verboice
+	url = git@github.com:instedd/verboice.git
+	branch = master
