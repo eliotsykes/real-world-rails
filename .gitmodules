@@ -278,3 +278,15 @@
 	path = apps/csvlint
 	url = git@github.com:theodi/csvlint.git
 	branch = master
+[submodule "apps/uk-postcodes"]
+	path = apps/uk-postcodes
+	url = git@github.com:theodi/uk-postcodes.git
+	branch = master
+[submodule "apps/panopticon"]
+	path = apps/panopticon
+	url = git@github.com:alphagov/panopticon.git
+	branch = master
+[submodule "apps/kevlar"]
+	path = apps/kevlar
+	url = git@github.com:adambutler/kevlar.git
+	branch = master
