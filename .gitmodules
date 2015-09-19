@@ -254,3 +254,7 @@
 	path = apps/verboice
 	url = git@github.com:instedd/verboice.git
 	branch = master
+[submodule "apps/xrono"]
+	path = apps/xrono
+	url = git@github.com:isotope11/xrono.git
+	branch = master
