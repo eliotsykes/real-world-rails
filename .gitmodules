@@ -290,3 +290,7 @@
 	path = apps/kevlar
 	url = git@github.com:adambutler/kevlar.git
 	branch = master
+[submodule "apps/myusa"]
+	path = apps/myusa
+	url = git@github.com:18F/myusa.git
+	branch = devel
