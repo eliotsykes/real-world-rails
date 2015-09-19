@@ -310,3 +310,7 @@
 	path = apps/feedbin
 	url = git@github.com:feedbin/feedbin.git
 	branch = master
+[submodule "apps/hummingbird"]
+	path = apps/hummingbird
+	url = git@github.com:hummingbird-me/hummingbird.git
+	branch = master
