@@ -306,3 +306,7 @@
 	path = apps/ruby-china
 	url = git@github.com:ruby-china/ruby-china.git
 	branch = master
+[submodule "apps/feedbin"]
+	path = apps/feedbin
+	url = git@github.com:feedbin/feedbin.git
+	branch = master
