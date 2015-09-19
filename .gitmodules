@@ -246,3 +246,7 @@
 	path = apps/solidus
 	url = git@github.com:solidusio/solidus.git
 	branch = master
+[submodule "apps/e-petitions"]
+	path = apps/e-petitions
+	url = git@github.com:alphagov/e-petitions.git
+	branch = master
