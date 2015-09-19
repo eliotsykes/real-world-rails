@@ -318,3 +318,7 @@
 	path = apps/gitlab-ci
 	url = git@github.com:gitlabhq/gitlab-ci.git
 	branch = master
+[submodule "apps/panamax-ui"]
+	path = apps/panamax-ui
+	url = git@github.com:CenturyLinkLabs/panamax-ui.git
+	branch = master
