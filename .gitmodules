@@ -262,3 +262,15 @@
 	path = apps/signonotron2
 	url = git@github.com:alphagov/signonotron2.git
 	branch = master
+[submodule "apps/publisher"]
+	path = apps/publisher
+	url = git@github.com:alphagov/publisher.git
+	branch = master
+[submodule "apps/frontend"]
+	path = apps/frontend
+	url = git@github.com:alphagov/frontend.git
+	branch = master
+[submodule "apps/open-data-certificate"]
+	path = apps/open-data-certificate
+	url = git@github.com:theodi/open-data-certificate.git
+	branch = master
