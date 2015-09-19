@@ -274,3 +274,7 @@
 	path = apps/open-data-certificate
 	url = git@github.com:theodi/open-data-certificate.git
 	branch = master
+[submodule "apps/csvlint"]
+	path = apps/csvlint
+	url = git@github.com:theodi/csvlint.git
+	branch = master
