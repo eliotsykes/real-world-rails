@@ -298,3 +298,7 @@
 	path = apps/c2
 	url = git@github.com:18F/C2.git
 	branch = master
+[submodule "apps/kandan"]
+	path = apps/kandan
+	url = git@github.com:kandanapp/kandan.git
+	branch = master
