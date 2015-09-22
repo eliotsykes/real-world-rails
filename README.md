@@ -67,6 +67,15 @@ See the model method source and file paths:
 bin/rwr model-methods
 ```
 
+#### Find projects using gem
+
+```bash
+find apps/ -name Gemfile.lock | xargs grep GEM_NAME_GOES_HERE
+
+# e.g. Find all projects using doorkeeper gem
+find apps/ -name Gemfile.lock | xargs grep doorkeeper
+```
+
 ## Settings
 
 #### Analyzing directories outside of `apps/`
