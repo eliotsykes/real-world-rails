@@ -330,3 +330,7 @@
 	path = apps/ror_ecommerce
 	url = git@github.com:drhenner/ror_ecommerce.git
 	branch = master
+[submodule "apps/cartodb"]
+	path = apps/cartodb
+	url = git@github.com:CartoDB/cartodb.git
+	branch = master
