@@ -1,6 +1,6 @@
 require 'coderay'
 require_relative '../printer'
-require_relative '../specifications/filename_specification'
+require_relative '../filename_specification'
 
 module RealWorldRails
   module Inspectors
@@ -12,16 +12,25 @@ module RealWorldRails
       end
 
       def self.inspects(*specifications)
-        self.filename_specification = Specifications::FilenameSpecification.new(*specifications)
+        self.filename_specification = FilenameSpecification.build(*specifications)
       end
 
       def run
+        inspect_files
+        after_inspect_files
+      end
+
+      def inspect_files
         filenames.each { |filename| inspect_file(filename) }
+      end
+
+      # After Hook
+      def after_inspect_files
       end
 
       def filenames
         glob_pattern = ENV.fetch('FILES_PATTERN', files_pattern)
-        Dir.glob(glob_pattern).select { |filename| inspectable?(filename) }
+        Dir.glob(glob_pattern).select { |filename| File.file?(filename) && inspectable?(filename) }
       end
 
       def files_pattern

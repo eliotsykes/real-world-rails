@@ -79,6 +79,13 @@ find apps/ -name Gemfile.lock | xargs grep GEM_NAME_GOES_HERE
 find apps/ -name Gemfile.lock | xargs grep doorkeeper
 ```
 
+#### Analyze view naming practices
+
+```bash
+bin/rwr view-naming
+```
+
+
 ## Settings
 
 #### Analyzing directories outside of `apps/`
