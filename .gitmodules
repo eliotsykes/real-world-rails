@@ -334,3 +334,7 @@
 	path = apps/cartodb
 	url = git@github.com:CartoDB/cartodb.git
 	branch = master
+[submodule "apps/classroom"]
+	path = apps/classroom
+	url = git@github.com:education/classroom.git
+	branch = master
