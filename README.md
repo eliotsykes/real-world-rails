@@ -2,23 +2,18 @@
 
 > Real World Rails applications and their open source codebases for developers to learn from
 
-Learn from Rails apps written by experienced developers.
+This project brings 50+ active, open source Rails apps together in one repository, making it easier for developers to download the collected codebases and learn from Rails apps written by experienced developers. Reading open source code can be an invaluable learning aid. You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory.
 
-I began this project to help teach developers and conduct research into Rails development practices.
+Real World Rails was begun to help teach newer developers and to research and write about Rails development practices.
 
-Reading open source code can be an invaluable learning aid.
+Browse &amp; search the [Rails codebases](apps/) to:
 
-You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory. Browse &amp; search the [Rails codebases](apps/) to:
-
-- Find examples of usage of a method you&rsquo;re unsure of
-- Learn how other developers are using a gem you&rsquo;d like to use
+- Find example usage of a method you&rsquo;re unsure of
+- Learn how other developers use a gem you&rsquo;d like to use
 - Discover how to write tests
+- &hellip;and much, much more.
 
-&hellip;and much, much more.
-
-The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
-
-If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, [contribute your idea on the issue tracker](https://github.com/eliotsykes/real-world-rails/issues) or write your own inspector, contributions welcome! &mdash; [_Eliot Sykes_](https://eliotsykes.com)
+If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, [contribute your idea on the issue tracker](https://github.com/eliotsykes/real-world-rails/issues) &mdash; [_Eliot Sykes_](https://eliotsykes.com)
 
 ## How to install on your computer
 
@@ -125,6 +120,8 @@ git submodule foreach git pull origin master
 ```
 
 #### Writing an Inspector? Some docs to help understand AST, Parser&hellip;
+
+The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
 
 Review the existing [inspectors](lib/real_world_rails/inspectors) if you're looking for some info on how to write a new one, and see these API docs:
 
