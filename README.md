@@ -4,9 +4,17 @@
 
 Learn from Rails apps written by experienced developers.
 
-This project helps with my efforts coaching Rails developers and researching the articles I publish for them. Find out more at https://eliotsykes.com
+I began this project to help teach developers and conduct research into Rails development practices.
 
-You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory.
+Reading open source code can be an invaluable learning aid.
+
+You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory. Browse &amp; search the [Rails codebases](apps/) to:
+
+- Find examples of usage of a method you&rsquo;re unsure of
+- Learn how other developers are using a gem you&rsquo;d like to use
+- Discover how to write tests
+
+&hellip;and much, much more.
 
 The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
 
