@@ -346,3 +346,7 @@
 	path = apps/opensit
 	url = git@github.com:danbartlett/opensit.git
 	branch = master
+[submodule "apps/contribulator"]
+	path = apps/contribulator
+	url = git@github.com:andrew/contribulator.git
+	branch = master
