@@ -338,3 +338,7 @@
 	path = apps/classroom
 	url = git@github.com:education/classroom.git
 	branch = master
+[submodule "apps/markus"]
+	path = apps/markus
+	url = git@github.com:MarkUsProject/Markus.git
+	branch = master
