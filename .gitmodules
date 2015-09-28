@@ -350,3 +350,7 @@
 	path = apps/contribulator
 	url = git@github.com:andrew/contribulator.git
 	branch = master
+[submodule "apps/twist"]
+	path = apps/twist
+	url = git@github.com:radar/twist.git
+	branch = master
