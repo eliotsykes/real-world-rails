@@ -35,7 +35,7 @@ module RealWorldRails
 
       def filenames
         glob_pattern = ENV.fetch('FILES_PATTERN', files_pattern)
-        Dir.glob(glob_pattern).select { |filename| File.file?(filename) && inspectable?(filename) }
+        Dir.glob(glob_pattern).select { |filename| inspectable?(filename) }
       end
 
       def files_pattern
@@ -43,7 +43,7 @@ module RealWorldRails
       end
 
       def inspectable?(filename)
-        self.class.filename_specification.satisfied_by? filename
+        File.file?(filename) && self.class.filename_specification.satisfied_by?(filename)
       end
 
       def inspect_file(filename)
