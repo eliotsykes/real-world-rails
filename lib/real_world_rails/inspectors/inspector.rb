@@ -16,8 +16,13 @@ module RealWorldRails
       end
 
       def run
+        before_inspect_files
         inspect_files
         after_inspect_files
+      end
+
+      # Before Hook
+      def before_inspect_files
       end
 
       def inspect_files
