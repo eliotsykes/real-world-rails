@@ -49,32 +49,13 @@ module RealWorldRails
         end
 
         def self.analyze_view_directories
-          puts @@store
-
-          headers = ['Shared Dir Name', 'Frequency']
-          # rows = frequencies.sort_by {|view_dir, freq| -freq}.map {|view_dir, freq| [freq, view_dir]}
-          table = TTY::Table.new headers, @@store.map {|dir, projects| [dir, projects.size] }
-          puts table.render(:unicode, alignments: [:right, :left])
-          # view_dirs = Set.new
-
-          # @@store.each do |view_filename|
-          #   view_dir = File.dirname(view_filename)
-          #   view_dirs << view_dir
-          # end
-          #
-          # view_home_regex = %r{.+/app/views/}
-          # frequencies = Hash.new(0)
-          #
-          # view_dirs.each do |view_dir|
-          #   relative_view_dir = view_dir.sub(view_home_regex, '')
-          #   frequencies[relative_view_dir] += 1
-          # end
-          #
-          # headers = ['Frequency', 'View Directory']
-          # rows = frequencies.sort_by {|view_dir, freq| -freq}.map {|view_dir, freq| [freq, view_dir]}
-          # table = TTY::Table.new headers, rows
-
-          # puts table.render(:unicode, alignments: [:right, :left])
+          headers = ["Shared\nDir Name", "Usage\nCount", 'Projects']
+          rows = @@store.map do |shared_view_dir, projects|
+            [shared_view_dir, projects.size, projects.join("\n")]
+          end
+          rows.sort_by! { |row| -(count = row[1]) }
+          table = TTY::Table.new headers, rows
+          puts table.render(:unicode, alignments: [:right, :right, :left], multiline: true, border: {separator: :each_row})
         end
 
         private
