@@ -23,27 +23,25 @@ module RealWorldRails
       end
 
       def inspect_file(dirname)
-        ViewDir.add_if_shared dirname
+        SharedViewDir.add_if_shared dirname
       end
 
       def after_inspect_files
-        ViewDir.report
+        SharedViewDir.report
       end
 
-      class ViewDir
+      class SharedViewDir
 
         @@store = {}
 
         PROJECT_SHARED_VIEW_DIR_REGEXP = %r{\Aapps/(?<project>.+)(/.+)?/app/views/(?<shared_view_dir>shared|common|partials|imports|default|templates|widgets|files|sections|plugins)\z}
 
         def self.add_if_shared(dirname)
-          match = PROJECT_SHARED_VIEW_DIR_REGEXP.match(dirname)
-          return unless match
-          shared_view_dir = match[:shared_view_dir]
-          project = match[:project]
-          project_shared_dirs = @@store[project] || []
-          project_shared_dirs << shared_view_dir
-          @@store[project] = project_shared_dirs
+          project, shared_view_dir = extract_project_and_shared_view_dir(dirname)
+          return unless project && shared_view_dir
+          projects = @@store[shared_view_dir] || []
+          projects << project
+          @@store[shared_view_dir] = projects
         end
 
         def self.report
@@ -52,6 +50,11 @@ module RealWorldRails
 
         def self.analyze_view_directories
           puts @@store
+
+          headers = ['Shared Dir Name', 'Frequency']
+          # rows = frequencies.sort_by {|view_dir, freq| -freq}.map {|view_dir, freq| [freq, view_dir]}
+          table = TTY::Table.new headers, @@store.map {|dir, projects| [dir, projects.size] }
+          puts table.render(:unicode, alignments: [:right, :left])
           # view_dirs = Set.new
 
           # @@store.each do |view_filename|
@@ -72,6 +75,13 @@ module RealWorldRails
           # table = TTY::Table.new headers, rows
 
           # puts table.render(:unicode, alignments: [:right, :left])
+        end
+
+        private
+
+        def self.extract_project_and_shared_view_dir(dirname)
+          match = PROJECT_SHARED_VIEW_DIR_REGEXP.match(dirname)
+          return match[:project], match[:shared_view_dir] if match
         end
 
       end
