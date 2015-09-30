@@ -40,7 +40,7 @@ module RealWorldRails
           project, shared_view_dir = extract_project_and_shared_view_dir(dirname)
           return unless project && shared_view_dir
           projects = @@store[shared_view_dir] || []
-          projects << project
+          projects << "#{project} (#{dirname})"
           @@store[shared_view_dir] = projects
         end
 

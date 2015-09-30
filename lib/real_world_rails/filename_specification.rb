@@ -3,7 +3,7 @@ module RealWorldRails
     attr_accessor :includes, :excludes
 
     MODEL_FILENAMES_REGEX = %r{\A.+/models/.+\.rb\z}
-    VIEW_FILENAMES_REGEX = %r{\Aapps/(?!.*/spec/).*app/views/.+\z}
+    VIEW_FILENAMES_REGEX = %r{\Aapps/(?!.*/(spec|test|gems)/).*app/views/.+\z}
     GENERATOR_FILENAMES_REGEX = %r{\A.+/lib/(.+/)?generators/}
     TEST_FILENAMES_REGEX = %r{_(test)\.rb\z}
     SPEC_FILENAMES_REGEX = %r{_(spec)\.rb\z}
