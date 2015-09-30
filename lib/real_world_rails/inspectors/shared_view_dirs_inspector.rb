@@ -18,8 +18,7 @@ module RealWorldRails
       def before_inspect_files
         puts "Searching the shared view directory used by each Rails app."
         puts "The following directory names are assumed to be shared view directories:"
-        puts "shared, common, partials"
-        puts "(exists, but contents?): imports, default, templates, widgets, files, sections, plugins"
+        puts "shared, common, partials, application"
       end
 
       def inspect_file(dirname)
@@ -34,7 +33,7 @@ module RealWorldRails
 
         @@store = {}
 
-        PROJECT_SHARED_VIEW_DIR_REGEXP = %r{\Aapps/(?<project>.+)(/.+)?/app/views/(?<shared_view_dir>shared|common|partials|imports|default|templates|widgets|files|sections|plugins)\z}
+        PROJECT_SHARED_VIEW_DIR_REGEXP = %r{\Aapps/(?<project>.+)(/.+)?/app/views/(?<shared_view_dir>shared|common|partials|application)\z}
 
         def self.add_if_shared(dirname)
           project, shared_view_dir = extract_project_and_shared_view_dir(dirname)
