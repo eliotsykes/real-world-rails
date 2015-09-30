@@ -82,6 +82,7 @@ find apps/ -name Gemfile.lock | xargs grep doorkeeper
 #### Analyze view naming practices
 
 ```bash
+bin/rwr shared-view-dirs
 bin/rwr view-naming
 ```
 
