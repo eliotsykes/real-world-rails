@@ -354,3 +354,7 @@
 	path = apps/twist
 	url = git@github.com:radar/twist.git
 	branch = master
+[submodule "apps/mission-of-mercy"]
+	path = apps/mission-of-mercy
+	url = git@github.com:mission-of-mercy/mission-of-mercy.git
+	branch = master
