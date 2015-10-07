@@ -358,3 +358,7 @@
 	path = apps/mission-of-mercy
 	url = git@github.com:mission-of-mercy/mission-of-mercy.git
 	branch = master
+[submodule "apps/cloudnet"]
+	path = apps/cloudnet
+	url = git@github.com:OnApp/cloudnet.git
+	branch = master
