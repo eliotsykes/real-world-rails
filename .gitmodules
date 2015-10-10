@@ -362,3 +362,7 @@
 	path = apps/cloudnet
 	url = git@github.com:OnApp/cloudnet.git
 	branch = master
+[submodule "apps/statusify"]
+	path = apps/statusify
+	url = git@github.com:ur0/statusify.git
+	branch = development
