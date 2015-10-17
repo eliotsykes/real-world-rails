@@ -124,7 +124,7 @@ To update the revisions, run:
 ```bash
 #git pull --recurse-submodules # Probably not needed, try without.
 # This will take some time:
-git submodule foreach git pull origin master
+git submodule foreach git pull
 ```
 
 #### Writing an Inspector? Some docs to help understand AST, Parser&hellip;
