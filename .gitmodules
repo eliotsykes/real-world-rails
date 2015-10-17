@@ -366,3 +366,7 @@
 	path = apps/statusify
 	url = git@github.com:ur0/statusify.git
 	branch = development
+[submodule "apps/politwoops"]
+	path = apps/politwoops
+	url = git@github.com:sunlightlabs/politwoops.git
+	branch = master
