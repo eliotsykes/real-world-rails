@@ -438,3 +438,7 @@
 	path = apps/rave-server
 	url = git@github.com:ministryofjustice/rave-server.git
 	branch = master
+[submodule "apps/devise_authentication_api"]
+	path = apps/devise_authentication_api
+	url = git@github.com:ministryofjustice/devise_authentication_api.git
+	branch = master
