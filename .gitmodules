@@ -414,3 +414,7 @@
 	path = apps/ds-auth
 	url = git@github.com:ministryofjustice/ds-auth.git
 	branch = master
+[submodule "apps/vms"]
+	path = apps/vms
+	url = git@github.com:ministryofjustice/vms.git
+	branch = master
