@@ -426,3 +426,7 @@
 	path = apps/defence-request-service
 	url = git@github.com:ministryofjustice/defence-request-service.git
 	branch = master
+[submodule "apps/tribunals_api"]
+	path = apps/tribunals_api
+	url = git@github.com:ministryofjustice/tribunals_api.git
+	branch = develop
