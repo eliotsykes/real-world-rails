@@ -418,3 +418,7 @@
 	path = apps/vms
 	url = git@github.com:ministryofjustice/vms.git
 	branch = master
+[submodule "apps/defence-request-service-rota"]
+	path = apps/defence-request-service-rota
+	url = git@github.com:ministryofjustice/defence-request-service-rota.git
+	branch = master
