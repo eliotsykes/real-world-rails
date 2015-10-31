@@ -374,3 +374,7 @@
 	path = apps/phez
 	url = git@github.com:phezco/phez.git
 	branch = master
+[submodule "apps/atet"]
+	path = apps/atet
+	url = git@github.com:ministryofjustice/atet.git
+	branch = master
