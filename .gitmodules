@@ -402,3 +402,7 @@
 	path = apps/case_file_editor
 	url = git@github.com:ministryofjustice/case_file_editor.git
 	branch = master
+[submodule "apps/accelerated_claims"]
+	path = apps/accelerated_claims
+	url = git@github.com:ministryofjustice/accelerated_claims.git
+	branch = master
