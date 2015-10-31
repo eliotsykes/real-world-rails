@@ -410,3 +410,7 @@
 	path = apps/courtfinder
 	url = git@github.com:ministryofjustice/courtfinder.git
 	branch = develop
+[submodule "apps/ds-auth"]
+	path = apps/ds-auth
+	url = git@github.com:ministryofjustice/ds-auth.git
+	branch = master
