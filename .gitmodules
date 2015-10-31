@@ -386,3 +386,11 @@
 	path = apps/fr-staffapp
 	url = git@github.com:ministryofjustice/fr-staffapp.git
 	branch = master
+[submodule "apps/parliamentary-questions"]
+	path = apps/parliamentary-questions
+	url = git@github.com:ministryofjustice/parliamentary-questions.git
+	branch = dev
+[submodule "apps/github-awards"]
+	path = apps/github-awards
+	url = git@github.com:vdaubry/github-awards.git
+	branch = master
