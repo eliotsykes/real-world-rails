@@ -370,3 +370,7 @@
 	path = apps/politwoops
 	url = git@github.com:sunlightlabs/politwoops.git
 	branch = master
+[submodule "apps/phez"]
+	path = apps/phez
+	url = git@github.com:phezco/phez.git
+	branch = master
