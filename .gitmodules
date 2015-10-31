@@ -394,3 +394,7 @@
 	path = apps/github-awards
 	url = git@github.com:vdaubry/github-awards.git
 	branch = master
+[submodule "apps/prison-visits"]
+	path = apps/prison-visits
+	url = git@github.com:ministryofjustice/prison-visits.git
+	branch = master
