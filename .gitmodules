@@ -398,3 +398,7 @@
 	path = apps/prison-visits
 	url = git@github.com:ministryofjustice/prison-visits.git
 	branch = master
+[submodule "apps/case_file_editor"]
+	path = apps/case_file_editor
+	url = git@github.com:ministryofjustice/case_file_editor.git
+	branch = master
