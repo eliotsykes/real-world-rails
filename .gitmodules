@@ -378,3 +378,11 @@
 	path = apps/atet
 	url = git@github.com:ministryofjustice/atet.git
 	branch = master
+[submodule "apps/advocate-defence-payments"]
+	path = apps/advocate-defence-payments
+	url = git@github.com:ministryofjustice/advocate-defence-payments.git
+	branch = develop
+[submodule "apps/fr-staffapp"]
+	path = apps/fr-staffapp
+	url = git@github.com:ministryofjustice/fr-staffapp.git
+	branch = master
