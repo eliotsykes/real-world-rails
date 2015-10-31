@@ -434,3 +434,7 @@
 	path = apps/tribunals_frontend
 	url = git@github.com:ministryofjustice/tribunals_frontend.git
 	branch = develop
+[submodule "apps/rave-server"]
+	path = apps/rave-server
+	url = git@github.com:ministryofjustice/rave-server.git
+	branch = master
