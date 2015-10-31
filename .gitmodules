@@ -430,3 +430,7 @@
 	path = apps/tribunals_api
 	url = git@github.com:ministryofjustice/tribunals_api.git
 	branch = develop
+[submodule "apps/tribunals_frontend"]
+	path = apps/tribunals_frontend
+	url = git@github.com:ministryofjustice/tribunals_frontend.git
+	branch = develop
