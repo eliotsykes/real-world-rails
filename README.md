@@ -2,7 +2,7 @@
 
 > Real World Rails applications and their open source codebases for developers to learn from
 
-This project brings 50+ active, open source Rails apps together in one repository, making it easier for developers to download the collected codebases and learn from Rails apps written by experienced developers. Reading open source code can be an invaluable learning aid. You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory.
+This project brings 100+ (and growing) active, open source Rails apps together in one repository, making it easier for developers to download the collected codebases and learn from Rails apps written by experienced developers. Reading open source code can be an invaluable learning aid. You&rsquo;ll find the source code for the Real World Rails apps in the [`apps/`](apps/) subdirectory.
 
 Real World Rails was begun to help teach newer developers and to research and write about Rails development practices.
 
