@@ -446,3 +446,7 @@
 	path = apps/present
 	url = git@github.com:testdouble/present.git
 	branch = master
+[submodule "apps/orientation"]
+	path = apps/orientation
+	url = git@github.com:orientation/orientation.git
+	branch = master
