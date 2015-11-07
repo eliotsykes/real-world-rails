@@ -450,3 +450,7 @@
 	path = apps/orientation
 	url = git@github.com:orientation/orientation.git
 	branch = master
+[submodule "apps/eventkit-rails"]
+	path = apps/eventkit-rails
+	url = git@github.com:sendgrid/eventkit-rails.git
+	branch = master
