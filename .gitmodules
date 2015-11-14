@@ -454,3 +454,7 @@
 	path = apps/eventkit-rails
 	url = git@github.com:sendgrid/eventkit-rails.git
 	branch = master
+[submodule "apps/imminence"]
+	path = apps/imminence
+	url = git@github.com:alphagov/imminence.git
+	branch = master
