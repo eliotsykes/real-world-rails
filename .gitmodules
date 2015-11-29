@@ -458,3 +458,7 @@
 	path = apps/imminence
 	url = git@github.com:alphagov/imminence.git
 	branch = master
+[submodule "apps/projectjellyfish-api"]
+	path = apps/projectjellyfish-api
+	url = git@github.com:projectjellyfish/api.git
+	branch = master
