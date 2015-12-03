@@ -470,3 +470,7 @@
 	path = apps/foreman
 	url = git@github.com:theforeman/foreman.git
 	branch = develop
+[submodule "apps/katello"]
+	path = apps/katello
+	url = git@github.com:Katello/katello.git
+	branch = master
