@@ -462,3 +462,7 @@
 	path = apps/projectjellyfish-api
 	url = git@github.com:projectjellyfish/api.git
 	branch = master
+[submodule "apps/foodsoft"]
+	path = apps/foodsoft
+	url = git@github.com:foodcoops/foodsoft.git
+	branch = master
