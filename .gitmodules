@@ -466,3 +466,7 @@
 	path = apps/foodsoft
 	url = git@github.com:foodcoops/foodsoft.git
 	branch = master
+[submodule "apps/foreman"]
+	path = apps/foreman
+	url = git@github.com:theforeman/foreman.git
+	branch = develop
