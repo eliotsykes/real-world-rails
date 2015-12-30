@@ -474,3 +474,7 @@
 	path = apps/katello
 	url = git@github.com:Katello/katello.git
 	branch = master
+[submodule "apps/earthdata-search"]
+	path = apps/earthdata-search
+	url = git@github.com:nasa/earthdata-search.git
+	branch = master
