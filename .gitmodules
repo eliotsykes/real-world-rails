@@ -478,3 +478,7 @@
 	path = apps/earthdata-search
 	url = git@github.com:nasa/earthdata-search.git
 	branch = master
+[submodule "apps/rescue-rails"]
+	path = apps/rescue-rails
+	url = git@github.com:ophrescue/RescueRails.git
+	branch = master
