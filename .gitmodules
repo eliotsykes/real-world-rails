@@ -482,3 +482,7 @@
 	path = apps/rescue-rails
 	url = git@github.com:ophrescue/RescueRails.git
 	branch = master
+[submodule "apps/manageiq"]
+	path = apps/manageiq
+	url = git@github.com:ManageIQ/manageiq.git
+	branch = master
