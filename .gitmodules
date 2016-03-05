@@ -486,3 +486,7 @@
 	path = apps/manageiq
 	url = git@github.com:ManageIQ/manageiq.git
 	branch = master
+[submodule "apps/samson"]
+	path = apps/samson
+	url = git@github.com:zendesk/samson.git
+	branch = master
