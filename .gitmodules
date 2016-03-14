@@ -492,5 +492,5 @@
 	branch = master
 [submodule "apps/sharetribe"]
 	path = apps/sharetribe
-	url = git@github.com:vtorves/sharetribe.git
+	url = git@github.com:sharetribe/sharetribe.git
 	branch = master
