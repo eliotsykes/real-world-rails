@@ -490,3 +490,7 @@
 	path = apps/samson
 	url = git@github.com:zendesk/samson.git
 	branch = master
+[submodule "apps/sharetribe"]
+	path = apps/sharetribe
+	url = git@github.com:sharetribe/sharetribe.git
+	branch = master
