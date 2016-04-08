@@ -494,3 +494,7 @@
 	path = apps/sharetribe
 	url = git@github.com:sharetribe/sharetribe.git
 	branch = master
+[submodule "apps/cfp-app"]
+	path = apps/cfp-app
+	url = git@github.com:rubycentral/cfp-app.git
+	branch = master
