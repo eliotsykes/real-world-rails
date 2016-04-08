@@ -90,7 +90,7 @@ bin/rwr view-naming
 
 ```bash
 # Outputs contents from all Procfiles
-find . -name 'Procfile*' | xargs cat
+find apps/ -name 'Procfile*' | xargs cat
 ```
 
 
