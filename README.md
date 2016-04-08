@@ -86,6 +86,13 @@ bin/rwr shared-view-dirs
 bin/rwr view-naming
 ```
 
+#### Find ideas on how to configure your foreman processes
+
+```bash
+# Outputs contents from all Procfiles
+find . -name 'Procfile*' | xargs cat
+```
+
 
 ## Settings
 
