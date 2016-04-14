@@ -498,3 +498,7 @@
 	path = apps/cfp-app
 	url = git@github.com:rubycentral/cfp-app.git
 	branch = master
+[submodule "apps/champaign"]
+	path = apps/champaign
+	url = git@github.com:SumOfUs/Champaign.git
+	branch = master
