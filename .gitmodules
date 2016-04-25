@@ -518,3 +518,7 @@
 	path = apps/jobsworth
 	url = git@github.com:ari/jobsworth.git
 	branch = master
+[submodule "apps/openproject"]
+	path = apps/openproject
+	url = git@github.com:opf/openproject.git
+	branch = dev
