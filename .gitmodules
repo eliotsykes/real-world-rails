@@ -514,3 +514,7 @@
 	path = apps/alchemy_cms
 	url = git@github.com:AlchemyCMS/alchemy_cms.git
 	branch = master
+[submodule "apps/jobsworth"]
+	path = apps/jobsworth
+	url = git@github.com:ari/jobsworth.git
+	branch = master
