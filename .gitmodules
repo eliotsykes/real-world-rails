@@ -510,3 +510,7 @@
 	path = apps/alonetone
 	url = git@github.com:sudara/alonetone.git
 	branch = master
+[submodule "apps/alchemy_cms"]
+	path = apps/alchemy_cms
+	url = git@github.com:AlchemyCMS/alchemy_cms.git
+	branch = master
