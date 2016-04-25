@@ -502,3 +502,7 @@
 	path = apps/champaign
 	url = git@github.com:SumOfUs/Champaign.git
 	branch = master
+[submodule "apps/ruby-bench-web"]
+	path = apps/ruby-bench-web
+	url = git@github.com:ruby-bench/ruby-bench-web.git
+	branch = master
