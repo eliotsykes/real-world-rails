@@ -506,3 +506,7 @@
 	path = apps/ruby-bench-web
 	url = git@github.com:ruby-bench/ruby-bench-web.git
 	branch = master
+[submodule "apps/alonetone"]
+	path = apps/alonetone
+	url = git@github.com:sudara/alonetone.git
+	branch = master
