@@ -527,3 +527,7 @@
 	path = apps/e-manifest
 	url = git@github.com:18F/e-manifest.git
 	branch = master
+[submodule "apps/helpy"]
+	path = apps/helpy
+	url = git@github.com:helpyio/helpy.git
+	branch = master
