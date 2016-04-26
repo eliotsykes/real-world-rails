@@ -523,3 +523,7 @@
 	path = apps/openproject
 	url = git@github.com:opf/openproject.git
 	branch = dev
+[submodule "apps/e-manifest"]
+	path = apps/e-manifest
+	url = git@github.com:18F/e-manifest.git
+	branch = master
