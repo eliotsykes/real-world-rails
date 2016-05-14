@@ -535,3 +535,7 @@
 	path = engines/thredded
 	url = git@github.com:thredded/thredded.git
 	branch = master
+[submodule "engines/administrate"]
+	path = engines/administrate
+	url = git@github.com:thoughtbot/administrate.git
+	branch = master
