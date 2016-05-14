@@ -543,3 +543,7 @@
 	path = engines/payola
 	url = git@github.com:peterkeen/payola.git
 	branch = master
+[submodule "engines/griddler"]
+	path = engines/griddler
+	url = git@github.com:thoughtbot/griddler.git
+	branch = master
