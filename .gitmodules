@@ -531,3 +531,7 @@
 	path = apps/helpy
 	url = git@github.com:helpyio/helpy.git
 	branch = master
+[submodule "engines/thredded"]
+	path = engines/thredded
+	url = git@github.com:thredded/thredded.git
+	branch = master
