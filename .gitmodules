@@ -547,3 +547,7 @@
 	path = engines/griddler
 	url = git@github.com:thoughtbot/griddler.git
 	branch = master
+[submodule "engines/letter_opener_web"]
+	path = engines/letter_opener_web
+	url = git@github.com:fgrehm/letter_opener_web.git
+	branch = master
