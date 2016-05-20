@@ -551,3 +551,7 @@
 	path = engines/letter_opener_web
 	url = git@github.com:fgrehm/letter_opener_web.git
 	branch = master
+[submodule "engines/pghero"]
+	path = engines/pghero
+	url = git@github.com:ankane/pghero.git
+	branch = master
