@@ -555,3 +555,7 @@
 	path = engines/pghero
 	url = git@github.com:ankane/pghero.git
 	branch = master
+[submodule "apps/rubytogether.org"]
+	path = apps/rubytogether.org
+	url = git@github.com:rubytogether/rubytogether.org.git
+	branch = master
