@@ -559,3 +559,7 @@
 	path = apps/rubytogether.org
 	url = git@github.com:rubytogether/rubytogether.org.git
 	branch = master
+[submodule "engines/exception_notification"]
+	path = engines/exception_notification
+	url = git@github.com:smartinez87/exception_notification.git
+	branch = master
