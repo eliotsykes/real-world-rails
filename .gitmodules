@@ -563,3 +563,7 @@
 	path = engines/exception_notification
 	url = git@github.com:smartinez87/exception_notification.git
 	branch = master
+[submodule "engines/high_voltage"]
+	path = engines/high_voltage
+	url = git@github.com:thoughtbot/high_voltage.git
+	branch = master
