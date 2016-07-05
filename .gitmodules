@@ -567,3 +567,7 @@
 	path = engines/high_voltage
 	url = git@github.com:thoughtbot/high_voltage.git
 	branch = master
+[submodule "engines/plutus"]
+	path = engines/plutus
+	url = git@github.com:mbulat/plutus.git
+	branch = master
