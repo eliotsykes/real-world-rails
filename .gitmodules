@@ -575,3 +575,7 @@
 	path = apps/libraries.io
 	url = git@github.com:librariesio/libraries.io.git
 	branch = master
+[submodule "engines/rapidfire"]
+	path = engines/rapidfire
+	url = git@github.com:code-mancers/rapidfire.git
+	branch = master
