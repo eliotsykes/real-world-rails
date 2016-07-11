@@ -571,3 +571,7 @@
 	path = engines/plutus
 	url = git@github.com:mbulat/plutus.git
 	branch = master
+[submodule "apps/libraries.io"]
+	path = apps/libraries.io
+	url = git@github.com:librariesio/libraries.io.git
+	branch = master
