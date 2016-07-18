@@ -587,3 +587,7 @@
 	path = apps/metrics
 	url = git@github.com:collectiveidea/metrics.git
 	branch = master
+[submodule "apps/hourglass"]
+	path = apps/hourglass
+	url = git@github.com:collectiveidea/hourglass.git
+	branch = master
