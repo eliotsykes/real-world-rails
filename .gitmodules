@@ -579,3 +579,7 @@
 	path = engines/rapidfire
 	url = git@github.com:code-mancers/rapidfire.git
 	branch = master
+[submodule "apps/bender"]
+	path = apps/bender
+	url = git@github.com:collectiveidea/bender.git
+	branch = master
