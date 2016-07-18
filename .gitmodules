@@ -583,3 +583,7 @@
 	path = apps/bender
 	url = git@github.com:collectiveidea/bender.git
 	branch = master
+[submodule "apps/metrics"]
+	path = apps/metrics
+	url = git@github.com:collectiveidea/metrics.git
+	branch = master
