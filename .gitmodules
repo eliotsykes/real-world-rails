@@ -591,3 +591,7 @@
 	path = apps/hourglass
 	url = git@github.com:collectiveidea/hourglass.git
 	branch = master
+[submodule "engines/blazer"]
+	path = engines/blazer
+	url = git@github.com:ankane/blazer.git
+	branch = master
