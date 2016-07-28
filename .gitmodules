@@ -595,3 +595,27 @@
 	path = engines/blazer
 	url = git@github.com:ankane/blazer.git
 	branch = master
+[submodule "engines/searchjoy"]
+	path = engines/searchjoy
+	url = git@github.com:ankane/searchjoy.git
+	branch = master
+[submodule "engines/ahoy"]
+	path = engines/ahoy
+	url = git@github.com:ankane/ahoy.git
+	branch = master
+[submodule "engines/ahoy_email"]
+	path = engines/ahoy_email
+	url = git@github.com:ankane/ahoy_email.git
+	branch = master
+[submodule "engines/chartkick"]
+	path = engines/chartkick
+	url = git@github.com:ankane/chartkick.git
+	branch = master
+[submodule "engines/notable"]
+	path = engines/notable
+	url = git@github.com:ankane/notable.git
+	branch = master
+[submodule "engines/mailkick"]
+	path = engines/mailkick
+	url = git@github.com:ankane/mailkick.git
+	branch = master
