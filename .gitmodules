@@ -627,3 +627,7 @@
 	path = apps/open-build-service
 	url = git@github.com:openSUSE/open-build-service.git
 	branch = master
+[submodule "apps/reservations"]
+	path = apps/reservations
+	url = git@github.com:YaleSTC/reservations.git
+	branch = master
