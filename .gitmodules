@@ -619,3 +619,7 @@
 	path = engines/mailkick
 	url = git@github.com:ankane/mailkick.git
 	branch = master
+[submodule "apps/osem"]
+	path = apps/osem
+	url = git@github.com:openSUSE/osem.git
+	branch = master
