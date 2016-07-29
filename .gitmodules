@@ -631,3 +631,7 @@
 	path = apps/reservations
 	url = git@github.com:YaleSTC/reservations.git
 	branch = master
+[submodule "apps/ifme"]
+	path = apps/ifme
+	url = git@github.com:julianguyen/ifme.git
+	branch = master
