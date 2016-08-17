@@ -635,3 +635,7 @@
 	path = apps/ifme
 	url = git@github.com:julianguyen/ifme.git
 	branch = master
+[submodule "apps/prague-server"]
+	path = apps/prague-server
+	url = git@github.com:controlshift/prague-server.git
+	branch = master
