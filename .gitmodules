@@ -639,3 +639,7 @@
 	path = apps/prague-server
 	url = git@github.com:controlshift/prague-server.git
 	branch = master
+[submodule "apps/spectre"]
+	path = apps/spectre
+	url = git@github.com:wearefriday/spectre.git
+	branch = master
