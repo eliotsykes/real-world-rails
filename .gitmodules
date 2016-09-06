@@ -659,3 +659,7 @@
 	path = apps/cuttlefish
 	url = git@github.com:mlandauer/cuttlefish.git
 	branch = master
+[submodule "apps/publicwhip"]
+	path = apps/publicwhip
+	url = git@github.com:openaustralia/publicwhip.git
+	branch = master
