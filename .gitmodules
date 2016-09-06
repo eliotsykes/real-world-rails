@@ -647,3 +647,7 @@
 	path = apps/remit
 	url = git@github.com:mysociety/remit.git
 	branch = master
+[submodule "apps/planningalerts"]
+	path = apps/planningalerts
+	url = git@github.com:openaustralia/planningalerts.git
+	branch = master
