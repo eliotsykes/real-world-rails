@@ -643,3 +643,7 @@
 	path = apps/spectre
 	url = git@github.com:wearefriday/spectre.git
 	branch = master
+[submodule "apps/remit"]
+	path = apps/remit
+	url = git@github.com:mysociety/remit.git
+	branch = master
