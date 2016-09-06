@@ -651,3 +651,11 @@
 	path = apps/planningalerts
 	url = git@github.com:openaustralia/planningalerts.git
 	branch = master
+[submodule "apps/morph"]
+	path = apps/morph
+	url = git@github.com:openaustralia/morph.git
+	branch = master
+[submodule "apps/cuttlefish"]
+	path = apps/cuttlefish
+	url = git@github.com:mlandauer/cuttlefish.git
+	branch = master
