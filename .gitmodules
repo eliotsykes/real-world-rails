@@ -663,3 +663,7 @@
 	path = apps/publicwhip
 	url = git@github.com:openaustralia/publicwhip.git
 	branch = master
+[submodule "engines/cangaroo"]
+	path = engines/cangaroo
+	url = git@github.com:nebulab/cangaroo.git
+	branch = master
