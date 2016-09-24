@@ -663,3 +663,7 @@
 	path = engines/cangaroo
 	url = git@github.com:nebulab/cangaroo.git
 	branch = master
+[submodule "engines/pageflow"]
+	path = engines/pageflow
+	url = git@github.com:codevise/pageflow.git
+	branch = master
