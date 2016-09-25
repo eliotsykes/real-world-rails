@@ -1,0 +1,161 @@
+#!/usr/bin/env ruby
+require 'pathname'
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile',
+  Pathname.new(__FILE__).realpath)
+
+require 'rubygems'
+require 'bundler/setup'
+
+
+
+# https://developer.github.com/early-access/graphql/explorer/
+# https://stackoverflow.com/questions/39666940/how-to-batch-github-graphql-api-queries
+
+require 'graphql/client'
+require 'graphql/client/http'
+
+module Kernel
+  # File activesupport/lib/active_support/core_ext/kernel/singleton_class.rb, line 3
+  def class_eval(*args, &block)
+    singleton_class.class_eval(*args, &block)
+  end
+end
+
+class Repo
+  REPO_PATTERN = %r{url = git@github.com:(?<login>.+)/(?<name>.+)\.git}
+
+  attr_accessor :login, :name
+
+  def initialize(login:, name:)
+    self.login = login
+    self.name = name
+  end
+
+  def self.all
+    @repos ||= File.read('.gitmodules').scan(REPO_PATTERN).map do |login, name|
+      new(login: login, name: name)
+    end
+  end
+
+  def to_s
+    "Repo: #{url}"
+  end
+
+  def url
+    "https://github.com/#{login}/#{name}"
+  end
+end
+
+class Project
+  attr_accessor :homepage_url, :description, :description_html, :repo
+end
+
+module GitHub
+
+  HTTP = GraphQL::Client::HTTP.new("https://api.github.com/graphql") do
+    def headers(context)
+      unless token = context[:access_token] || ENV['GITHUB_ACCESS_TOKEN']
+        # $ GITHUB_ACCESS_TOKEN=abc123
+        #   https://help.github.com/articles/creating-an-access-token-for-command-line-use
+        # Get temporary access token from ~/.config/hub
+        fail 'Missing GitHub access token. Get temporary access token from ~/.config/hub'
+      end
+
+      {
+        'Authorization' => "Bearer #{token}"
+      }
+    end
+  end
+
+  fetch_latest_schema = false
+
+  if fetch_latest_schema
+    Schema = GraphQL::Client.load_schema(HTTP)
+    GraphQL::Client.dump_schema(HTTP, "lib/github/graphql/schema.json")
+  else
+    Schema = GraphQL::Client.load_schema("lib/github/graphql/schema.json")
+  end
+
+  Client = GraphQL::Client.new(schema: Schema, execute: HTTP)
+  Client.allow_dynamic_queries = true
+
+  MAX_ALLOWED_BATCH_SIZE_FOR_QUERY_COMPLEXITY = 29
+
+  def self.fetch_all
+    variables = {}
+    client_context = { access_token: ENV['GITHUB_ACCESS_TOKEN'] }
+
+    puts "# Real World Rails"
+    puts "\n"
+
+    missing_repos = []
+
+    Repo.all.each_slice(MAX_ALLOWED_BATCH_SIZE_FOR_QUERY_COMPLEXITY) do |repos|
+      query_body = repos.each_with_index.inject('') do |q, (repo, i)|
+        query_id = "query#{i}"
+        q << <<-QUERY_BODY
+          #{query_id}: repositoryOwner(login: "#{repo.login}") {
+            repository(name: "#{repo.name}") {
+              ...RepoFragment
+            }
+          }
+        QUERY_BODY
+      end
+
+      query = GitHub::Client.parse <<-QUERY
+        query {
+          #{query_body}
+        }
+
+        fragment RepoFragment on Repository {
+          name
+          description
+          homepageURL
+        }
+      QUERY
+
+      response = GitHub::Client.query(query, variables: variables, context: client_context)
+
+      if response.errors.any?
+        error_msg = response.errors.messages.values.join("/n")
+        raise error_msg
+      end
+
+      response.data.data.each_with_index do |(query_id, result), i|
+        repo = repos[i]
+        if result.nil? || result['repository'].nil?
+          missing_repos << repo
+        else
+          attributes = result['repository']
+          name, description, homepage_url = attributes.values_at('name', 'description' ,'homepageURL')
+
+          puts "\n### #{name}"
+
+          has_description = description && description.length > 0
+          has_homepage_url = homepage_url && homepage_url.length > 0
+
+          description_and_link = ''
+          if has_description
+            description_and_link << description
+          end
+
+          if has_homepage_url
+            description_and_link << ' ' if has_description
+            description_and_link << "[#{homepage_url}](#{homepage_url})"
+          end
+
+          puts "#{description_and_link}  " if description_and_link.length > 0
+          puts "[#{repo.url}](#{repo.url})"
+        end
+      end
+    end
+
+    puts "\n\n## Moved/Missing/Deleted Repos"
+    puts "TODO: check the repos below - moved, renamed or deleted?"
+    puts
+    missing_repos.each { |repo| puts "- #{repo.url}" }
+  end
+
+end
+
+GitHub.fetch_all
