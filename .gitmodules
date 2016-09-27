@@ -667,3 +667,7 @@
 	path = engines/pageflow
 	url = git@github.com:codevise/pageflow.git
 	branch = master
+[submodule "apps/klaxon"]
+	path = apps/klaxon
+	url = git@github.com:themarshallproject/klaxon.git
+	branch = master
