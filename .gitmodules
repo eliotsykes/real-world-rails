@@ -671,3 +671,7 @@
 	path = apps/klaxon
 	url = git@github.com:themarshallproject/klaxon.git
 	branch = master
+[submodule "apps/mastodon"]
+	path = apps/mastodon
+	url = git@github.com:Gargron/mastodon.git
+	branch = master
