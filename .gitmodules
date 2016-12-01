@@ -687,3 +687,7 @@
 	path = engines/shopify_app
 	url = git@github.com:Shopify/shopify_app.git
 	branch = master
+[submodule "apps/test_track"]
+	path = apps/test_track
+	url = git@github.com:Betterment/test_track.git
+	branch = master
