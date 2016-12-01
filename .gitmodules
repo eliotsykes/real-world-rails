@@ -683,3 +683,7 @@
 	path = engines/shipit-engine
 	url = git@github.com:Shopify/shipit-engine.git
 	branch = master
+[submodule "engines/shopify_app"]
+	path = engines/shopify_app
+	url = git@github.com:Shopify/shopify_app.git
+	branch = master
