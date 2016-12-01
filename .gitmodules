@@ -679,3 +679,7 @@
 	path = apps/cm42-central
 	url = git@github.com:Codeminer42/cm42-central.git
 	branch = master
+[submodule "engines/shipit-engine"]
+	path = engines/shipit-engine
+	url = git@github.com:Shopify/shipit-engine.git
+	branch = master
