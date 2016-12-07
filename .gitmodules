@@ -711,3 +711,7 @@
 	path = engines/rucaptcha
 	url = git@github.com:huacnlee/rucaptcha.git
 	branch = master
+[submodule "engines/talking_stick"]
+	path = engines/talking_stick
+	url = git@github.com:mojolingo/talking_stick.git
+	branch = master
