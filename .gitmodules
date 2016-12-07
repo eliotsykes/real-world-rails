@@ -719,3 +719,7 @@
 	path = engines/stripe_event
 	url = git@github.com:integrallis/stripe_event.git
 	branch = master
+[submodule "engines/attachinary"]
+	path = engines/attachinary
+	url = git@github.com:assembler/attachinary.git
+	branch = master
