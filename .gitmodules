@@ -727,3 +727,7 @@
 	path = engines/flip
 	url = git@github.com:pda/flip.git
 	branch = master
+[submodule "engines/postgresql_lo_streamer"]
+	path = engines/postgresql_lo_streamer
+	url = git@github.com:diogob/postgresql_lo_streamer.git
+	branch = master
