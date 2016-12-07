@@ -715,3 +715,7 @@
 	path = engines/talking_stick
 	url = git@github.com:mojolingo/talking_stick.git
 	branch = master
+[submodule "engines/stripe_event"]
+	path = engines/stripe_event
+	url = git@github.com:integrallis/stripe_event.git
+	branch = master
