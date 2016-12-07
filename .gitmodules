@@ -699,3 +699,7 @@
 	path = engines/tolk
 	url = git@github.com:tolk/tolk.git
 	branch = master
+[submodule "engines/health-monitor-rails"]
+	path = engines/health-monitor-rails
+	url = git@github.com:lbeder/health-monitor-rails.git
+	branch = master
