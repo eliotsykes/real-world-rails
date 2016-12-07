@@ -731,3 +731,7 @@
 	path = engines/postgresql_lo_streamer
 	url = git@github.com:diogob/postgresql_lo_streamer.git
 	branch = master
+[submodule "engines/dbhero"]
+	path = engines/dbhero
+	url = git@github.com:catarse/dbhero.git
+	branch = master
