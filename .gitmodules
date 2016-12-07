@@ -691,3 +691,7 @@
 	path = apps/test_track
 	url = git@github.com:Betterment/test_track.git
 	branch = master
+[submodule "apps/codetriage"]
+	path = apps/codetriage
+	url = git@github.com:codetriage/codetriage.git
+	branch = master
