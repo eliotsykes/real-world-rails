@@ -695,3 +695,7 @@
 	path = apps/codetriage
 	url = git@github.com:codetriage/codetriage.git
 	branch = master
+[submodule "engines/tolk"]
+	path = engines/tolk
+	url = git@github.com:tolk/tolk.git
+	branch = master
