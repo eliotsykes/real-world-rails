@@ -707,3 +707,7 @@
 	path = engines/rapporteur
 	url = git@github.com:envylabs/rapporteur.git
 	branch = master
+[submodule "engines/rucaptcha"]
+	path = engines/rucaptcha
+	url = git@github.com:huacnlee/rucaptcha.git
+	branch = master
