@@ -723,3 +723,7 @@
 	path = engines/attachinary
 	url = git@github.com:assembler/attachinary.git
 	branch = master
+[submodule "engines/flip"]
+	path = engines/flip
+	url = git@github.com:pda/flip.git
+	branch = master
