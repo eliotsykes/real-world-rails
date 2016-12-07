@@ -703,3 +703,7 @@
 	path = engines/health-monitor-rails
 	url = git@github.com:lbeder/health-monitor-rails.git
 	branch = master
+[submodule "engines/rapporteur"]
+	path = engines/rapporteur
+	url = git@github.com:envylabs/rapporteur.git
+	branch = master
