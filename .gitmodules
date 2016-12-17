@@ -735,3 +735,7 @@
 	path = engines/dbhero
 	url = git@github.com:catarse/dbhero.git
 	branch = master
+[submodule "apps/github-inbox"]
+	path = apps/github-inbox
+	url = git@github.com:andrew/github-inbox.git
+	branch = master
