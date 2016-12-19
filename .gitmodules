@@ -739,3 +739,7 @@
 	path = apps/github-inbox
 	url = git@github.com:andrew/github-inbox.git
 	branch = master
+[submodule "apps/worldcubeassociation.org"]
+	path = apps/worldcubeassociation.org
+	url = git@github.com:thewca/worldcubeassociation.org.git
+	branch = master

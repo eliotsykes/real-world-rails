@@ -702,9 +702,9 @@ A Rails engine to stream PostgreSQL Large Objects to clients [http://diogob.gith
 DBHero is a simple and elegant web interface to extract data clips from your app database. just plug and play ;)  
 [https://github.com/catarse/dbhero](https://github.com/catarse/dbhero)
 
-### github-inbox
-:postbox: Take back control of your GitHub Notifications  
-[https://github.com/andrew/github-inbox](https://github.com/andrew/github-inbox)
+### worldcubeassociation.org
+All of the code that runs on worldcubeassociation.org [https://www.worldcubeassociation.org/](https://www.worldcubeassociation.org/)  
+[https://github.com/thewca/worldcubeassociation.org](https://github.com/thewca/worldcubeassociation.org)
 
 
 ## Moved/Missing/Deleted Repos
@@ -718,3 +718,4 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/sunlightlabs/politwoops
 - https://github.com/projectjellyfish/api
 - https://github.com/peterkeen/payola
+- https://github.com/andrew/github-inbox
