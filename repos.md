@@ -365,7 +365,7 @@ Webapp to manage the workflow in Parliamentary Questions
 [https://github.com/ministryofjustice/parliamentary-questions](https://github.com/ministryofjustice/parliamentary-questions)
 
 ### github-awards
-Discover your ranking on github : [http://github-awards.com](http://github-awards.com)  
+Discover your ranking on github : [http://git-awards.com](http://git-awards.com)  
 [https://github.com/vdaubry/github-awards](https://github.com/vdaubry/github-awards)
 
 ### prison-visits
@@ -705,6 +705,10 @@ DBHero is a simple and elegant web interface to extract data clips from your app
 ### worldcubeassociation.org
 All of the code that runs on worldcubeassociation.org [https://www.worldcubeassociation.org/](https://www.worldcubeassociation.org/)  
 [https://github.com/thewca/worldcubeassociation.org](https://github.com/thewca/worldcubeassociation.org)
+
+### o_cms
+Outside CMS - Open source, easy to extend content management system for Rails  
+[https://github.com/benjaminayres/o_cms](https://github.com/benjaminayres/o_cms)
 
 
 ## Moved/Missing/Deleted Repos

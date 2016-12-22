@@ -743,3 +743,7 @@
 	path = apps/worldcubeassociation.org
 	url = git@github.com:thewca/worldcubeassociation.org.git
 	branch = master
+[submodule "engines/o_cms"]
+	path = engines/o_cms
+	url = git@github.com:benjaminayres/o_cms.git
+	branch = master
