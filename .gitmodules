@@ -747,3 +747,7 @@
 	path = engines/o_cms
 	url = git@github.com:benjaminayres/o_cms.git
 	branch = master
+[submodule "engines/field_test"]
+	path = engines/field_test
+	url = git@github.com:ankane/field_test.git
+	branch = master

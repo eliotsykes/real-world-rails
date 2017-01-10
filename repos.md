@@ -262,11 +262,11 @@ Serves mainstream formats, the homepage, and search on GOV.UK [https://www.gov.u
 [https://github.com/alphagov/frontend](https://github.com/alphagov/frontend)
 
 ### open-data-certificate
-The ODI's Open Data Certificate [https://certificates.theodi.org/](https://certificates.theodi.org/)  
+The mark of quality and trust for open data [https://certificates.theodi.org/](https://certificates.theodi.org/)  
 [https://github.com/theodi/open-data-certificate](https://github.com/theodi/open-data-certificate)
 
 ### csvlint
-[http://csvlint.io](http://csvlint.io)  
+ Check that your CSV files are valid [http://csvlint.io](http://csvlint.io)  
 [https://github.com/theodi/csvlint](https://github.com/theodi/csvlint)
 
 ### uk-postcodes
@@ -281,7 +281,7 @@ Secrets created by kevlar.io are kept until they are accessed, they are then del
 [https://github.com/adambutler/kevlar](https://github.com/adambutler/kevlar)
 
 ### myusa
-MyUSA is your one account for government. (More info: https://18f.gsa.gov/2015/05/18/myusa/) [https://my.usa.gov/](https://my.usa.gov/)  
+MyUSA was a single sign-on project for government, now deprecated. (More info: https://18f.gsa.gov/2015/05/18/myusa/)  
 [https://github.com/18F/myusa](https://github.com/18F/myusa)
 
 ### C2
@@ -638,10 +638,6 @@ Multimedia story telling for the web. [http://pageflow.io](http://pageflow.io)
 [Developer's release] Klaxon enables reporters and editors to monitor scores of sites and files on the web for newsworthy changes. [https://newsklaxon.org](https://newsklaxon.org)  
 [https://github.com/themarshallproject/klaxon](https://github.com/themarshallproject/klaxon)
 
-### mastodon
-A GNU Social-compatible microblogging server [https://mastodon.social](https://mastodon.social)  
-[https://github.com/Gargron/mastodon](https://github.com/Gargron/mastodon)
-
 ### cm42-central
 Fork and Evolution of the Fulcrum project - An agile project planning tool and Pivotal Tracker drop-in replacement [https://central.cm42.io](https://central.cm42.io)  
 [https://github.com/Codeminer42/cm42-central](https://github.com/Codeminer42/cm42-central)
@@ -710,6 +706,10 @@ All of the code that runs on worldcubeassociation.org [https://www.worldcubeasso
 Outside CMS - Open source, easy to extend content management system for Rails  
 [https://github.com/benjaminayres/o_cms](https://github.com/benjaminayres/o_cms)
 
+### field_test
+A/B testing for Rails  
+[https://github.com/ankane/field_test](https://github.com/ankane/field_test)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
@@ -722,4 +722,5 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/sunlightlabs/politwoops
 - https://github.com/projectjellyfish/api
 - https://github.com/peterkeen/payola
+- https://github.com/Gargron/mastodon
 - https://github.com/andrew/github-inbox
