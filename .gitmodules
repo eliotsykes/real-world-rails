@@ -751,3 +751,7 @@
 	path = engines/field_test
 	url = git@github.com:ankane/field_test.git
 	branch = master
+[submodule "apps/uberzeit"]
+	path = apps/uberzeit
+	url = git@github.com:ninech/uberzeit.git
+	branch = master
