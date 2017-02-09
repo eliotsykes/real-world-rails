@@ -35,6 +35,12 @@ bundle install
 echo "All done! Why not run some inspections? Run bin/rwr"
 ```
 
+## Other Real World Codebase Collections
+
+- Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
+- Real World Ember https://github.com/eliotsykes/real-world-ember
+- Know any others? Please open a PR and add the link here
+
 ## How you can analyze Real World Rails apps
 
 #### List models from *every* Real World Rails application
