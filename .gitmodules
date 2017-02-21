@@ -759,3 +759,7 @@
 	path = engines/browse-everything
 	url = git@github.com:projecthydra/browse-everything.git
 	branch = master
+[submodule "engines/local_time"]
+	path = engines/local_time
+	url = git@github.com:basecamp/local_time.git
+	branch = master
