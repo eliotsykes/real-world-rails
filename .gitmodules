@@ -755,3 +755,7 @@
 	path = apps/uberzeit
 	url = git@github.com:ninech/uberzeit.git
 	branch = master
+[submodule "engines/browse-everything"]
+	path = engines/browse-everything
+	url = git@github.com:projecthydra/browse-everything.git
+	branch = master
