@@ -763,3 +763,7 @@
 	path = engines/local_time
 	url = git@github.com:basecamp/local_time.git
 	branch = master
+[submodule "engines/easymon"]
+	path = engines/easymon
+	url = git@github.com:basecamp/easymon.git
+	branch = master
