@@ -767,3 +767,7 @@
 	path = engines/easymon
 	url = git@github.com:basecamp/easymon.git
 	branch = master
+[submodule "engines/motorhead"]
+	path = engines/motorhead
+	url = git@github.com:amatsuda/motorhead.git
+	branch = master
