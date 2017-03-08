@@ -771,3 +771,7 @@
 	path = engines/motorhead
 	url = git@github.com:amatsuda/motorhead.git
 	branch = master
+[submodule "apps/speakerline"]
+	path = apps/speakerline
+	url = git@github.com:nodunayo/speakerline.git
+	branch = master
