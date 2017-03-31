@@ -787,3 +787,7 @@
 	path = apps/lale-help
 	url = git@github.com:lale-help/lale-help.git
 	branch = master
+[submodule "apps/timeoverflow"]
+	path = apps/timeoverflow
+	url = git@github.com:coopdevs/timeoverflow.git
+	branch = develop
