@@ -807,3 +807,7 @@
 	path = engines/quick_search
 	url = git@github.com:NCSU-Libraries/quick_search.git
 	branch = master
+[submodule "engines/lentil"]
+	path = engines/lentil
+	url = git@github.com:NCSU-Libraries/lentil.git
+	branch = master
