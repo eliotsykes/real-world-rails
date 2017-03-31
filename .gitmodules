@@ -803,3 +803,7 @@
 	path = engines/communityengine
 	url = git@github.com:bborn/communityengine.git
 	branch = master
+[submodule "engines/quick_search"]
+	path = engines/quick_search
+	url = git@github.com:NCSU-Libraries/quick_search.git
+	branch = master
