@@ -130,6 +130,13 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 git submodule add -b master git@github.com:githubuser/foo.git apps/foo
 ```
 
+Regenerate [`repos.md`](repos.md):
+
+```bash
+# Requires valid GITHUB_ACCESS_TOKEN
+bin/get_project_data > repos.md
+```
+
 #### Updating the Rails apps submodules to latest
 
 The Rails apps in `apps/` are git submodules. Git submodules are locked to a revision and don't stay in sync with the latest revision.
