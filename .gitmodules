@@ -799,3 +799,7 @@
 	path = apps/openfoodnetwork
 	url = git@github.com:openfoodfoundation/openfoodnetwork.git
 	branch = master
+[submodule "engines/communityengine"]
+	path = engines/communityengine
+	url = git@github.com:bborn/communityengine.git
+	branch = master
