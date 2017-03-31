@@ -10,7 +10,7 @@ Rails code running the Lobsters link aggregation site [https://lobste.rs](https:
 [https://github.com/jcs/lobsters](https://github.com/jcs/lobsters)
 
 ### spree
-Spree is a complete open source e-commerce solution for Ruby on Rails. [http://spreecommerce.com](http://spreecommerce.com)  
+Spree is a complete open source ecommerce solution for Ruby on Rails. [http://spreecommerce.com](http://spreecommerce.com)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### huginn
@@ -133,10 +133,6 @@ A self hosted Web publishing platform on Rails. [http://demo.publify.co](http://
 The web application that runs http://contributors.rubyonrails.org  
 [https://github.com/fxn/rails-contributors](https://github.com/fxn/rails-contributors)
 
-### tomatoes
-Pomodoro technique® online time tracker [http://tomato.es](http://tomato.es)  
-[https://github.com/potomak/tomatoes](https://github.com/potomak/tomatoes)
-
 ### openstreetmap-website
 Mirror of the Rails application powering http://www.openstreetmap.org (hosted at git://git.openstreetmap.org/rails.git)  
 [https://github.com/openstreetmap/openstreetmap-website](https://github.com/openstreetmap/openstreetmap-website)
@@ -249,10 +245,6 @@ Open source toolkit for voice services; with special focus to the needs of mediu
 Xrono is an asset and time tracking application for consultants and consulting companies. [http://www.xrono.org](http://www.xrono.org)  
 [https://github.com/isotope11/xrono](https://github.com/isotope11/xrono)
 
-### signonotron2
-Single sign-on service for GOV.UK  
-[https://github.com/alphagov/signonotron2](https://github.com/alphagov/signonotron2)
-
 ### publisher
 The publishing tool for mainstream content on GOV.UK  
 [https://github.com/alphagov/publisher](https://github.com/alphagov/publisher)
@@ -271,10 +263,6 @@ The mark of quality and trust for open data [https://certificates.theodi.org/](h
 
 ### uk-postcodes
 [https://github.com/theodi/uk-postcodes](https://github.com/theodi/uk-postcodes)
-
-### panopticon
-App that holds some of the content on GOV.UK. Is being deprecated.  
-[https://github.com/alphagov/panopticon](https://github.com/alphagov/panopticon)
 
 ### kevlar
 Secrets created by kevlar.io are kept until they are accessed, they are then deleted permanently from the server. [http://kevlar.io](http://kevlar.io)  
@@ -297,7 +285,7 @@ RSS Reader [https://feedbin.com](https://feedbin.com)
 [https://github.com/feedbin/feedbin](https://github.com/feedbin/feedbin)
 
 ### hummingbird
-:tv: Probably the coolest anime discovery platform around. [http://hummingbird.me/](http://hummingbird.me/)  
+:tv: Probably the coolest anime discovery platform around. [https://kitsu.io](https://kitsu.io)  
 [https://github.com/hummingbird-me/hummingbird](https://github.com/hummingbird-me/hummingbird)
 
 ### gitlab-ci
@@ -415,12 +403,8 @@ RESTful Anti-Virus Endpoint server - provides a HTTPS endpoint to scan files for
 ### devise_authentication_api
 [https://github.com/ministryofjustice/devise_authentication_api](https://github.com/ministryofjustice/devise_authentication_api)
 
-### present
-Activity Tracking for Test Double  
-[https://github.com/testdouble/present](https://github.com/testdouble/present)
-
 ### orientation
-Fight information rot. [http://orientation.io](http://orientation.io)  
+Your best weapon in the fight against outdated documentation. [http://orientation.io](http://orientation.io)  
 [https://github.com/orientation/orientation](https://github.com/orientation/orientation)
 
 ### eventkit-rails
@@ -488,7 +472,7 @@ Project Management, Collaboration and Time Tracking.
 [https://github.com/ari/jobsworth](https://github.com/ari/jobsworth)
 
 ### openproject
-OpenProject is a web-based project management system built on Ruby on Rails [https://www.openproject.org](https://www.openproject.org)  
+OpenProject is the leading open source project management software. [https://www.openproject.org](https://www.openproject.org)  
 [https://github.com/opf/openproject](https://github.com/opf/openproject)
 
 ### e-manifest
@@ -635,7 +619,7 @@ Multimedia story telling for the web. [http://pageflow.io](http://pageflow.io)
 [https://github.com/codevise/pageflow](https://github.com/codevise/pageflow)
 
 ### klaxon
-[Developer's release] Klaxon enables reporters and editors to monitor scores of sites and files on the web for newsworthy changes. [https://newsklaxon.org](https://newsklaxon.org)  
+Klaxon enables reporters and editors to monitor scores of sites on the web for newsworthy changes. [https://newsklaxon.org](https://newsklaxon.org)  
 [https://github.com/themarshallproject/klaxon](https://github.com/themarshallproject/klaxon)
 
 ### cm42-central
@@ -671,7 +655,7 @@ A Rails Engine which provides a customizable status page on your application. [h
 [https://github.com/envylabs/rapporteur](https://github.com/envylabs/rapporteur)
 
 ### rucaptcha
-This is a Captcha gem for Rails Application. It run ImageMagick command to draw Captcha image. [http://huacnlee.com/rucaptcha](http://huacnlee.com/rucaptcha)  
+This is a Captcha gem for Rails Application. No dependencies. No ImageMagick, No RMagick. [http://huacnlee.com/rucaptcha](http://huacnlee.com/rucaptcha)  
 [https://github.com/huacnlee/rucaptcha](https://github.com/huacnlee/rucaptcha)
 
 ### talking_stick
@@ -710,16 +694,80 @@ Outside CMS - Open source, easy to extend content management system for Rails
 A/B testing for Rails  
 [https://github.com/ankane/field_test](https://github.com/ankane/field_test)
 
+### uberzeit
+Time and activity tracking web application for the rest of us.  
+[https://github.com/ninech/uberzeit](https://github.com/ninech/uberzeit)
+
+### browse-everything
+Rails engine providing access to files in cloud storage  
+[https://github.com/projecthydra/browse-everything](https://github.com/projecthydra/browse-everything)
+
+### local_time
+Rails engine for cache-friendly, client-side local time  
+[https://github.com/basecamp/local_time](https://github.com/basecamp/local_time)
+
+### easymon
+Easy Monitoring  
+[https://github.com/basecamp/easymon](https://github.com/basecamp/easymon)
+
+### motorhead
+A Rails Engine framework that helps safe and rapid feature prototyping  
+[https://github.com/amatsuda/motorhead](https://github.com/amatsuda/motorhead)
+
+### speakerline
+Showcasing speakers' proposals and timelines in an effort to demystify the CFP process and help new speakers get started. [http://speakerline.io](http://speakerline.io)  
+[https://github.com/nodunayo/speakerline](https://github.com/nodunayo/speakerline)
+
+### feedbunch
+A simple and elegant feed reader. [http://feedbunch.com](http://feedbunch.com)  
+[https://github.com/amatriain/feedbunch](https://github.com/amatriain/feedbunch)
+
+### followr
+Rails Twitter follow & unfollow bot based on hashtags of user choice [http://followr.club](http://followr.club)  
+[https://github.com/kevinchandler/followr](https://github.com/kevinchandler/followr)
+
+### lale-help
+A collaborative platform for volunteer refugee support. [http://lale.help](http://lale.help)  
+[https://github.com/lale-help/lale-help](https://github.com/lale-help/lale-help)
+
+### timeoverflow
+A time banking system  
+[https://github.com/coopdevs/timeoverflow](https://github.com/coopdevs/timeoverflow)
+
+### katuma
+Katuma backend API [http://www.katuma.org](http://www.katuma.org)  
+[https://github.com/coopdevs/katuma](https://github.com/coopdevs/katuma)
+
+### openfoodnetwork
+Connect suppliers, distributors and consumers for the sale and purchase of local produce [http://openfoodnetwork.org/](http://openfoodnetwork.org/)  
+[https://github.com/openfoodfoundation/openfoodnetwork](https://github.com/openfoodfoundation/openfoodnetwork)
+
+### communityengine
+Adds basic social networking capabilities to your existing application, including users, blogs, photos, clippings, favorites, and more. [http://www.communityengine.org](http://www.communityengine.org)  
+[https://github.com/bborn/communityengine](https://github.com/bborn/communityengine)
+
+### quick_search
+QuickSearch is a toolkit for easily creating custom bento-box search applications [http://www.lib.ncsu.edu/reports/quicksearch](http://www.lib.ncsu.edu/reports/quicksearch)  
+[https://github.com/NCSU-Libraries/quick_search](https://github.com/NCSU-Libraries/quick_search)
+
+### lentil
+lentil is a Ruby on Rails Engine that supports the harvesting of images from Instagram and provides several browsing views, mechanisms for sharing, tools for users to select their favorite images, an administrative interface for moderating images, and a system for harvesting images and submitting donor agreements in preparation of ingest into external repositories. [http://d.lib.ncsu.edu/myhuntlibrary](http://d.lib.ncsu.edu/myhuntlibrary)  
+[https://github.com/NCSU-Libraries/lentil](https://github.com/NCSU-Libraries/lentil)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
 
 - https://github.com/FlyoverWorks/storytime
 - https://github.com/thoughtbot/hound
+- https://github.com/potomak/tomatoes
 - https://github.com/girldevelopit/gdi-new-site
+- https://github.com/alphagov/signonotron2
+- https://github.com/alphagov/panopticon
 - https://github.com/ruby-china/ruby-china
 - https://github.com/andrew/contribulator
 - https://github.com/sunlightlabs/politwoops
+- https://github.com/testdouble/present
 - https://github.com/projectjellyfish/api
 - https://github.com/peterkeen/payola
 - https://github.com/Gargron/mastodon
