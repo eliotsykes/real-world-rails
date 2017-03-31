@@ -775,3 +775,7 @@
 	path = apps/speakerline
 	url = git@github.com:nodunayo/speakerline.git
 	branch = master
+[submodule "apps/feedbunch"]
+	path = apps/feedbunch
+	url = git@github.com:amatriain/feedbunch.git
+	branch = master
