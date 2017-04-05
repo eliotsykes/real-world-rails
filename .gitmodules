@@ -819,3 +819,7 @@
 	path = apps/freshfoodconnect
 	url = git@github.com:thoughtbot/freshfoodconnect.git
 	branch = master
+[submodule "engines/french_toast"]
+	path = engines/french_toast
+	url = git@github.com:thoughtbot/french_toast.git
+	branch = master
