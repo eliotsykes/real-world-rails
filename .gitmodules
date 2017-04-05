@@ -811,3 +811,7 @@
 	path = engines/lentil
 	url = git@github.com:NCSU-Libraries/lentil.git
 	branch = master
+[submodule "apps/pester"]
+	path = apps/pester
+	url = git@github.com:thoughtbot/pester.git
+	branch = master
