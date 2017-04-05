@@ -815,3 +815,7 @@
 	path = apps/pester
 	url = git@github.com:thoughtbot/pester.git
 	branch = master
+[submodule "apps/freshfoodconnect"]
+	path = apps/freshfoodconnect
+	url = git@github.com:thoughtbot/freshfoodconnect.git
+	branch = master
