@@ -754,6 +754,17 @@ QuickSearch is a toolkit for easily creating custom bento-box search application
 lentil is a Ruby on Rails Engine that supports the harvesting of images from Instagram and provides several browsing views, mechanisms for sharing, tools for users to select their favorite images, an administrative interface for moderating images, and a system for harvesting images and submitting donor agreements in preparation of ingest into external repositories. [http://d.lib.ncsu.edu/myhuntlibrary](http://d.lib.ncsu.edu/myhuntlibrary)  
 [https://github.com/NCSU-Libraries/lentil](https://github.com/NCSU-Libraries/lentil)
 
+### pester
+Automatically ask for a PR review  
+[https://github.com/thoughtbot/pester](https://github.com/thoughtbot/pester)
+
+### freshfoodconnect
+[https://github.com/thoughtbot/freshfoodconnect](https://github.com/thoughtbot/freshfoodconnect)
+
+### french_toast
+Communicate information about background jobs  
+[https://github.com/thoughtbot/french_toast](https://github.com/thoughtbot/french_toast)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
