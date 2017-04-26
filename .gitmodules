@@ -823,3 +823,7 @@
 	path = engines/french_toast
 	url = git@github.com:thoughtbot/french_toast.git
 	branch = master
+[submodule "apps/postal"]
+	path = apps/postal
+	url = git@github.com:atech/postal.git
+	branch = master
