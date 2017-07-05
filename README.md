@@ -39,6 +39,7 @@ echo "All done! Why not run some inspections? Run bin/rwr"
 
 - Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
 - Real World Ember https://github.com/eliotsykes/real-world-ember
+- Real World React https://github.com/jeromedalbert/real-world-react
 - Know any others? Please open a PR and add the link here
 
 ## How you can analyze Real World Rails apps
