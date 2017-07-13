@@ -44,6 +44,20 @@ echo "All done! Why not run some inspections? Run bin/rwr"
 
 ## How you can analyze Real World Rails apps
 
+#### Find job subclasses
+
+This will find most, but not all job subclasses (requires [ag](https://github.com/ggreer/the_silver_searcher#installing)):
+
+```bash
+# Outputs jobs source in terminal
+ag --ruby '< [A-Za-z]+Job\b'
+
+# Open each job in your editor (e.g. atom)
+ag --ruby -l '< [A-Za-z]+Job\b' | xargs atom
+```
+
+(used to research [Real World Rails Background Jobs](https://www.eliotsykes.com/real-world-rails-background-jobs))
+
 #### List models from *every* Real World Rails application
 
 Interested in seeing how your fellow developers name their models? Run:
