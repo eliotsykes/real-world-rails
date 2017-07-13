@@ -831,3 +831,7 @@
 	path = apps/hyku
 	url = git@github.com:samvera-labs/hyku.git
 	branch = master
+[submodule "apps/crimethinc-website"]
+	path = apps/crimethinc-website
+	url = git@github.com:crimethinc/website.git
+	branch = master
