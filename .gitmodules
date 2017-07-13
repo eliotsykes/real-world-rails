@@ -827,3 +827,7 @@
 	path = apps/postal
 	url = git@github.com:atech/postal.git
 	branch = master
+[submodule "apps/hyku"]
+	path = apps/hyku
+	url = git@github.com:samvera-labs/hyku.git
+	branch = master
