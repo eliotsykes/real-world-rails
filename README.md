@@ -150,6 +150,9 @@ Regenerate [`repos.md`](repos.md):
 ```bash
 # Requires valid GITHUB_ACCESS_TOKEN
 bin/get_project_data > repos.md
+
+# OR, if GitHub GraphQL API v4 schema has changed, update cached copy of schema:
+FETCH_LATEST_SCHEMA=true bin/get_project_data > repos.md
 ```
 
 #### Updating the Rails apps submodules to latest
