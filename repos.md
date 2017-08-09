@@ -10,15 +10,11 @@ Rails code running the Lobsters link aggregation site [https://lobste.rs](https:
 [https://github.com/jcs/lobsters](https://github.com/jcs/lobsters)
 
 ### spree
-Spree is a complete open source ecommerce solution for Ruby on Rails. [http://spreecommerce.com](http://spreecommerce.com)  
+Spree is a complete open source ecommerce solution for Ruby on Rails [https://guides.spreecommerce.org](https://guides.spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
-### huginn
-Create agents that monitor and act on your behalf.  Your agents are standing by!  
-[https://github.com/cantino/huginn](https://github.com/cantino/huginn)
-
 ### discourse
-A platform for community discussion. Free, open, simple. [http://www.discourse.org](http://www.discourse.org)  
+A platform for community discussion. Free, open, simple. [https://www.discourse.org](https://www.discourse.org)  
 [https://github.com/discourse/discourse](https://github.com/discourse/discourse)
 
 ### diaspora
@@ -82,7 +78,7 @@ Core of the Amahi Platform, a web app in RoR
 [https://github.com/amahi/platform](https://github.com/amahi/platform)
 
 ### people
-PeopleApp: easily manage people within the projects! [https://netguru.co/opensource](https://netguru.co/opensource)  
+PeopleApp: easily manage people within the projects! [https://www.netguru.co/resources/open-source](https://www.netguru.co/resources/open-source)  
 [https://github.com/netguru/people](https://github.com/netguru/people)
 
 ### catarse
@@ -134,7 +130,7 @@ The web application that runs http://contributors.rubyonrails.org
 [https://github.com/fxn/rails-contributors](https://github.com/fxn/rails-contributors)
 
 ### openstreetmap-website
-Mirror of the Rails application powering http://www.openstreetmap.org (hosted at git://git.openstreetmap.org/rails.git)  
+The rails application powering http://www.openstreetmap.org/  
 [https://github.com/openstreetmap/openstreetmap-website](https://github.com/openstreetmap/openstreetmap-website)
 
 ### alaveteli
@@ -146,7 +142,7 @@ Open Source Billing a super simple way to create and send invoices and receive p
 [https://github.com/vteams/open-source-billing](https://github.com/vteams/open-source-billing)
 
 ### asciinema.org
-asciinema.org web app [https://asciinema.org](https://asciinema.org)  
+asciinema hosting web app [https://asciinema.org](https://asciinema.org)  
 [https://github.com/asciinema/asciinema.org](https://github.com/asciinema/asciinema.org)
 
 ### brimir
@@ -174,7 +170,7 @@ A attractive and complete Rails engine providing e-commerce functionality for an
 [https://github.com/tryshoppe/shoppe](https://github.com/tryshoppe/shoppe)
 
 ### whitehall
-Rails application that publishes and renders most pages on www.gov.uk/government  
+Publishes government content on GOV.UK [https://docs.publishing.service.gov.uk/apps/whitehall.html](https://docs.publishing.service.gov.uk/apps/whitehall.html)  
 [https://github.com/alphagov/whitehall](https://github.com/alphagov/whitehall)
 
 ### adopt-a-hydrant
@@ -246,11 +242,11 @@ Xrono is an asset and time tracking application for consultants and consulting c
 [https://github.com/isotope11/xrono](https://github.com/isotope11/xrono)
 
 ### publisher
-The publishing tool for mainstream content on GOV.UK  
+Publishes mainstream content on GOV.UK [https://docs.publishing.service.gov.uk/apps/publisher.html](https://docs.publishing.service.gov.uk/apps/publisher.html)  
 [https://github.com/alphagov/publisher](https://github.com/alphagov/publisher)
 
 ### frontend
-Serves mainstream formats, the homepage, and search on GOV.UK [https://www.gov.uk/](https://www.gov.uk/)  
+Serves mainstream formats, the homepage, and search on GOV.UK [https://docs.publishing.service.gov.uk/apps/frontend.html](https://docs.publishing.service.gov.uk/apps/frontend.html)  
 [https://github.com/alphagov/frontend](https://github.com/alphagov/frontend)
 
 ### open-data-certificate
@@ -289,7 +285,7 @@ RSS Reader [https://feedbin.com](https://feedbin.com)
 [https://github.com/hummingbird-me/hummingbird](https://github.com/hummingbird-me/hummingbird)
 
 ### gitlab-ci
-Mirror of GitLab CI, please use GitLab.com repo for issues [https://gitlab.com/gitlab-org/gitlab-ce](https://gitlab.com/gitlab-org/gitlab-ce)  
+DEPRECATED - Please use the GitLab.com issue tracker [https://gitlab.com/gitlab-org/gitlab-ce/issues](https://gitlab.com/gitlab-org/gitlab-ce/issues)  
 [https://github.com/gitlabhq/gitlab-ci](https://github.com/gitlabhq/gitlab-ci)
 
 ### panamax-ui
@@ -339,10 +335,6 @@ Phez - the free speech platform
 ### atet
 Application for Applying To (an) Employment Tribunal   
 [https://github.com/ministryofjustice/atet](https://github.com/ministryofjustice/atet)
-
-### advocate-defence-payments
-Claim for crown court defence  
-[https://github.com/ministryofjustice/advocate-defence-payments](https://github.com/ministryofjustice/advocate-defence-payments)
 
 ### fr-staffapp
 Help with Court Fees Staff Interface  
@@ -412,11 +404,11 @@ An open source project for integrating with SendGrid's Event Webhook.
 [https://github.com/sendgrid/eventkit-rails](https://github.com/sendgrid/eventkit-rails)
 
 ### imminence
-"Find My Nearest" API and management tools  
+"Find My Nearest" API and management tools on GOV.UK [https://docs.publishing.service.gov.uk/apps/imminence.html](https://docs.publishing.service.gov.uk/apps/imminence.html)  
 [https://github.com/alphagov/imminence](https://github.com/alphagov/imminence)
 
 ### foodsoft
-Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). [http://www.foodcoops.net/](http://www.foodcoops.net/)  
+Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). [https://foodcoops.github.io/](https://foodcoops.github.io/)  
 [https://github.com/foodcoops/foodsoft](https://github.com/foodcoops/foodsoft)
 
 ### foreman
@@ -460,7 +452,7 @@ Long Running Ruby Benchmarks [https://rubybench.org](https://rubybench.org)
 [https://github.com/ruby-bench/ruby-bench-web](https://github.com/ruby-bench/ruby-bench-web)
 
 ### alonetone
-The kick ass, open source, non-commercial home for musicians and their music [http://alonetone.com](http://alonetone.com)  
+The kick ass, open source, non-commercial home for musicians and their music [https://alonetone.com](https://alonetone.com)  
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
 ### alchemy_cms
@@ -555,7 +547,7 @@ Simple, powerful email tracking for Rails
 [https://github.com/ankane/ahoy_email](https://github.com/ankane/ahoy_email)
 
 ### chartkick
-Create beautiful JavaScript charts with one line of Ruby [http://chartkick.com](http://chartkick.com)  
+Create beautiful JavaScript charts with one line of Ruby [https://www.chartkick.com](https://www.chartkick.com)  
 [https://github.com/ankane/chartkick](https://github.com/ankane/chartkick)
 
 ### notable
@@ -698,10 +690,6 @@ A/B testing for Rails
 Time and activity tracking web application for the rest of us.  
 [https://github.com/ninech/uberzeit](https://github.com/ninech/uberzeit)
 
-### browse-everything
-Rails engine providing access to files in cloud storage  
-[https://github.com/projecthydra/browse-everything](https://github.com/projecthydra/browse-everything)
-
 ### local_time
 Rails engine for cache-friendly, client-side local time  
 [https://github.com/basecamp/local_time](https://github.com/basecamp/local_time)
@@ -723,7 +711,7 @@ A simple and elegant feed reader. [http://feedbunch.com](http://feedbunch.com)
 [https://github.com/amatriain/feedbunch](https://github.com/amatriain/feedbunch)
 
 ### followr
-Rails Twitter follow & unfollow bot based on hashtags of user choice [http://followr.club](http://followr.club)  
+Rails Twitter follow & unfollow bot based on hashtags of user choice [http://twitterblast.herokuapp.com/](http://twitterblast.herokuapp.com/)  
 [https://github.com/kevinchandler/followr](https://github.com/kevinchandler/followr)
 
 ### lale-help
@@ -747,7 +735,7 @@ Adds basic social networking capabilities to your existing application, includin
 [https://github.com/bborn/communityengine](https://github.com/bborn/communityengine)
 
 ### quick_search
-QuickSearch is a toolkit for easily creating custom bento-box search applications [http://www.lib.ncsu.edu/reports/quicksearch](http://www.lib.ncsu.edu/reports/quicksearch)  
+QuickSearch is a toolkit for easily creating custom bento-box search applications [https://www.lib.ncsu.edu/projects/quicksearch](https://www.lib.ncsu.edu/projects/quicksearch)  
 [https://github.com/NCSU-Libraries/quick_search](https://github.com/NCSU-Libraries/quick_search)
 
 ### lentil
@@ -765,10 +753,27 @@ Automatically ask for a PR review
 Communicate information about background jobs  
 [https://github.com/thoughtbot/french_toast](https://github.com/thoughtbot/french_toast)
 
+### postal
+📨 A fully featured open source mail delivery platform for incoming & outgoing e-mail  
+[https://github.com/atech/postal](https://github.com/atech/postal)
+
+### hyku
+Hyku: A turnkey Samvera application built on the latest and greatest community components. Brought to you by the Hydra-in-a-Box project partners and IMLS. [http://hydrainabox.samvera.org/](http://hydrainabox.samvera.org/)  
+[https://github.com/samvera-labs/hyku](https://github.com/samvera-labs/hyku)
+
+### website
+Rails app that powers crimethinc.com [https://crimethinc.com](https://crimethinc.com)  
+[https://github.com/crimethinc/website](https://github.com/crimethinc/website)
+
+### Claim-for-Crown-Court-Defence
+Claim for Crown Court Defence, formerly Advocate Defence Payments (ADP), aka Crime Billing Online (CBO)  
+[https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence](https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
 
+- https://github.com/cantino/huginn
 - https://github.com/FlyoverWorks/storytime
 - https://github.com/thoughtbot/hound
 - https://github.com/potomak/tomatoes
@@ -778,8 +783,8 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/ruby-china/ruby-china
 - https://github.com/andrew/contribulator
 - https://github.com/sunlightlabs/politwoops
-- https://github.com/testdouble/present
 - https://github.com/projectjellyfish/api
 - https://github.com/peterkeen/payola
 - https://github.com/Gargron/mastodon
 - https://github.com/andrew/github-inbox
+- https://github.com/projecthydra/browse-everything

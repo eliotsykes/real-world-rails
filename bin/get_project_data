@@ -67,7 +67,7 @@ module GitHub
     end
   end
 
-  fetch_latest_schema = false
+  fetch_latest_schema = ENV['FETCH_LATEST_SCHEMA'] == 'true'
 
   if fetch_latest_schema
     Schema = GraphQL::Client.load_schema(HTTP)
@@ -110,7 +110,7 @@ module GitHub
         fragment RepoFragment on Repository {
           name
           description
-          homepageURL
+          homepageUrl
         }
       QUERY
 
@@ -121,13 +121,13 @@ module GitHub
         raise error_msg
       end
 
-      response.data.data.each_with_index do |(query_id, result), i|
+      response.data.to_h.each_with_index do |(query_id, result), i|
         repo = repos[i]
         if result.nil? || result['repository'].nil?
           missing_repos << repo
         else
           attributes = result['repository']
-          name, description, homepage_url = attributes.values_at('name', 'description' ,'homepageURL')
+          name, description, homepage_url = attributes.values_at('name', 'description' ,'homepageUrl')
 
           puts "\n### #{name}"
 
