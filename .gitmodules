@@ -374,10 +374,6 @@
 	path = apps/atet
 	url = git@github.com:ministryofjustice/atet.git
 	branch = master
-[submodule "apps/advocate-defence-payments"]
-	path = apps/advocate-defence-payments
-	url = git@github.com:ministryofjustice/advocate-defence-payments.git
-	branch = develop
 [submodule "apps/fr-staffapp"]
 	path = apps/fr-staffapp
 	url = git@github.com:ministryofjustice/fr-staffapp.git
@@ -834,4 +830,8 @@
 [submodule "apps/crimethinc-website"]
 	path = apps/crimethinc-website
 	url = git@github.com:crimethinc/website.git
+	branch = master
+[submodule "apps/claim-for-crown-court-defence"]
+	path = apps/claim-for-crown-court-defence
+	url = git@github.com:ministryofjustice/Claim-for-Crown-Court-Defence.git
 	branch = master
