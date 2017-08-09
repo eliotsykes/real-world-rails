@@ -166,6 +166,21 @@ To update the revisions, run:
 git submodule foreach git pull
 ```
 
+#### How to remove a git submodule
+
+Only use this if a previously public repo has been removed:
+
+```bash
+# Remove the submodule from .git/config
+git submodule deinit -f path/to/submodule
+
+# Remove the submodule from .git/modules
+rm -rf .git/modules/path/to/submodule
+
+# Remove from .gitmodules and remove the submodule directory
+git rm -f path/to/submodule
+```
+
 #### Writing an Inspector? Some docs to help understand AST, Parser&hellip;
 
 The [inspectors](lib/real_world_rails/inspectors) are responsible for the analysis of the Rails apps.
