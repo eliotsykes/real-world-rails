@@ -434,10 +434,6 @@
 	path = apps/devise_authentication_api
 	url = git@github.com:ministryofjustice/devise_authentication_api.git
 	branch = master
-[submodule "apps/present"]
-	path = apps/present
-	url = git@github.com:testdouble/present.git
-	branch = master
 [submodule "apps/orientation"]
 	path = apps/orientation
 	url = git@github.com:orientation/orientation.git
