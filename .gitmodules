@@ -831,3 +831,7 @@
 	path = apps/claim-for-crown-court-defence
 	url = git@github.com:ministryofjustice/Claim-for-Crown-Court-Defence.git
 	branch = master
+[submodule "apps/bike_index"]
+	path = apps/bike_index
+	url = git@github.com:bikeindex/bike_index.git
+	branch = master
