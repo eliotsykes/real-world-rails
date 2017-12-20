@@ -835,3 +835,7 @@
 	path = apps/bike_index
 	url = git@github.com:bikeindex/bike_index.git
 	branch = master
+[submodule "apps/coursemology2"]
+	path = apps/coursemology2
+	url = git@github.com:Coursemology/coursemology2.git
+	branch = master
