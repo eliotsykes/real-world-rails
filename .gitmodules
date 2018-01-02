@@ -839,3 +839,7 @@
 	path = apps/coursemology2
 	url = git@github.com:Coursemology/coursemology2.git
 	branch = master
+[submodule "engines/hyrax"]
+	path = engines/hyrax
+	url = git@github.com:samvera/hyrax.git
+	branch = master
