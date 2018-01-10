@@ -843,3 +843,7 @@
 	path = engines/hyrax
 	url = git@github.com:samvera/hyrax.git
 	branch = master
+[submodule "apps/wiki_edu_dashboard"]
+	path = apps/wiki_edu_dashboard
+	url = git@github.com:WikiEducationFoundation/WikiEduDashboard.git
+	branch = master
