@@ -847,3 +847,7 @@
 	path = apps/wiki_edu_dashboard
 	url = git@github.com:WikiEducationFoundation/WikiEduDashboard.git
 	branch = master
+[submodule "apps/envizon"]
+	path = apps/envizon
+	url = git@github.com:evait-security/envizon.git
+	branch = master
