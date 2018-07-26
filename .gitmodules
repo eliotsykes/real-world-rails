@@ -406,10 +406,6 @@
 	path = apps/ds-auth
 	url = git@github.com:ministryofjustice/ds-auth.git
 	branch = master
-[submodule "apps/vms"]
-	path = apps/vms
-	url = git@github.com:ministryofjustice/vms.git
-	branch = master
 [submodule "apps/defence-request-service-rota"]
 	path = apps/defence-request-service-rota
 	url = git@github.com:ministryofjustice/defence-request-service-rota.git
@@ -418,14 +414,6 @@
 	path = apps/defence-request-service
 	url = git@github.com:ministryofjustice/defence-request-service.git
 	branch = master
-[submodule "apps/tribunals_api"]
-	path = apps/tribunals_api
-	url = git@github.com:ministryofjustice/tribunals_api.git
-	branch = develop
-[submodule "apps/tribunals_frontend"]
-	path = apps/tribunals_frontend
-	url = git@github.com:ministryofjustice/tribunals_frontend.git
-	branch = develop
 [submodule "apps/rave-server"]
 	path = apps/rave-server
 	url = git@github.com:ministryofjustice/rave-server.git
