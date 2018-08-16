@@ -5,12 +5,8 @@
 Trailmix. A private place to write. [https://www.trailmix.life](https://www.trailmix.life)  
 [https://github.com/codecation/trailmix](https://github.com/codecation/trailmix)
 
-### lobsters
-Rails code running the Lobsters link aggregation site [https://lobste.rs](https://lobste.rs)  
-[https://github.com/jcs/lobsters](https://github.com/jcs/lobsters)
-
 ### spree
-Spree is a complete open source ecommerce solution for Ruby on Rails [https://guides.spreecommerce.org](https://guides.spreecommerce.org)  
+Spree is a complete, modular & API-driven open source ecommerce solution for Ruby on Rails [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### discourse
@@ -26,7 +22,7 @@ A Ruby on Rails blogging app for the fashionable developer. It's better than Mep
 [https://github.com/xaviershay/enki](https://github.com/xaviershay/enki)
 
 ### refinerycms
-An extendable Ruby on Rails CMS that supports Rails 4.2+ [http://refinerycms.com](http://refinerycms.com)  
+An extendable Ruby on Rails CMS that supports Rails 5.1+ [http://refinerycms.com](http://refinerycms.com)  
 [https://github.com/refinery/refinerycms](https://github.com/refinery/refinerycms)
 
 ### radiant
@@ -34,7 +30,7 @@ Radiant is a no-fluff, open source content management system designed for small 
 [https://github.com/radiant/radiant](https://github.com/radiant/radiant)
 
 ### gitlabhq
-GitLab CE | Please open new issues in our issue tracker on GitLab.com [https://gitlab.com/gitlab-org/gitlab-ce/issues](https://gitlab.com/gitlab-org/gitlab-ce/issues)  
+GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com [https://about.gitlab.com/getting-help/](https://about.gitlab.com/getting-help/)  
 [https://github.com/gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq)
 
 ### fat_free_crm
@@ -85,10 +81,6 @@ PeopleApp: easily manage people within the projects! [https://www.netguru.co/res
 The first open source crowdfunding platform for creative projects in the world [http://catarse.me](http://catarse.me)  
 [https://github.com/catarse/catarse](https://github.com/catarse/catarse)
 
-### projectmonitor
-Big Visible Chart CI aggregator [http://ci.pivotallabs.com](http://ci.pivotallabs.com)  
-[https://github.com/pivotal/projectmonitor](https://github.com/pivotal/projectmonitor)
-
 ### canvas-lms
 The open LMS by Instructure, Inc. [https://github.com/instructure/canvas-lms/wiki](https://github.com/instructure/canvas-lms/wiki)  
 [https://github.com/instructure/canvas-lms](https://github.com/instructure/canvas-lms)
@@ -98,7 +90,7 @@ Time registration that doesn't suck [https://happyhours.io](https://happyhours.i
 [https://github.com/DefactoSoftware/Hours](https://github.com/DefactoSoftware/Hours)
 
 ### loomio
-Loomio is an open-source web application that helps groups make better decisions together. [www.loomio.org](www.loomio.org)  
+Loomio is an open-source web application that helps groups of people to make decisions together. [https://www.loomio.org](https://www.loomio.org)  
 [https://github.com/loomio/loomio](https://github.com/loomio/loomio)
 
 ### help
@@ -118,16 +110,12 @@ An event aggregator based in Portland, OR [http://calagator.org](http://calagato
 [https://github.com/calagator/calagator](https://github.com/calagator/calagator)
 
 ### 24pullrequests
-:christmas_tree: Giving back little gifts of code for Christmas [http://24pullrequests.com/](http://24pullrequests.com/)  
+:christmas_tree: Giving back little gifts of code [https://24pullrequests.com/](https://24pullrequests.com/)  
 [https://github.com/24pullrequests/24pullrequests](https://github.com/24pullrequests/24pullrequests)
 
 ### publify
-A self hosted Web publishing platform on Rails. [http://demo.publify.co](http://demo.publify.co)  
+A self hosted Web publishing platform on Rails. [http://www.publify.co](http://www.publify.co)  
 [https://github.com/publify/publify](https://github.com/publify/publify)
-
-### rails-contributors
-The web application that runs http://contributors.rubyonrails.org  
-[https://github.com/fxn/rails-contributors](https://github.com/fxn/rails-contributors)
 
 ### openstreetmap-website
 The rails application powering http://www.openstreetmap.org/  
@@ -138,20 +126,12 @@ Provide a Freedom of Information request system for your jurisdiction [http://al
 [https://github.com/mysociety/alaveteli](https://github.com/mysociety/alaveteli)
 
 ### open-source-billing
-Open Source Billing a super simple way to create and send invoices and receive payments online.   
+Open Source Billing a super simple way to create and send invoices and receive payments online.  [http://opensourcebilling.org](http://opensourcebilling.org)  
 [https://github.com/vteams/open-source-billing](https://github.com/vteams/open-source-billing)
-
-### asciinema.org
-asciinema hosting web app [https://asciinema.org](https://asciinema.org)  
-[https://github.com/asciinema/asciinema.org](https://github.com/asciinema/asciinema.org)
 
 ### brimir
 Email helpdesk built using Ruby on Rails and Zurb Foundation [http://getbrimir.com](http://getbrimir.com)  
 [https://github.com/ivaldi/brimir](https://github.com/ivaldi/brimir)
-
-### Spina
-Spina CMS [http://www.spinacms.com](http://www.spinacms.com)  
-[https://github.com/denkGroot/Spina](https://github.com/denkGroot/Spina)
 
 ### peatio
 An open-source assets exchange. [http://peatio.com](http://peatio.com)  
@@ -162,7 +142,7 @@ Web framework that allows performing periodic syncs of data sources and performi
 [https://github.com/Netflix/Scumblr](https://github.com/Netflix/Scumblr)
 
 ### bridge_troll
-Event management system for all the Bridges (RailsBridge, MobileBridge, GoBridge, etc!) [http://www.bridgetroll.org](http://www.bridgetroll.org)  
+Event management system for all the Bridges (RailsBridge, MobileBridge, GoBridge, etc!) [https://www.bridgetroll.org](https://www.bridgetroll.org)  
 [https://github.com/railsbridge/bridge_troll](https://github.com/railsbridge/bridge_troll)
 
 ### shoppe
@@ -246,7 +226,7 @@ Publishes mainstream content on GOV.UK [https://docs.publishing.service.gov.uk/a
 [https://github.com/alphagov/publisher](https://github.com/alphagov/publisher)
 
 ### frontend
-Serves mainstream formats, the homepage, and search on GOV.UK [https://docs.publishing.service.gov.uk/apps/frontend.html](https://docs.publishing.service.gov.uk/apps/frontend.html)  
+Serves the homepage, transactions and some index pages on GOV.UK [https://docs.publishing.service.gov.uk/apps/frontend.html](https://docs.publishing.service.gov.uk/apps/frontend.html)  
 [https://github.com/alphagov/frontend](https://github.com/alphagov/frontend)
 
 ### open-data-certificate
@@ -259,6 +239,10 @@ The mark of quality and trust for open data [https://certificates.theodi.org/](h
 
 ### uk-postcodes
 [https://github.com/theodi/uk-postcodes](https://github.com/theodi/uk-postcodes)
+
+### panopticon
+Retired. App that holds some of the content on GOV.UK  
+[https://github.com/alphagov/panopticon](https://github.com/alphagov/panopticon)
 
 ### kevlar
 Secrets created by kevlar.io are kept until they are accessed, they are then deleted permanently from the server. [http://kevlar.io](http://kevlar.io)  
@@ -357,20 +341,16 @@ An editor for digital case files.
 [https://github.com/ministryofjustice/case_file_editor](https://github.com/ministryofjustice/case_file_editor)
 
 ### accelerated_claims
-Accelerated Claims app  
+** Unmaintained repository! **  Accelerated Claims app  
 [https://github.com/ministryofjustice/accelerated_claims](https://github.com/ministryofjustice/accelerated_claims)
 
 ### courtfinder
-A finder for courts and tribunals etc. [http://courttribunalfinder.service.gov.uk/](http://courttribunalfinder.service.gov.uk/)  
+** Unmaintained repository! ** Admin app for the Court and Tribunal Finder [http://courttribunalfinder.service.gov.uk/](http://courttribunalfinder.service.gov.uk/)  
 [https://github.com/ministryofjustice/courtfinder](https://github.com/ministryofjustice/courtfinder)
 
 ### ds-auth
 Digital Services SSO Provider  
 [https://github.com/ministryofjustice/ds-auth](https://github.com/ministryofjustice/ds-auth)
-
-### vms
-Vulnerability Management System for MoJ Applications  
-[https://github.com/ministryofjustice/vms](https://github.com/ministryofjustice/vms)
 
 ### defence-request-service-rota
 Defence Request Service - Rota Handling  
@@ -379,14 +359,6 @@ Defence Request Service - Rota Handling
 ### defence-request-service
 DSDS - Defence Solicitor Request Service - Base App  
 [https://github.com/ministryofjustice/defence-request-service](https://github.com/ministryofjustice/defence-request-service)
-
-### tribunals_api
-API and admin for full-text search tribunal decisions database  
-[https://github.com/ministryofjustice/tribunals_api](https://github.com/ministryofjustice/tribunals_api)
-
-### tribunals_frontend
-Tribunals frontend. Consumes tribunals_api  
-[https://github.com/ministryofjustice/tribunals_frontend](https://github.com/ministryofjustice/tribunals_frontend)
 
 ### rave-server
 RESTful Anti-Virus Endpoint server - provides a HTTPS endpoint to scan files for malware as-a-service  
@@ -456,7 +428,7 @@ The kick ass, open source, non-commercial home for musicians and their music [ht
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
 ### alchemy_cms
-Alchemy is a powerful, flexible and user centric Rails CMS. [http://alchemy-cms.com](http://alchemy-cms.com)  
+AlchemyCMS is a powerful, flexible and user centric Rails 5 CMS [https://alchemy-cms.com](https://alchemy-cms.com)  
 [https://github.com/AlchemyCMS/alchemy_cms](https://github.com/AlchemyCMS/alchemy_cms)
 
 ### jobsworth
@@ -472,7 +444,7 @@ The EPA e-Manifest project
 [https://github.com/18F/e-manifest](https://github.com/18F/e-manifest)
 
 ### helpy
-Helpy is a modern, "mobile-first" helpdesk application built in Ruby. Features include multi-lingual knowledgebase, community discussions and private tickets integrated with email. [http://helpy.io/?source=ghh](http://helpy.io/?source=ghh)  
+Helpy is a modern, open source helpdesk customer support application. Features include knowledgebase, community discussions and support tickets integrated with email. [http://helpy.io/?source=ghh](http://helpy.io/?source=ghh)  
 [https://github.com/helpyio/helpy](https://github.com/helpyio/helpy)
 
 ### thredded
@@ -516,7 +488,7 @@ A Ruby on Rails Engine which provides a double entry accounting system for your 
 [https://github.com/librariesio/libraries.io](https://github.com/librariesio/libraries.io)
 
 ### rapidfire
-Making Dynamic Surveys should be easy!  
+Making dynamic surveys should be easy! [https://rapidfire.herokuapp.com](https://rapidfire.herokuapp.com)  
 [https://github.com/code-mancers/rapidfire](https://github.com/code-mancers/rapidfire)
 
 ### bender
@@ -547,7 +519,7 @@ Simple, powerful email tracking for Rails
 [https://github.com/ankane/ahoy_email](https://github.com/ankane/ahoy_email)
 
 ### chartkick
-Create beautiful JavaScript charts with one line of Ruby [https://www.chartkick.com](https://www.chartkick.com)  
+Create beautiful JavaScript charts with one line of Ruby [https://chartkick.com](https://chartkick.com)  
 [https://github.com/ankane/chartkick](https://github.com/ankane/chartkick)
 
 ### notable
@@ -569,10 +541,6 @@ A generic system to build and distribute packages from sources in an automatic, 
 ### reservations
 Manage equipment loans & reservations. Who can borrow what, for how long? [yalestc.github.io/reservations](yalestc.github.io/reservations)  
 [https://github.com/YaleSTC/reservations](https://github.com/YaleSTC/reservations)
-
-### ifme
-Open source app to share mental health experiences with loved ones [http://www.if-me.org/](http://www.if-me.org/)  
-[https://github.com/julianguyen/ifme](https://github.com/julianguyen/ifme)
 
 ### prague-server
 Server for the ControlShift Prague donation application  
@@ -619,11 +587,11 @@ Fork and Evolution of the Fulcrum project - An agile project planning tool and P
 [https://github.com/Codeminer42/cm42-central](https://github.com/Codeminer42/cm42-central)
 
 ### shipit-engine
-Deployment coordination [https://www.shopify.com/technology/34281221-introducing-shipit](https://www.shopify.com/technology/34281221-introducing-shipit)  
+Deployment coordination [https://shopifyengineering.myshopify.com/blogs/engineering/introducing-shipit](https://shopifyengineering.myshopify.com/blogs/engineering/introducing-shipit)  
 [https://github.com/Shopify/shipit-engine](https://github.com/Shopify/shipit-engine)
 
 ### shopify_app
-Adds a full Shopify API Application environment to your application [http://shopify.github.io/shopify_app](http://shopify.github.io/shopify_app)  
+A Rails Engine for building Shopify Apps [http://shopify.github.io/shopify_app](http://shopify.github.io/shopify_app)  
 [https://github.com/Shopify/shopify_app](https://github.com/Shopify/shopify_app)
 
 ### test_track
@@ -631,7 +599,7 @@ An open-source split-testing and feature-toggling system written in Ruby on Rail
 [https://github.com/Betterment/test_track](https://github.com/Betterment/test_track)
 
 ### codetriage
-Help your favorite open source projects [http://www.codetriage.com](http://www.codetriage.com)  
+Discover the best way to get started contributing to Open Source projects [https://www.codetriage.com](https://www.codetriage.com)  
 [https://github.com/codetriage/codetriage](https://github.com/codetriage/codetriage)
 
 ### tolk
@@ -647,7 +615,7 @@ A Rails Engine which provides a customizable status page on your application. [h
 [https://github.com/envylabs/rapporteur](https://github.com/envylabs/rapporteur)
 
 ### rucaptcha
-This is a Captcha gem for Rails Application. No dependencies. No ImageMagick, No RMagick. [http://huacnlee.com/rucaptcha](http://huacnlee.com/rucaptcha)  
+Captcha gem for Rails Application. No dependencies. No ImageMagick, No RMagick. [http://huacnlee.com/rucaptcha](http://huacnlee.com/rucaptcha)  
 [https://github.com/huacnlee/rucaptcha](https://github.com/huacnlee/rucaptcha)
 
 ### talking_stick
@@ -683,7 +651,7 @@ Outside CMS - Open source, easy to extend content management system for Rails
 [https://github.com/benjaminayres/o_cms](https://github.com/benjaminayres/o_cms)
 
 ### field_test
-A/B testing for Rails  
+Bayesian A/B testing for Rails  
 [https://github.com/ankane/field_test](https://github.com/ankane/field_test)
 
 ### uberzeit
@@ -710,10 +678,6 @@ Showcasing speakers' proposals and timelines in an effort to demystify the CFP p
 A simple and elegant feed reader. [http://feedbunch.com](http://feedbunch.com)  
 [https://github.com/amatriain/feedbunch](https://github.com/amatriain/feedbunch)
 
-### followr
-Rails Twitter follow & unfollow bot based on hashtags of user choice [http://twitterblast.herokuapp.com/](http://twitterblast.herokuapp.com/)  
-[https://github.com/kevinchandler/followr](https://github.com/kevinchandler/followr)
-
 ### lale-help
 A collaborative platform for volunteer refugee support. [http://lale.help](http://lale.help)  
 [https://github.com/lale-help/lale-help](https://github.com/lale-help/lale-help)
@@ -723,11 +687,11 @@ A time banking system
 [https://github.com/coopdevs/timeoverflow](https://github.com/coopdevs/timeoverflow)
 
 ### katuma
-Katuma backend API [http://www.katuma.org](http://www.katuma.org)  
+ABANDONED - Old Katuma's backend API [http://www.katuma.org](http://www.katuma.org)  
 [https://github.com/coopdevs/katuma](https://github.com/coopdevs/katuma)
 
 ### openfoodnetwork
-Connect suppliers, distributors and consumers for the sale and purchase of local produce [http://openfoodnetwork.org/](http://openfoodnetwork.org/)  
+Connect suppliers, distributors and consumers to trade local produce [http://openfoodnetwork.org/](http://openfoodnetwork.org/)  
 [https://github.com/openfoodfoundation/openfoodnetwork](https://github.com/openfoodfoundation/openfoodnetwork)
 
 ### communityengine
@@ -739,7 +703,7 @@ QuickSearch is a toolkit for easily creating custom bento-box search application
 [https://github.com/NCSU-Libraries/quick_search](https://github.com/NCSU-Libraries/quick_search)
 
 ### lentil
-lentil is a Ruby on Rails Engine that supports the harvesting of images from Instagram and provides several browsing views, mechanisms for sharing, tools for users to select their favorite images, an administrative interface for moderating images, and a system for harvesting images and submitting donor agreements in preparation of ingest into external repositories. [http://d.lib.ncsu.edu/myhuntlibrary](http://d.lib.ncsu.edu/myhuntlibrary)  
+Lentil is no longer supported. Lentil is a Ruby on Rails Engine that supports the harvesting of images from Instagram. [https://lib.ncsu.edu/projects/my-huntlibrary](https://lib.ncsu.edu/projects/my-huntlibrary)  
 [https://github.com/NCSU-Libraries/lentil](https://github.com/NCSU-Libraries/lentil)
 
 ### pester
@@ -758,7 +722,7 @@ Communicate information about background jobs
 [https://github.com/atech/postal](https://github.com/atech/postal)
 
 ### hyku
-Hyku: A turnkey Samvera application built on the latest and greatest community components. Brought to you by the Hydra-in-a-Box project partners and IMLS. [http://hydrainabox.samvera.org/](http://hydrainabox.samvera.org/)  
+Hyku: A multi-tenant Hyrax application built on the latest and greatest Samvera community components. Brought to you by the Hydra-in-a-Box project partners and IMLS. [http://hydrainabox.samvera.org/](http://hydrainabox.samvera.org/)  
 [https://github.com/samvera-labs/hyku](https://github.com/samvera-labs/hyku)
 
 ### website
@@ -769,22 +733,52 @@ Rails app that powers crimethinc.com [https://crimethinc.com](https://crimethinc
 Claim for Crown Court Defence, formerly Advocate Defence Payments (ADP), aka Crime Billing Online (CBO)  
 [https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence](https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence)
 
+### bike_index
+All the code for the Bike Index, because we love you [https://bikeindex.org](https://bikeindex.org)  
+[https://github.com/bikeindex/bike_index](https://github.com/bikeindex/bike_index)
+
+### coursemology2
+Rails 5 re-write of Coursemology [https://coursemology.org](https://coursemology.org)  
+[https://github.com/Coursemology/coursemology2](https://github.com/Coursemology/coursemology2)
+
+### hyrax
+Hyrax is a front-end based on the robust Samvera framework, providing a user interface for common repository features [http://hyr.ax/](http://hyr.ax/)  
+[https://github.com/samvera/hyrax](https://github.com/samvera/hyrax)
+
+### WikiEduDashboard
+Wiki Education Foundation's Wikipedia course dashboard system [https://dashboard.wikiedu.org](https://dashboard.wikiedu.org)  
+[https://github.com/WikiEducationFoundation/WikiEduDashboard](https://github.com/WikiEducationFoundation/WikiEduDashboard)
+
+### envizon
+network visualization tool with focus on red / blue team requirements  
+[https://github.com/evait-security/envizon](https://github.com/evait-security/envizon)
+
+### snibox
+Self-hosted snippet manager [https://snibox.github.io/](https://snibox.github.io/)  
+[https://github.com/snibox/snibox](https://github.com/snibox/snibox)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
 
+- https://github.com/jcs/lobsters
 - https://github.com/cantino/huginn
 - https://github.com/FlyoverWorks/storytime
+- https://github.com/pivotal/projectmonitor
 - https://github.com/thoughtbot/hound
+- https://github.com/fxn/rails-contributors
 - https://github.com/potomak/tomatoes
+- https://github.com/asciinema/asciinema.org
+- https://github.com/denkGroot/Spina
 - https://github.com/girldevelopit/gdi-new-site
 - https://github.com/alphagov/signonotron2
-- https://github.com/alphagov/panopticon
 - https://github.com/ruby-china/ruby-china
 - https://github.com/andrew/contribulator
 - https://github.com/sunlightlabs/politwoops
 - https://github.com/projectjellyfish/api
 - https://github.com/peterkeen/payola
+- https://github.com/julianguyen/ifme
 - https://github.com/Gargron/mastodon
 - https://github.com/andrew/github-inbox
 - https://github.com/projecthydra/browse-everything
+- https://github.com/kevinchandler/followr

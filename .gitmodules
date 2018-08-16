@@ -839,3 +839,7 @@
 	path = apps/envizon
 	url = git@github.com:evait-security/envizon.git
 	branch = master
+[submodule "apps/snibox"]
+	path = apps/snibox
+	url = git@github.com:snibox/snibox.git
+	branch = master
