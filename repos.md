@@ -757,6 +757,10 @@ network visualization tool with focus on red / blue team requirements
 Self-hosted snippet manager [https://snibox.github.io/](https://snibox.github.io/)  
 [https://github.com/snibox/snibox](https://github.com/snibox/snibox)
 
+### dev.to
+Where programmers share ideas and help each other grow [https://dev.to](https://dev.to)  
+[https://github.com/thepracticaldev/dev.to](https://github.com/thepracticaldev/dev.to)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?

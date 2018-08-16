@@ -843,3 +843,7 @@
 	path = apps/snibox
 	url = git@github.com:snibox/snibox.git
 	branch = master
+[submodule "apps/dev.to"]
+	path = apps/dev.to
+	url = git@github.com:thepracticaldev/dev.to.git
+	branch = master
