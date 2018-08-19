@@ -1,0 +1,5 @@
+language: ruby
+git:
+    submodules: false
+install: bundle install
+script: "bundle exec rspec spec"
