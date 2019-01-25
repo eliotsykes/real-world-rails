@@ -711,9 +711,9 @@
 	path = engines/dbhero
 	url = git@github.com:catarse/dbhero.git
 	branch = master
-[submodule "apps/github-inbox"]
+[submodule "apps/octobox"]
 	path = apps/octobox
-	url = git@github.com:andrew/github-inbox.git
+	url = git@github.com:octobox/octobox.git
 	branch = master
 [submodule "apps/worldcubeassociation.org"]
 	path = apps/worldcubeassociation.org
