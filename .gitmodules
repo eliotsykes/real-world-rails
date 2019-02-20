@@ -342,10 +342,6 @@
 	path = apps/markus
 	url = git@github.com:MarkUsProject/Markus.git
 	branch = master
-[submodule "apps/opensit"]
-	path = apps/opensit
-	url = git@github.com:danbartlett/opensit.git
-	branch = master
 [submodule "apps/contribulator"]
 	path = apps/contribulator
 	url = git@github.com:andrew/contribulator.git
