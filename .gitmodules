@@ -839,3 +839,7 @@
 	path = apps/dev.to
 	url = git@github.com:thepracticaldev/dev.to.git
 	branch = master
+[submodule "apps/zammad"]
+	path = apps/zammad
+	url = git@github.com:zammad/zammad.git
+	branch = develop
