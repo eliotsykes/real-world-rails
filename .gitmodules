@@ -843,3 +843,7 @@
 	path = apps/zammad
 	url = git@github.com:zammad/zammad.git
 	branch = develop
+[submodule "apps/rubytoolbox"]
+	path = apps/rubytoolbox
+	url = git@github.com:rubytoolbox/rubytoolbox.git
+	branch = master
