@@ -22,7 +22,7 @@ A Ruby on Rails blogging app for the fashionable developer. It's better than Mep
 [https://github.com/xaviershay/enki](https://github.com/xaviershay/enki)
 
 ### refinerycms
-An extendable Ruby on Rails CMS that supports Rails 5.1+ [http://refinerycms.com](http://refinerycms.com)  
+An extendable Ruby on Rails CMS that supports Rails 5.2+ [http://refinerycms.com](http://refinerycms.com)  
 [https://github.com/refinery/refinerycms](https://github.com/refinery/refinerycms)
 
 ### radiant
@@ -46,7 +46,7 @@ The exceptionally handsome dashboard framework for Rails.
 [https://github.com/gottfrois/dashing-rails](https://github.com/gottfrois/dashing-rails)
 
 ### onebody
-private member portal for churches, built with Ruby on Rails [https://church.io](https://church.io)  
+This repo has moved. [https://github.com/seven1m/onebody](https://github.com/seven1m/onebody)  
 [https://github.com/churchio/onebody](https://github.com/churchio/onebody)
 
 ### fulcrum
@@ -90,7 +90,7 @@ Time registration that doesn't suck [https://happyhours.io](https://happyhours.i
 [https://github.com/DefactoSoftware/Hours](https://github.com/DefactoSoftware/Hours)
 
 ### loomio
-Loomio is an open-source web application that helps groups of people to make decisions together. [https://www.loomio.org](https://www.loomio.org)  
+Loomio helps people make decisions together [https://www.loomio.org](https://www.loomio.org)  
 [https://github.com/loomio/loomio](https://github.com/loomio/loomio)
 
 ### help
@@ -98,7 +98,7 @@ Small help requests system. Subscribe to topic so people can ask you for help or
 [https://github.com/netguru/help](https://github.com/netguru/help)
 
 ### tracks
-Tracks is a GTD™ web application, built with Ruby on Rails [http://www.getontracks.org/](http://www.getontracks.org/)  
+Tracks is a GTD™ web application, built with Ruby on Rails [https://www.getontracks.org/](https://www.getontracks.org/)  
 [https://github.com/TracksApp/tracks](https://github.com/TracksApp/tracks)
 
 ### rubygems.org
@@ -106,19 +106,19 @@ The Ruby community's gem hosting service. [https://rubygems.org](https://rubygem
 [https://github.com/rubygems/rubygems.org](https://github.com/rubygems/rubygems.org)
 
 ### calagator
-An event aggregator based in Portland, OR [http://calagator.org](http://calagator.org)  
+An open source community calendar platform written in Ruby on Rails [http://calagator.org](http://calagator.org)  
 [https://github.com/calagator/calagator](https://github.com/calagator/calagator)
 
 ### 24pullrequests
-:christmas_tree: Giving back little gifts of code [https://24pullrequests.com/](https://24pullrequests.com/)  
+:christmas_tree: Giving back to open source for the holidays [https://24pullrequests.com/](https://24pullrequests.com/)  
 [https://github.com/24pullrequests/24pullrequests](https://github.com/24pullrequests/24pullrequests)
 
 ### publify
-A self hosted Web publishing platform on Rails. [http://www.publify.co](http://www.publify.co)  
+A self hosted Web publishing platform on Rails. [http://publify.github.io/](http://publify.github.io/)  
 [https://github.com/publify/publify](https://github.com/publify/publify)
 
 ### openstreetmap-website
-The rails application powering http://www.openstreetmap.org/  
+The Rails application that powers OpenStreetMap [https://www.openstreetmap.org/](https://www.openstreetmap.org/)  
 [https://github.com/openstreetmap/openstreetmap-website](https://github.com/openstreetmap/openstreetmap-website)
 
 ### alaveteli
@@ -136,10 +136,6 @@ Email helpdesk built using Ruby on Rails and Zurb Foundation [http://getbrimir.c
 ### peatio
 An open-source assets exchange. [http://peatio.com](http://peatio.com)  
 [https://github.com/peatio/peatio](https://github.com/peatio/peatio)
-
-### Scumblr
-Web framework that allows performing periodic syncs of data sources and performing analysis on the identified results  
-[https://github.com/Netflix/Scumblr](https://github.com/Netflix/Scumblr)
 
 ### bridge_troll
 Event management system for all the Bridges (RailsBridge, MobileBridge, GoBridge, etc!) [https://www.bridgetroll.org](https://www.bridgetroll.org)  
@@ -198,7 +194,7 @@ GitHub issues made awesome [https://huboard.com](https://huboard.com)
 [https://github.com/huboard/huboard-web](https://github.com/huboard/huboard-web)
 
 ### camaleon-cms
-Camaleon CMS is a dynamic and advanced content management system based on Ruby on Rails 4. [http://camaleon.tuzitio.com/](http://camaleon.tuzitio.com/)  
+Camaleon CMS is a dynamic and advanced content management system based on Ruby on Rails [http://camaleon.tuzitio.com/](http://camaleon.tuzitio.com/)  
 [https://github.com/owen2345/camaleon-cms](https://github.com/owen2345/camaleon-cms)
 
 ### contrib-hub
@@ -264,10 +260,6 @@ Kandan is an Open Source Alternative to HipChat
 RSS Reader [https://feedbin.com](https://feedbin.com)  
 [https://github.com/feedbin/feedbin](https://github.com/feedbin/feedbin)
 
-### hummingbird
-:tv: Probably the coolest anime discovery platform around. [https://kitsu.io](https://kitsu.io)  
-[https://github.com/hummingbird-me/hummingbird](https://github.com/hummingbird-me/hummingbird)
-
 ### gitlab-ci
 DEPRECATED - Please use the GitLab.com issue tracker [https://gitlab.com/gitlab-org/gitlab-ce/issues](https://gitlab.com/gitlab-org/gitlab-ce/issues)  
 [https://github.com/gitlabhq/gitlab-ci](https://github.com/gitlabhq/gitlab-ci)
@@ -295,10 +287,6 @@ GitHub Classroom automates repository creation and access control, making it eas
 ### Markus
 Git repository of MarkUs [http://www.markusproject.org](http://www.markusproject.org)  
 [https://github.com/MarkUsProject/Markus](https://github.com/MarkUsProject/Markus)
-
-### opensit
-OpenSit is an open source meditation community. [http://opensit.com](http://opensit.com)  
-[https://github.com/danbartlett/opensit](https://github.com/danbartlett/opensit)
 
 ### twist
 Book review application for LeanPub's Markdown format  
@@ -408,7 +396,7 @@ Web interface for deployments
 [https://github.com/zendesk/samson](https://github.com/zendesk/samson)
 
 ### sharetribe
-Open source marketplace platform [https://www.sharetribe.com](https://www.sharetribe.com)  
+Sharetribe Go - an open source marketplace platform, also available with SaaS model. [https://www.sharetribe.com](https://www.sharetribe.com)  
 [https://github.com/sharetribe/sharetribe](https://github.com/sharetribe/sharetribe)
 
 ### cfp-app
@@ -428,7 +416,7 @@ The kick ass, open source, non-commercial home for musicians and their music [ht
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
 ### alchemy_cms
-AlchemyCMS is a powerful, flexible and user centric Rails 5 CMS [https://alchemy-cms.com](https://alchemy-cms.com)  
+AlchemyCMS is a Rails 5 CMS engine [https://alchemy-cms.com](https://alchemy-cms.com)  
 [https://github.com/AlchemyCMS/alchemy_cms](https://github.com/AlchemyCMS/alchemy_cms)
 
 ### jobsworth
@@ -515,7 +503,7 @@ Analytics for Rails
 [https://github.com/ankane/ahoy](https://github.com/ankane/ahoy)
 
 ### ahoy_email
-Simple, powerful email tracking for Rails  
+Email analytics for Rails  
 [https://github.com/ankane/ahoy_email](https://github.com/ankane/ahoy_email)
 
 ### chartkick
@@ -582,6 +570,10 @@ Multimedia story telling for the web. [http://pageflow.io](http://pageflow.io)
 Klaxon enables reporters and editors to monitor scores of sites on the web for newsworthy changes. [https://newsklaxon.org](https://newsklaxon.org)  
 [https://github.com/themarshallproject/klaxon](https://github.com/themarshallproject/klaxon)
 
+### mastodon
+A GNU Social-compatible microblogging server [https://mastodon.social](https://mastodon.social)  
+[https://github.com/Gargron/mastodon](https://github.com/Gargron/mastodon)
+
 ### cm42-central
 Fork and Evolution of the Fulcrum project - An agile project planning tool and Pivotal Tracker drop-in replacement [https://central.cm42.io](https://central.cm42.io)  
 [https://github.com/Codeminer42/cm42-central](https://github.com/Codeminer42/cm42-central)
@@ -641,6 +633,10 @@ A Rails engine to stream PostgreSQL Large Objects to clients [http://diogob.gith
 ### dbhero
 DBHero is a simple and elegant web interface to extract data clips from your app database. just plug and play ;)  
 [https://github.com/catarse/dbhero](https://github.com/catarse/dbhero)
+
+### octobox
+📮Untangle your GitHub Notifications [https://octobox.io](https://octobox.io)  
+[https://github.com/octobox/octobox](https://github.com/octobox/octobox)
 
 ### worldcubeassociation.org
 All of the code that runs on worldcubeassociation.org [https://www.worldcubeassociation.org/](https://www.worldcubeassociation.org/)  
@@ -718,15 +714,11 @@ Communicate information about background jobs
 [https://github.com/thoughtbot/french_toast](https://github.com/thoughtbot/french_toast)
 
 ### postal
-📨 A fully featured open source mail delivery platform for incoming & outgoing e-mail  
+📨 A fully featured open source mail delivery platform for incoming & outgoing e-mail [https://postal.atech.media](https://postal.atech.media)  
 [https://github.com/atech/postal](https://github.com/atech/postal)
 
-### hyku
-Hyku: A multi-tenant Hyrax application built on the latest and greatest Samvera community components. Brought to you by the Hydra-in-a-Box project partners and IMLS. [http://hydrainabox.samvera.org/](http://hydrainabox.samvera.org/)  
-[https://github.com/samvera-labs/hyku](https://github.com/samvera-labs/hyku)
-
 ### website
-Rails app that powers crimethinc.com [https://crimethinc.com](https://crimethinc.com)  
+Ruby on Rails app that powers crimethinc.com [https://crimethinc.com](https://crimethinc.com)  
 [https://github.com/crimethinc/website](https://github.com/crimethinc/website)
 
 ### Claim-for-Crown-Court-Defence
@@ -761,6 +753,14 @@ Self-hosted snippet manager [https://snibox.github.io/](https://snibox.github.io
 Where programmers share ideas and help each other grow [https://dev.to](https://dev.to)  
 [https://github.com/thepracticaldev/dev.to](https://github.com/thepracticaldev/dev.to)
 
+### zammad
+Zammad is a web based open source helpdesk/customer support system [https://zammad.org](https://zammad.org)  
+[https://github.com/zammad/zammad](https://github.com/zammad/zammad)
+
+### rubytoolbox
+Find actively maintained & popular open source software libraries for the Ruby programming language [https://www.ruby-toolbox.com](https://www.ruby-toolbox.com)  
+[https://github.com/rubytoolbox/rubytoolbox](https://github.com/rubytoolbox/rubytoolbox)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
@@ -774,15 +774,15 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/potomak/tomatoes
 - https://github.com/asciinema/asciinema.org
 - https://github.com/denkGroot/Spina
+- https://github.com/Netflix/Scumblr
 - https://github.com/girldevelopit/gdi-new-site
 - https://github.com/alphagov/signonotron2
 - https://github.com/ruby-china/ruby-china
+- https://github.com/hummingbird-me/hummingbird
 - https://github.com/andrew/contribulator
 - https://github.com/sunlightlabs/politwoops
-- https://github.com/projectjellyfish/api
 - https://github.com/peterkeen/payola
 - https://github.com/julianguyen/ifme
-- https://github.com/Gargron/mastodon
-- https://github.com/andrew/github-inbox
 - https://github.com/projecthydra/browse-everything
 - https://github.com/kevinchandler/followr
+- https://github.com/samvera-labs/hyku
