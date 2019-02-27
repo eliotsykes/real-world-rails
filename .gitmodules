@@ -847,3 +847,7 @@
 	path = apps/rubytoolbox
 	url = git@github.com:rubytoolbox/rubytoolbox.git
 	branch = master
+[submodule "apps/code_fund_ads"]
+	path = apps/code_fund_ads
+	url = git@github.com:gitcoinco/code_fund_ads.git
+	branch = master
