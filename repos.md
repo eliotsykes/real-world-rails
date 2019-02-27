@@ -761,6 +761,10 @@ Zammad is a web based open source helpdesk/customer support system [https://zamm
 Find actively maintained & popular open source software libraries for the Ruby programming language [https://www.ruby-toolbox.com](https://www.ruby-toolbox.com)  
 [https://github.com/rubytoolbox/rubytoolbox](https://github.com/rubytoolbox/rubytoolbox)
 
+### code_fund_ads
+CodeFund is an open source platform that helps fund maintainers, bloggers, and builders through non-tracking ethical ads [https://codefund.app](https://codefund.app)  
+[https://github.com/gitcoinco/code_fund_ads](https://github.com/gitcoinco/code_fund_ads)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
