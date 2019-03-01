@@ -851,3 +851,7 @@
 	path = apps/code_fund_ads
 	url = git@github.com:gitcoinco/code_fund_ads.git
 	branch = master
+[submodule "apps/speakerinnen_liste"]
+	path = apps/speakerinnen_liste
+	url = git@github.com:rubymonsters/speakerinnen_liste.git
+	branch = master
