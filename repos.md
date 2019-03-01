@@ -22,7 +22,7 @@ A Ruby on Rails blogging app for the fashionable developer. It's better than Mep
 [https://github.com/xaviershay/enki](https://github.com/xaviershay/enki)
 
 ### refinerycms
-An extendable Ruby on Rails CMS that supports Rails 5.2+ [http://refinerycms.com](http://refinerycms.com)  
+An extendable Ruby on Rails CMS that supports Rails 5.2+ [https://www.refinerycms.com/](https://www.refinerycms.com/)  
 [https://github.com/refinery/refinerycms](https://github.com/refinery/refinerycms)
 
 ### radiant
@@ -764,6 +764,10 @@ Find actively maintained & popular open source software libraries for the Ruby p
 ### code_fund_ads
 CodeFund is an open source platform that helps fund maintainers, bloggers, and builders through non-tracking ethical ads [https://codefund.app](https://codefund.app)  
 [https://github.com/gitcoinco/code_fund_ads](https://github.com/gitcoinco/code_fund_ads)
+
+### speakerinnen_liste
+International Women* Speaker Directory www.speakerinnen.org [https://github.com/rubymonsters/speakerinnen_liste/projects/1](https://github.com/rubymonsters/speakerinnen_liste/projects/1)  
+[https://github.com/rubymonsters/speakerinnen_liste](https://github.com/rubymonsters/speakerinnen_liste)
 
 
 ## Moved/Missing/Deleted Repos
