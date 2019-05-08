@@ -855,3 +855,7 @@
 	path = apps/speakerinnen_liste
 	url = git@github.com:rubymonsters/speakerinnen_liste.git
 	branch = master
+[submodule "apps/on_ruby"]
+	path = apps/on_ruby
+	url = git@github.com:phoet/on_ruby.git
+	branch = master

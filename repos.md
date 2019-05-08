@@ -169,10 +169,6 @@ Web frontend for Inch CI [http://inch-ci.org/](http://inch-ci.org/)
 CodeMontage empowers coders to improve their impact on the world. Find open source software projects with a social impact and save the world. [http://codemontage.com](http://codemontage.com)  
 [https://github.com/CodeMontageHQ/codemontage](https://github.com/CodeMontageHQ/codemontage)
 
-### Empirical-Core
-Empirical-Core is our web app for managing students, assigning activities, and viewing results. Core seamlessly incorporates 3rd party applications via the Empirical API. [http://www.quill.org/](http://www.quill.org/)  
-[https://github.com/empirical-org/Empirical-Core](https://github.com/empirical-org/Empirical-Core)
-
 ### ohana-api
 The open source API directory of community social services. [http://ohana-api-demo.herokuapp.com/api](http://ohana-api-demo.herokuapp.com/api)  
 [https://github.com/codeforamerica/ohana-api](https://github.com/codeforamerica/ohana-api)
@@ -285,7 +281,7 @@ GitHub Classroom automates repository creation and access control, making it eas
 [https://github.com/education/classroom](https://github.com/education/classroom)
 
 ### Markus
-Git repository of MarkUs [http://www.markusproject.org](http://www.markusproject.org)  
+Git repository of MarkUs  
 [https://github.com/MarkUsProject/Markus](https://github.com/MarkUsProject/Markus)
 
 ### twist
@@ -303,10 +299,6 @@ The Global Cloud Hosting Marketplace
 ### phez
 Phez - the free speech platform  
 [https://github.com/phezco/phez](https://github.com/phezco/phez)
-
-### atet
-Application for Applying To (an) Employment Tribunal   
-[https://github.com/ministryofjustice/atet](https://github.com/ministryofjustice/atet)
 
 ### fr-staffapp
 Help with Court Fees Staff Interface  
@@ -368,7 +360,7 @@ An open source project for integrating with SendGrid's Event Webhook.
 [https://github.com/alphagov/imminence](https://github.com/alphagov/imminence)
 
 ### foodsoft
-Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). [https://foodcoops.github.io/](https://foodcoops.github.io/)  
+Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). [https://foodcoops.net/](https://foodcoops.net/)  
 [https://github.com/foodcoops/foodsoft](https://github.com/foodcoops/foodsoft)
 
 ### foreman
@@ -396,7 +388,7 @@ Web interface for deployments
 [https://github.com/zendesk/samson](https://github.com/zendesk/samson)
 
 ### sharetribe
-Sharetribe Go - an open source marketplace platform, also available with SaaS model. [https://www.sharetribe.com](https://www.sharetribe.com)  
+Sharetribe Go is an open source marketplace platform, also available with SaaS model. See also Sharetribe Flex, a headless marketplace solution. https://www.sharetribe.com  [https://www.sharetribe.com/flex/](https://www.sharetribe.com/flex/)  
 [https://github.com/sharetribe/sharetribe](https://github.com/sharetribe/sharetribe)
 
 ### cfp-app
@@ -734,7 +726,7 @@ Rails 5 re-write of Coursemology [https://coursemology.org](https://coursemology
 [https://github.com/Coursemology/coursemology2](https://github.com/Coursemology/coursemology2)
 
 ### hyrax
-Hyrax is a front-end based on the robust Samvera framework, providing a user interface for common repository features [http://hyr.ax/](http://hyr.ax/)  
+Hyrax is a front-end based on the robust Samvera framework, providing a user interface for common repository features [http://hyrax.samvera.org/](http://hyrax.samvera.org/)  
 [https://github.com/samvera/hyrax](https://github.com/samvera/hyrax)
 
 ### WikiEduDashboard
@@ -766,8 +758,12 @@ CodeFund is an open source platform that helps fund maintainers, bloggers, and b
 [https://github.com/gitcoinco/code_fund_ads](https://github.com/gitcoinco/code_fund_ads)
 
 ### speakerinnen_liste
-International Women* Speaker Directory www.speakerinnen.org [https://github.com/rubymonsters/speakerinnen_liste/projects/1](https://github.com/rubymonsters/speakerinnen_liste/projects/1)  
+International Women* Speaker Directory [ https://speakerinnen.org]( https://speakerinnen.org)  
 [https://github.com/rubymonsters/speakerinnen_liste](https://github.com/rubymonsters/speakerinnen_liste)
+
+### on_ruby
+:gem: :diamonds: Whitelabel Site for Ruby Communities [http://www.onruby.eu](http://www.onruby.eu)  
+[https://github.com/phoet/on_ruby](https://github.com/phoet/on_ruby)
 
 
 ## Moved/Missing/Deleted Repos
@@ -783,12 +779,14 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/asciinema/asciinema.org
 - https://github.com/denkGroot/Spina
 - https://github.com/Netflix/Scumblr
+- https://github.com/empirical-org/Empirical-Core
 - https://github.com/girldevelopit/gdi-new-site
 - https://github.com/alphagov/signonotron2
 - https://github.com/ruby-china/ruby-china
 - https://github.com/hummingbird-me/hummingbird
 - https://github.com/andrew/contribulator
 - https://github.com/sunlightlabs/politwoops
+- https://github.com/ministryofjustice/atet
 - https://github.com/peterkeen/payola
 - https://github.com/julianguyen/ifme
 - https://github.com/projecthydra/browse-everything
