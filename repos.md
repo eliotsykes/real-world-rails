@@ -73,10 +73,6 @@ Redmine is a flexible project management web application written using Ruby on R
 Core of the Amahi Platform, a web app in RoR  
 [https://github.com/amahi/platform](https://github.com/amahi/platform)
 
-### people
-PeopleApp: easily manage people within the projects! [https://www.netguru.co/resources/open-source](https://www.netguru.co/resources/open-source)  
-[https://github.com/netguru/people](https://github.com/netguru/people)
-
 ### catarse
 The first open source crowdfunding platform for creative projects in the world [http://catarse.me](http://catarse.me)  
 [https://github.com/catarse/catarse](https://github.com/catarse/catarse)
@@ -122,7 +118,7 @@ The Rails application that powers OpenStreetMap [https://www.openstreetmap.org/]
 [https://github.com/openstreetmap/openstreetmap-website](https://github.com/openstreetmap/openstreetmap-website)
 
 ### alaveteli
-Provide a Freedom of Information request system for your jurisdiction [http://alaveteli.org](http://alaveteli.org)  
+Provide a Freedom of Information request system for your jurisdiction [https://alaveteli.org](https://alaveteli.org)  
 [https://github.com/mysociety/alaveteli](https://github.com/mysociety/alaveteli)
 
 ### open-source-billing
@@ -132,6 +128,10 @@ Open Source Billing a super simple way to create and send invoices and receive p
 ### brimir
 Email helpdesk built using Ruby on Rails and Zurb Foundation [http://getbrimir.com](http://getbrimir.com)  
 [https://github.com/ivaldi/brimir](https://github.com/ivaldi/brimir)
+
+### Spina
+Spina CMS [http://www.spinacms.com](http://www.spinacms.com)  
+[https://github.com/denkGroot/Spina](https://github.com/denkGroot/Spina)
 
 ### peatio
 An open-source assets exchange. [http://peatio.com](http://peatio.com)  
@@ -300,10 +300,6 @@ The Global Cloud Hosting Marketplace
 Phez - the free speech platform  
 [https://github.com/phezco/phez](https://github.com/phezco/phez)
 
-### fr-staffapp
-Help with Court Fees Staff Interface  
-[https://github.com/ministryofjustice/fr-staffapp](https://github.com/ministryofjustice/fr-staffapp)
-
 ### parliamentary-questions
 Webapp to manage the workflow in Parliamentary Questions  
 [https://github.com/ministryofjustice/parliamentary-questions](https://github.com/ministryofjustice/parliamentary-questions)
@@ -384,7 +380,7 @@ ManageIQ Open-Source Management Platform [manageiq.org](manageiq.org)
 [https://github.com/ManageIQ/manageiq](https://github.com/ManageIQ/manageiq)
 
 ### samson
-Web interface for deployments  
+Web interface for deployments, with plugin architecture and kubernetes support  
 [https://github.com/zendesk/samson](https://github.com/zendesk/samson)
 
 ### sharetribe
@@ -432,7 +428,7 @@ The best Rails forums engine ever. [https://thredded.org](https://thredded.org)
 [https://github.com/thredded/thredded](https://github.com/thredded/thredded)
 
 ### administrate
-A Rails engine that helps you put together a super-flexible admin dashboard. [http://administrate-prototype.herokuapp.com/admin](http://administrate-prototype.herokuapp.com/admin)  
+A Rails engine that helps you put together a super-flexible admin dashboard. [http://administrate-prototype.herokuapp.com](http://administrate-prototype.herokuapp.com)  
 [https://github.com/thoughtbot/administrate](https://github.com/thoughtbot/administrate)
 
 ### griddler
@@ -515,7 +511,7 @@ Open Source Event Manager. An event management tool tailored to Free and Open So
 [https://github.com/openSUSE/osem](https://github.com/openSUSE/osem)
 
 ### open-build-service
-A generic system to build and distribute packages from sources in an automatic, consistent and reproducible way. Release your software for a wide range of operating systems and hardware architectures. [http://openbuildservice.org/](http://openbuildservice.org/)  
+Build and distribute Linux packages from sources in an automatic, consistent and reproducible way #obs [http://openbuildservice.org/](http://openbuildservice.org/)  
 [https://github.com/openSUSE/open-build-service](https://github.com/openSUSE/open-build-service)
 
 ### reservations
@@ -579,7 +575,7 @@ A Rails Engine for building Shopify Apps [http://shopify.github.io/shopify_app](
 [https://github.com/Shopify/shopify_app](https://github.com/Shopify/shopify_app)
 
 ### test_track
-An open-source split-testing and feature-toggling system written in Ruby on Rails  
+Server app for the TestTrack multi-platform split-testing and feature-gating system  
 [https://github.com/Betterment/test_track](https://github.com/Betterment/test_track)
 
 ### codetriage
@@ -639,7 +635,7 @@ Outside CMS - Open source, easy to extend content management system for Rails
 [https://github.com/benjaminayres/o_cms](https://github.com/benjaminayres/o_cms)
 
 ### field_test
-Bayesian A/B testing for Rails  
+A/B testing for Rails  
 [https://github.com/ankane/field_test](https://github.com/ankane/field_test)
 
 ### uberzeit
@@ -754,7 +750,7 @@ Find actively maintained & popular open source software libraries for the Ruby p
 [https://github.com/rubytoolbox/rubytoolbox](https://github.com/rubytoolbox/rubytoolbox)
 
 ### code_fund_ads
-CodeFund is an open source platform that helps fund maintainers, bloggers, and builders through non-tracking ethical ads [https://codefund.app](https://codefund.app)  
+CodeFund is an open source platform that helps fund maintainers, bloggers, and builders through non-tracking ethical ads [https://codefund.io](https://codefund.io)  
 [https://github.com/gitcoinco/code_fund_ads](https://github.com/gitcoinco/code_fund_ads)
 
 ### speakerinnen_liste
@@ -765,6 +761,10 @@ International Women* Speaker Directory [ https://speakerinnen.org]( https://spea
 :gem: :diamonds: Whitelabel Site for Ruby Communities [http://www.onruby.eu](http://www.onruby.eu)  
 [https://github.com/phoet/on_ruby](https://github.com/phoet/on_ruby)
 
+### action-center-platform
+The EFF Action Center Platform  
+[https://github.com/EFForg/action-center-platform](https://github.com/EFForg/action-center-platform)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
@@ -772,14 +772,13 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/jcs/lobsters
 - https://github.com/cantino/huginn
 - https://github.com/FlyoverWorks/storytime
+- https://github.com/netguru/people
 - https://github.com/pivotal/projectmonitor
 - https://github.com/thoughtbot/hound
 - https://github.com/fxn/rails-contributors
 - https://github.com/potomak/tomatoes
 - https://github.com/asciinema/asciinema.org
-- https://github.com/denkGroot/Spina
 - https://github.com/Netflix/Scumblr
-- https://github.com/empirical-org/Empirical-Core
 - https://github.com/girldevelopit/gdi-new-site
 - https://github.com/alphagov/signonotron2
 - https://github.com/ruby-china/ruby-china
@@ -787,6 +786,7 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/andrew/contribulator
 - https://github.com/sunlightlabs/politwoops
 - https://github.com/ministryofjustice/atet
+- https://github.com/ministryofjustice/fr-staffapp
 - https://github.com/peterkeen/payola
 - https://github.com/julianguyen/ifme
 - https://github.com/projecthydra/browse-everything

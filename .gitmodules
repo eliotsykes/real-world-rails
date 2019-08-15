@@ -855,3 +855,7 @@
 	path = apps/on_ruby
 	url = git@github.com:phoet/on_ruby.git
 	branch = master
+[submodule "apps/eff-action-center-platform"]
+	path = apps/eff-action-center-platform
+	url = git@github.com:EFForg/action-center-platform.git
+	branch = master
