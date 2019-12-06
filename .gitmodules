@@ -859,3 +859,7 @@
 	path = apps/eff-action-center-platform
 	url = git@github.com:EFForg/action-center-platform.git
 	branch = master
+[submodule "apps/chatwoot"]
+	path = apps/chatwoot
+	url = https://github.com/chatwoot/chatwoot
+	branch = master

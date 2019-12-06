@@ -765,6 +765,10 @@ International Women* Speaker Directory [ https://speakerinnen.org]( https://spea
 The EFF Action Center Platform  
 [https://github.com/EFForg/action-center-platform](https://github.com/EFForg/action-center-platform)
 
+### Chatwoot
+Simple and elegant live chat software [https://www.chatwoot.com/](https://www.chatwoot.com/)
+[https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
