@@ -6,7 +6,7 @@ Trailmix. A private place to write. [https://www.trailmix.life](https://www.trai
 [https://github.com/codecation/trailmix](https://github.com/codecation/trailmix)
 
 ### spree
-Spree is a complete, modular & API-driven open source ecommerce solution for Ruby on Rails [https://spreecommerce.org](https://spreecommerce.org)  
+Spree is an open source E-commerce platform for Rails 6 with a modern UX, optional PWA frontend, REST API, GraphQL, several official extensions and 3rd party integrations. Over 1 million downloads and counting! Check it out: [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### discourse
@@ -22,7 +22,7 @@ A Ruby on Rails blogging app for the fashionable developer. It's better than Mep
 [https://github.com/xaviershay/enki](https://github.com/xaviershay/enki)
 
 ### refinerycms
-An extendable Ruby on Rails CMS that supports Rails 5.2+ [https://www.refinerycms.com/](https://www.refinerycms.com/)  
+An extendable Ruby on Rails CMS that supports Rails 6.0+ [https://www.refinerycms.com/](https://www.refinerycms.com/)  
 [https://github.com/refinery/refinerycms](https://github.com/refinery/refinerycms)
 
 ### radiant
@@ -198,7 +198,7 @@ Open source lovers, making easier to find cool projects to hack on! Wanna help? 
 [https://github.com/orendon/contrib-hub](https://github.com/orendon/contrib-hub)
 
 ### solidus
-Solidus, Rails eCommerce System [https://solidus.io/](https://solidus.io/)  
+🛒Solidus, Rails eCommerce System [https://solidus.io/](https://solidus.io/)  
 [https://github.com/solidusio/solidus](https://github.com/solidusio/solidus)
 
 ### e-petitions
@@ -224,10 +224,6 @@ Serves the homepage, transactions and some index pages on GOV.UK [https://docs.p
 ### open-data-certificate
 The mark of quality and trust for open data [https://certificates.theodi.org/](https://certificates.theodi.org/)  
 [https://github.com/theodi/open-data-certificate](https://github.com/theodi/open-data-certificate)
-
-### csvlint
- Check that your CSV files are valid [http://csvlint.io](http://csvlint.io)  
-[https://github.com/theodi/csvlint](https://github.com/theodi/csvlint)
 
 ### uk-postcodes
 [https://github.com/theodi/uk-postcodes](https://github.com/theodi/uk-postcodes)
@@ -384,7 +380,7 @@ Web interface for deployments, with plugin architecture and kubernetes support
 [https://github.com/zendesk/samson](https://github.com/zendesk/samson)
 
 ### sharetribe
-Sharetribe Go is an open source marketplace platform, also available with SaaS model. See also Sharetribe Flex, a headless marketplace solution. https://www.sharetribe.com  [https://www.sharetribe.com/flex/](https://www.sharetribe.com/flex/)  
+Sharetribe Go is a source available marketplace software, also available with SaaS model. See also Sharetribe Flex (https://www.sharetribe.com/flex), a headless marketplace solution. [https://www.sharetribe.com/](https://www.sharetribe.com/)  
 [https://github.com/sharetribe/sharetribe](https://github.com/sharetribe/sharetribe)
 
 ### cfp-app
@@ -404,7 +400,7 @@ The kick ass, open source, non-commercial home for musicians and their music [ht
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
 ### alchemy_cms
-AlchemyCMS is a Rails 5 CMS engine [https://alchemy-cms.com](https://alchemy-cms.com)  
+AlchemyCMS is a Rails CMS engine [https://alchemy-cms.com](https://alchemy-cms.com)  
 [https://github.com/AlchemyCMS/alchemy_cms](https://github.com/AlchemyCMS/alchemy_cms)
 
 ### jobsworth
@@ -667,7 +663,7 @@ A collaborative platform for volunteer refugee support. [http://lale.help](http:
 [https://github.com/lale-help/lale-help](https://github.com/lale-help/lale-help)
 
 ### timeoverflow
-A time banking system  
+A time banking system [https://www.timeoverflow.org](https://www.timeoverflow.org)  
 [https://github.com/coopdevs/timeoverflow](https://github.com/coopdevs/timeoverflow)
 
 ### katuma
@@ -700,10 +696,6 @@ Automatically ask for a PR review
 ### french_toast
 Communicate information about background jobs  
 [https://github.com/thoughtbot/french_toast](https://github.com/thoughtbot/french_toast)
-
-### postal
-📨 A fully featured open source mail delivery platform for incoming & outgoing e-mail [https://postal.atech.media](https://postal.atech.media)  
-[https://github.com/atech/postal](https://github.com/atech/postal)
 
 ### website
 Ruby on Rails app that powers crimethinc.com [https://crimethinc.com](https://crimethinc.com)  
@@ -765,9 +757,9 @@ International Women* Speaker Directory [ https://speakerinnen.org]( https://spea
 The EFF Action Center Platform  
 [https://github.com/EFForg/action-center-platform](https://github.com/EFForg/action-center-platform)
 
-### Chatwoot
-Simple and elegant live chat software [https://www.chatwoot.com/](https://www.chatwoot.com/)
-[https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+### heya
+Heya :wave: is a customer communication and automation framework for Rails. Demo app: https://github.com/honeybadger-io/heya-app  
+[https://github.com/honeybadger-io/heya](https://github.com/honeybadger-io/heya)
 
 
 ## Moved/Missing/Deleted Repos
@@ -785,6 +777,7 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/Netflix/Scumblr
 - https://github.com/girldevelopit/gdi-new-site
 - https://github.com/alphagov/signonotron2
+- https://github.com/theodi/csvlint
 - https://github.com/ruby-china/ruby-china
 - https://github.com/hummingbird-me/hummingbird
 - https://github.com/andrew/contribulator
@@ -795,4 +788,5 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/julianguyen/ifme
 - https://github.com/projecthydra/browse-everything
 - https://github.com/kevinchandler/followr
+- https://github.com/atech/postal
 - https://github.com/samvera-labs/hyku
