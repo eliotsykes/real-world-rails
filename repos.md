@@ -761,6 +761,10 @@ The EFF Action Center Platform
 Heya :wave: is a customer communication and automation framework for Rails. Demo app: https://github.com/honeybadger-io/heya-app  
 [https://github.com/honeybadger-io/heya](https://github.com/honeybadger-io/heya)
 
+### pupilfirst
+PupilFirst is a feature-rich open-source Learning Management System (LMS) that is built around the philosophy that true learning cannot happen by just consuming information; it happens when students attempt relevant tasks and get personalised feedback for improvement from domain experts. [https://www.pupilfirst.com](https://www.pupilfirst.com)  
+[https://github.com/SVdotCO/pupilfirst](https://github.com/SVdotCO/pupilfirst)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
