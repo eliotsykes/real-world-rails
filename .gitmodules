@@ -82,10 +82,6 @@
 	path = apps/amahi-platform
 	url = git@github.com:amahi/platform.git
 	branch = master
-[submodule "apps/netguru-people"]
-	path = apps/netguru-people
-	url = git@github.com:netguru/people.git
-	branch = master
 [submodule "apps/catarse"]
 	path = apps/catarse
 	url = git@github.com:catarse/catarse.git
