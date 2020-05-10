@@ -863,3 +863,15 @@
 	path = engines/heya
 	url = git@github.com:honeybadger-io/heya.git
 	branch = master
+[submodule "apps/alphagov-publishing-api"]
+	path = apps/alphagov-publishing-api
+	url = git@github.com:alphagov/publishing-api.git
+	branch = master
+[submodule "apps/alphagov-publisher"]
+	path = apps/alphagov-publisher
+	url = git@github.com:alphagov/publisher.git
+	branch = master
+[submodule "apps/alphagov-content-tagger"]
+	path = apps/alphagov-content-tagger
+	url = git@github.com:alphagov/content-tagger.git
+	branch = master
