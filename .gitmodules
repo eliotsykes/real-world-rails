@@ -759,10 +759,6 @@
 	path = apps/timeoverflow
 	url = git@github.com:coopdevs/timeoverflow.git
 	branch = develop
-[submodule "apps/katuma"]
-	path = apps/katuma
-	url = git@github.com:coopdevs/katuma.git
-	branch = develop
 [submodule "apps/openfoodnetwork"]
 	path = apps/openfoodnetwork
 	url = git@github.com:openfoodfoundation/openfoodnetwork.git
