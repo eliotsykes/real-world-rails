@@ -859,3 +859,7 @@
 	path = apps/upcase
 	url = git@github.com:thoughtbot/upcase.git
 	branch = master
+[submodule "apps/pupilfirst"]
+	path = apps/pupilfirst
+	url = git@github.com:pupilfirst/pupilfirst.git
+	branch = master
