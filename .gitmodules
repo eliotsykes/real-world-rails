@@ -278,10 +278,6 @@
 	path = apps/kevlar
 	url = git@github.com:adambutler/kevlar.git
 	branch = master
-[submodule "apps/myusa"]
-	path = apps/myusa
-	url = git@github.com:18F/myusa.git
-	branch = devel
 [submodule "apps/c2"]
 	path = apps/c2
 	url = git@github.com:18F/C2.git
@@ -854,4 +850,8 @@
 [submodule "apps/mastodon"]
 	path = apps/mastodon
 	url = git@github.com:tootsuite/mastodon.git
+	branch = master
+[submodule "apps/identity-idp"]
+	path = apps/identity-idp
+	url = git@github.com:18F/identity-idp.git
 	branch = master
