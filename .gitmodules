@@ -855,3 +855,7 @@
 	path = apps/identity-idp
 	url = git@github.com:18F/identity-idp.git
 	branch = master
+[submodule "apps/upcase"]
+	path = apps/upcase
+	url = git@github.com:thoughtbot/upcase.git
+	branch = master
