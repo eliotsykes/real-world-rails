@@ -863,3 +863,6 @@
 	path = apps/pupilfirst
 	url = git@github.com:pupilfirst/pupilfirst.git
 	branch = master
+[submodule "apps/comfortable-mexican-sofa"]
+	path = apps/comfortable-mexican-sofa
+	url = https://github.com/comfy/comfortable-mexican-sofa
