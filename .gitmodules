@@ -863,3 +863,7 @@
 	path = apps/pupilfirst
 	url = git@github.com:pupilfirst/pupilfirst.git
 	branch = master
+[submodule "apps/shinycms-ruby"]
+	path = apps/shinycms-ruby
+	url = git@github.com:denny/ShinyCMS-ruby.git
+	branch = main
