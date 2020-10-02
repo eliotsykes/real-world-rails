@@ -867,3 +867,7 @@
 	path = apps/shinycms-ruby
 	url = git@github.com:denny/ShinyCMS-ruby.git
 	branch = main
+[submodule "apps/theodinproject"]
+	path = apps/theodinproject
+	url = git@github.com:TheOdinProject/theodinproject.git
+	branch = master
