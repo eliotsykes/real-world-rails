@@ -871,3 +871,7 @@
 	path = apps/theodinproject
 	url = git@github.com:TheOdinProject/theodinproject.git
 	branch = master
+[submodule "engines/sail"]
+	path = engines/sail
+	url = git@github.com:vinistock/sail.git
+	branch = master
