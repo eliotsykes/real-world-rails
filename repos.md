@@ -102,7 +102,7 @@ The Ruby community's gem hosting service. [https://rubygems.org](https://rubygem
 [https://github.com/rubygems/rubygems.org](https://github.com/rubygems/rubygems.org)
 
 ### calagator
-An open source community calendar platform written in Ruby on Rails [http://calagator.org](http://calagator.org)  
+An open source community calendar platform written in Ruby on Rails [https://calagator.org](https://calagator.org)  
 [https://github.com/calagator/calagator](https://github.com/calagator/calagator)
 
 ### 24pullrequests
@@ -209,10 +209,6 @@ This is the code base for the UK Government's e-petitions service (https://petit
 Open source toolkit for voice services; with special focus to the needs of medium- and low-income countries, scalable services, and interacting with vulnerable populations [http://verboice.instedd.org/](http://verboice.instedd.org/)  
 [https://github.com/instedd/verboice](https://github.com/instedd/verboice)
 
-### xrono
-Xrono is an asset and time tracking application for consultants and consulting companies. [http://www.xrono.org](http://www.xrono.org)  
-[https://github.com/isotope11/xrono](https://github.com/isotope11/xrono)
-
 ### publisher
 Publishes mainstream content on GOV.UK [https://docs.publishing.service.gov.uk/apps/publisher.html](https://docs.publishing.service.gov.uk/apps/publisher.html)  
 [https://github.com/alphagov/publisher](https://github.com/alphagov/publisher)
@@ -236,10 +232,6 @@ Retired. App that holds some of the content on GOV.UK
 Secrets created by kevlar.io are kept until they are accessed, they are then deleted permanently from the server. [http://kevlar.io](http://kevlar.io)  
 [https://github.com/adambutler/kevlar](https://github.com/adambutler/kevlar)
 
-### myusa
-MyUSA was a single sign-on project for government, now deprecated. (More info: https://18f.gsa.gov/2015/05/18/myusa/)  
-[https://github.com/18F/myusa](https://github.com/18F/myusa)
-
 ### C2
 an approval process automation tool [https://cap.18f.gov](https://cap.18f.gov)  
 [https://github.com/18F/C2](https://github.com/18F/C2)
@@ -249,7 +241,7 @@ Kandan is an Open Source Alternative to HipChat
 [https://github.com/kandanapp/kandan](https://github.com/kandanapp/kandan)
 
 ### feedbin
-RSS Reader [https://feedbin.com](https://feedbin.com)  
+Follow your passions with RSS, email newsletters, and Twitter. [https://feedbin.com](https://feedbin.com)  
 [https://github.com/feedbin/feedbin](https://github.com/feedbin/feedbin)
 
 ### gitlab-ci
@@ -356,11 +348,11 @@ Web-based software to manage a non-profit food coop (product catalog, ordering, 
 [https://github.com/foodcoops/foodsoft](https://github.com/foodcoops/foodsoft)
 
 ### foreman
-an application that automates the lifecycle of servers  [http://theforeman.org](http://theforeman.org)  
+an application that automates the lifecycle of servers  [https://theforeman.org](https://theforeman.org)  
 [https://github.com/theforeman/foreman](https://github.com/theforeman/foreman)
 
 ### katello
-Katello integrates open source systems management tools into a single solution for controlling the lifecycle of your machines. [katello.org](katello.org)  
+Katello integrates open source systems management tools into a single solution for controlling the lifecycle of your machines. [https://theforeman.org/plugins/katello/](https://theforeman.org/plugins/katello/)  
 [https://github.com/Katello/katello](https://github.com/Katello/katello)
 
 ### earthdata-search
@@ -372,7 +364,7 @@ Helps save cute cuddly puppies! [http://ophrescue.org](http://ophrescue.org)
 [https://github.com/ophrescue/RescueRails](https://github.com/ophrescue/RescueRails)
 
 ### manageiq
-ManageIQ Open-Source Management Platform [manageiq.org](manageiq.org)  
+ManageIQ Open-Source Management Platform [https://www.manageiq.org/](https://www.manageiq.org/)  
 [https://github.com/ManageIQ/manageiq](https://github.com/ManageIQ/manageiq)
 
 ### samson
@@ -380,7 +372,7 @@ Web interface for deployments, with plugin architecture and kubernetes support
 [https://github.com/zendesk/samson](https://github.com/zendesk/samson)
 
 ### sharetribe
-Sharetribe Go is a source available marketplace software, also available with SaaS model. See also Sharetribe Flex (https://www.sharetribe.com/flex), a headless marketplace solution. [https://www.sharetribe.com/](https://www.sharetribe.com/)  
+Sharetribe Go is a source available marketplace software, also available as a hosted, no-code SaaS product. For a headless, API-first marketplace solution, check out Sharetribe Flex: https://www.sharetribe.com/flex. [https://www.sharetribe.com](https://www.sharetribe.com)  
 [https://github.com/sharetribe/sharetribe](https://github.com/sharetribe/sharetribe)
 
 ### cfp-app
@@ -396,7 +388,7 @@ Long Running Ruby Benchmarks [https://rubybench.org](https://rubybench.org)
 [https://github.com/ruby-bench/ruby-bench-web](https://github.com/ruby-bench/ruby-bench-web)
 
 ### alonetone
-The kick ass, open source, non-commercial home for musicians and their music [https://alonetone.com](https://alonetone.com)  
+A free, open source, non-commercial home for musicians and their music [https://alonetone.com](https://alonetone.com)  
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
 ### alchemy_cms
@@ -483,7 +475,7 @@ Search analytics made easy
 [https://github.com/ankane/searchjoy](https://github.com/ankane/searchjoy)
 
 ### ahoy
-Analytics for Rails  
+Simple, powerful, first-party analytics for Rails  
 [https://github.com/ankane/ahoy](https://github.com/ankane/ahoy)
 
 ### ahoy_email
@@ -495,11 +487,11 @@ Create beautiful JavaScript charts with one line of Ruby [https://chartkick.com]
 [https://github.com/ankane/chartkick](https://github.com/ankane/chartkick)
 
 ### notable
-Extraordinary insight into your users and background jobs  
+Track notable requests and background jobs  
 [https://github.com/ankane/notable](https://github.com/ankane/notable)
 
 ### mailkick
-Email subscriptions made easy  
+Email unsubscribes for Rails  
 [https://github.com/ankane/mailkick](https://github.com/ankane/mailkick)
 
 ### osem
@@ -554,10 +546,6 @@ Multimedia story telling for the web. [http://pageflow.io](http://pageflow.io)
 Klaxon enables reporters and editors to monitor scores of sites on the web for newsworthy changes. [https://newsklaxon.org](https://newsklaxon.org)  
 [https://github.com/themarshallproject/klaxon](https://github.com/themarshallproject/klaxon)
 
-### mastodon
-A GNU Social-compatible microblogging server [https://mastodon.social](https://mastodon.social)  
-[https://github.com/Gargron/mastodon](https://github.com/Gargron/mastodon)
-
 ### cm42-central
 Fork and Evolution of the Fulcrum project - An agile project planning tool and Pivotal Tracker drop-in replacement [https://central.cm42.io](https://central.cm42.io)  
 [https://github.com/Codeminer42/cm42-central](https://github.com/Codeminer42/cm42-central)
@@ -574,7 +562,7 @@ A Rails Engine for building Shopify Apps [http://shopify.github.io/shopify_app](
 Server app for the TestTrack multi-platform split-testing and feature-gating system  
 [https://github.com/Betterment/test_track](https://github.com/Betterment/test_track)
 
-### codetriage
+### CodeTriage
 Discover the best way to get started contributing to Open Source projects [https://www.codetriage.com](https://www.codetriage.com)  
 [https://github.com/codetriage/codetriage](https://github.com/codetriage/codetriage)
 
@@ -619,16 +607,12 @@ DBHero is a simple and elegant web interface to extract data clips from your app
 [https://github.com/catarse/dbhero](https://github.com/catarse/dbhero)
 
 ### octobox
-📮Untangle your GitHub Notifications [https://octobox.io](https://octobox.io)  
+📮Untangle your GitHub Notifications  
 [https://github.com/octobox/octobox](https://github.com/octobox/octobox)
 
 ### worldcubeassociation.org
 All of the code that runs on worldcubeassociation.org [https://www.worldcubeassociation.org/](https://www.worldcubeassociation.org/)  
 [https://github.com/thewca/worldcubeassociation.org](https://github.com/thewca/worldcubeassociation.org)
-
-### o_cms
-Outside CMS - Open source, easy to extend content management system for Rails  
-[https://github.com/benjaminayres/o_cms](https://github.com/benjaminayres/o_cms)
 
 ### field_test
 A/B testing for Rails  
@@ -666,10 +650,6 @@ A collaborative platform for volunteer refugee support. [http://lale.help](http:
 A time banking system [https://www.timeoverflow.org](https://www.timeoverflow.org)  
 [https://github.com/coopdevs/timeoverflow](https://github.com/coopdevs/timeoverflow)
 
-### katuma
-ABANDONED - Old Katuma's backend API [http://www.katuma.org](http://www.katuma.org)  
-[https://github.com/coopdevs/katuma](https://github.com/coopdevs/katuma)
-
 ### openfoodnetwork
 Connect suppliers, distributors and consumers to trade local produce [http://openfoodnetwork.org/](http://openfoodnetwork.org/)  
 [https://github.com/openfoodfoundation/openfoodnetwork](https://github.com/openfoodfoundation/openfoodnetwork)
@@ -706,7 +686,7 @@ Claim for Crown Court Defence, formerly Advocate Defence Payments (ADP), aka Cri
 [https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence](https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence)
 
 ### bike_index
-All the code for the Bike Index, because we love you [https://bikeindex.org](https://bikeindex.org)  
+All the code for Bike Index, because we love you [https://bikeindex.org](https://bikeindex.org)  
 [https://github.com/bikeindex/bike_index](https://github.com/bikeindex/bike_index)
 
 ### coursemology2
@@ -722,16 +702,12 @@ Wiki Education Foundation's Wikipedia course dashboard system [https://dashboard
 [https://github.com/WikiEducationFoundation/WikiEduDashboard](https://github.com/WikiEducationFoundation/WikiEduDashboard)
 
 ### envizon
-network visualization tool with focus on red / blue team requirements  
+network visualization & vulnerability management/reporting [https://evait-security.github.io/envizon/](https://evait-security.github.io/envizon/)  
 [https://github.com/evait-security/envizon](https://github.com/evait-security/envizon)
 
 ### snibox
 Self-hosted snippet manager [https://snibox.github.io/](https://snibox.github.io/)  
 [https://github.com/snibox/snibox](https://github.com/snibox/snibox)
-
-### dev.to
-Where programmers share ideas and help each other grow [https://dev.to](https://dev.to)  
-[https://github.com/thepracticaldev/dev.to](https://github.com/thepracticaldev/dev.to)
 
 ### zammad
 Zammad is a web based open source helpdesk/customer support system [https://zammad.org](https://zammad.org)  
@@ -758,8 +734,36 @@ The EFF Action Center Platform
 [https://github.com/EFForg/action-center-platform](https://github.com/EFForg/action-center-platform)
 
 ### heya
-Heya :wave: is a customer communication and automation framework for Rails. Demo app: https://github.com/honeybadger-io/heya-app  
+Heya 👋 is a campaign mailer for Rails. Think of it like ActionMailer, but for timed email sequences. It can also perform other actions like sending a text message. [https://www.heya.email](https://www.heya.email)  
 [https://github.com/honeybadger-io/heya](https://github.com/honeybadger-io/heya)
+
+### mastodon
+Your self-hosted, globally interconnected microblogging community [https://joinmastodon.org](https://joinmastodon.org)  
+[https://github.com/tootsuite/mastodon](https://github.com/tootsuite/mastodon)
+
+### identity-idp
+Login.gov Core App: Identity Provider (IdP) [https://secure.login.gov/](https://secure.login.gov/)  
+[https://github.com/18F/identity-idp](https://github.com/18F/identity-idp)
+
+### upcase
+Sharpen your programming skills. [https://thoughtbot.com/upcase](https://thoughtbot.com/upcase)  
+[https://github.com/thoughtbot/upcase](https://github.com/thoughtbot/upcase)
+
+### pupilfirst
+A learning management system (LMS) that lets you run an asynchronous online school, where learning is achieved through focused tasks, directed feedback, an iterative workflow, and community interaction. [https://www.pupilfirst.com](https://www.pupilfirst.com)  
+[https://github.com/pupilfirst/pupilfirst](https://github.com/pupilfirst/pupilfirst)
+
+### ShinyCMS-ruby
+ShinyCMS is an open-source CMS built in Ruby on Rails, with support for themes, plugins, and cloud hosting. [https://shinycms.org](https://shinycms.org)  
+[https://github.com/denny/ShinyCMS-ruby](https://github.com/denny/ShinyCMS-ruby)
+
+### theodinproject
+Main Website for The Odin Project [http://www.theodinproject.com](http://www.theodinproject.com)  
+[https://github.com/TheOdinProject/theodinproject](https://github.com/TheOdinProject/theodinproject)
+
+### sail
+Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
+[https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
 
 ## Moved/Missing/Deleted Repos
@@ -768,14 +772,13 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/jcs/lobsters
 - https://github.com/cantino/huginn
 - https://github.com/FlyoverWorks/storytime
-- https://github.com/netguru/people
 - https://github.com/pivotal/projectmonitor
 - https://github.com/thoughtbot/hound
 - https://github.com/fxn/rails-contributors
 - https://github.com/potomak/tomatoes
-- https://github.com/asciinema/asciinema.org
 - https://github.com/Netflix/Scumblr
 - https://github.com/girldevelopit/gdi-new-site
+- https://github.com/isotope11/xrono
 - https://github.com/alphagov/signonotron2
 - https://github.com/theodi/csvlint
 - https://github.com/ruby-china/ruby-china
@@ -786,7 +789,9 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/ministryofjustice/fr-staffapp
 - https://github.com/peterkeen/payola
 - https://github.com/julianguyen/ifme
+- https://github.com/benjaminayres/o_cms
 - https://github.com/projecthydra/browse-everything
 - https://github.com/kevinchandler/followr
 - https://github.com/atech/postal
 - https://github.com/samvera-labs/hyku
+- https://github.com/thepracticaldev/dev.to
