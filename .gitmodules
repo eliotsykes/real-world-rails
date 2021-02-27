@@ -106,10 +106,6 @@
 	path = apps/loomio
 	url = git@github.com:loomio/loomio.git
 	branch = master
-[submodule "apps/netguru-help"]
-	path = apps/netguru-help
-	url = git@github.com:netguru/help.git
-	branch = master
 [submodule "apps/tracks"]
 	path = apps/tracks
 	url = git@github.com:TracksApp/tracks.git
@@ -694,10 +690,6 @@
 [submodule "apps/worldcubeassociation.org"]
 	path = apps/worldcubeassociation.org
 	url = git@github.com:thewca/worldcubeassociation.org.git
-	branch = master
-[submodule "engines/o_cms"]
-	path = engines/o_cms
-	url = git@github.com:benjaminayres/o_cms.git
 	branch = master
 [submodule "engines/field_test"]
 	path = engines/field_test
