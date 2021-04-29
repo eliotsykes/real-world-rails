@@ -1,0 +1,10 @@
+version: 2
+updates:
+- package-ecosystem: gitsubmodule
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "16:00"
+  pull-request-branch-name:
+    separator: "-"
+  open-pull-requests-limit: 25
