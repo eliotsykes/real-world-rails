@@ -89,10 +89,6 @@ Time registration that doesn't suck [https://happyhours.io](https://happyhours.i
 Loomio helps people make decisions together [https://www.loomio.org](https://www.loomio.org)  
 [https://github.com/loomio/loomio](https://github.com/loomio/loomio)
 
-### help
-Small help requests system. Subscribe to topic so people can ask you for help or who subscribed where and ask them for help [https://netguru.co/opensource](https://netguru.co/opensource)  
-[https://github.com/netguru/help](https://github.com/netguru/help)
-
 ### tracks
 Tracks is a GTD™ web application, built with Ruby on Rails [https://www.getontracks.org/](https://www.getontracks.org/)  
 [https://github.com/TracksApp/tracks](https://github.com/TracksApp/tracks)
@@ -140,10 +136,6 @@ An open-source assets exchange. [http://peatio.com](http://peatio.com)
 ### bridge_troll
 Event management system for all the Bridges (RailsBridge, MobileBridge, GoBridge, etc!) [https://www.bridgetroll.org](https://www.bridgetroll.org)  
 [https://github.com/railsbridge/bridge_troll](https://github.com/railsbridge/bridge_troll)
-
-### shoppe
-A attractive and complete Rails engine providing e-commerce functionality for any Rails 4 application. [http://tryshoppe.com](http://tryshoppe.com)  
-[https://github.com/tryshoppe/shoppe](https://github.com/tryshoppe/shoppe)
 
 ### whitehall
 Publishes government content on GOV.UK [https://docs.publishing.service.gov.uk/apps/whitehall.html](https://docs.publishing.service.gov.uk/apps/whitehall.html)  
@@ -795,3 +787,5 @@ TODO: check the repos below - moved, renamed or deleted?
 - https://github.com/atech/postal
 - https://github.com/samvera-labs/hyku
 - https://github.com/thepracticaldev/dev.to
+- https://github.com/netguru/help
+- https://github.com/tryshoppe/shoppe
