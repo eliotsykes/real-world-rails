@@ -875,3 +875,7 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/railsdevs.com"]
+	path = apps/railsdevs.com
+	url = git@github.com:joemasilotti/railsdevs.com.git
+	branch = main
