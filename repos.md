@@ -7,7 +7,7 @@ Trailmix. A private place to write. [https://www.trailmix.life](https://www.trai
 
 ### lobsters
 Computing-focused community centered around link aggregation and discussion [https://lobste.rs](https://lobste.rs)  
-[https://github.com/jcs/lobsters](https://github.com/jcs/lobsters)
+[https://github.com/jcs/lobsters](https://github.com/lobsters/lobsters)
 
 ### spree
 Open Source headless multi-language/multi-currency/multi-store eCommerce platform. Developed by https://getvendo.com [https://spreecommerce.org](https://spreecommerce.org)  
