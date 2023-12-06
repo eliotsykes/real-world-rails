@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/pieforproviders"]
+	path = apps/pieforproviders
+	url = git@github.com:pieforproviders/pieforproviders.git
