@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/rubyland"]
+	path = apps/rubyland
+	url = git@github.com:jrochkind/rubyland.git
