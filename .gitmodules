@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/opensourcerails-org"]
+	path = apps/opensourcerails-org
+	url = git@github.com:opensourcerails-org/site.git
