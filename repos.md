@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### qpixel
+Q&A-based community knowledge-sharing software [https://codidact.com/](https://codidact.com/)
+[https://github.com/codidact/qpixel](https://github.com/codidact/qpixel)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?

@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/qpixel"]
+	path = apps/qpixel
+	url = git@github.com:codidact/qpixel.git
