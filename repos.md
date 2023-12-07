@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### opensourcerails
+Cataloged, analyzed, manually-curated open-source Rails projects directory [https://opensourcerails.org/](https://opensourcerails.org/)
+[https://github.com/opensourcerails-org/site](https://github.com/opensourcerails-org/site)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
