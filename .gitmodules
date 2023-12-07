@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/ciao"]
+	path = apps/ciao
+	url = git@github.com:brotandgames/ciao.git
