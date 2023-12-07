@@ -40,7 +40,17 @@ echo "All done! Why not run some inspections? Run bin/rwr"
 - Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
 - Real World Ember https://github.com/eliotsykes/real-world-ember
 - Real World Ruby Apps https://github.com/jeromedalbert/real-world-ruby-apps
+- Real World RSpec https://github.com/pirj/real-world-rspec
+- Real World Hanami https://github.com/ydakuka/real-world-hanami
+- Real World Elixir Apps https://github.com/szTheory/real-world-elixir-apps
+- Real World Phoenix https://github.com/szTheory/real-world-phoenix
+- Real World Absinthe https://github.com/szTheory/real-world-absinthe
+- Real World Nerves https://github.com/szTheory/real-world-nerves
+- Real World Plug https://github.com/szTheory/real-world-plug
+- Real World Erlang Apps https://github.com/szTheory/real-world-erlang-apps
+- Real World Ember https://github.com/eliotsykes/real-world-ember
 - Real World React https://github.com/jeromedalbert/real-world-react
+- Real World Django https://github.com/ckrybus/real-world-django
 - Know any others? Please open a PR and add the link here
 
 ## How you can analyze Real World Rails apps
