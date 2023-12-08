@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### vglist
+A video game library tracking web app built in Rails and powered by Wikidata [https://vglist.co/](https://vglist.co/)
+[https://github.com/connorshea/vglist](https://github.com/connorshea/vglist)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
