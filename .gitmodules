@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/rubyapi"]
+	path = apps/rubyapi
+	url = git@github.com:rubyapi/rubyapi.git
