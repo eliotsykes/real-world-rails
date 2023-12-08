@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/plots2"]
+	path = apps/plots2
+	url = git@github.com:publiclab/plots2.git

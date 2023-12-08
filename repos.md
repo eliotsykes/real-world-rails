@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### plots2
+A collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! [https://publiclab.org/](https://publiclab.org/)
+[https://github.com/publiclab/plots2](https://github.com/publiclab/plots2)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
