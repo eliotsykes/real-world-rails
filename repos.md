@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### Simple.org
+The web app behind Simple.org [https://www.simple.org/](https://www.simple.org/)
+[https://github.com/simpledotorg/simple-server](https://github.com/simpledotorg/simple-server)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?

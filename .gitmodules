@@ -875,3 +875,6 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/simple-server"]
+	path = apps/simple-server
+	url = git@github.com:simpledotorg/simple-server.git
