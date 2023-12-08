@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### rubyapi
+Ruby API makes it easy and fast to search or browse the Ruby language API docs [https://rubyapi.org/](https://rubyapi.org/)
+[https://github.com/rubyapi/rubyapi](https://github.com/rubyapi/rubyapi)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
