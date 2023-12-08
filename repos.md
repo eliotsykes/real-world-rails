@@ -765,6 +765,10 @@ Main Website for The Odin Project [http://www.theodinproject.com](http://www.the
 Sail is a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app  
 [https://github.com/vinistock/sail](https://github.com/vinistock/sail)
 
+### consul
+Consul Democracy - Open Government and E-Participation Web Software [https://consuldemocracy.org](https://consuldemocracy.org)
+[https://github.com/consul/consul](https://github.com/consul/consul)
+
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
