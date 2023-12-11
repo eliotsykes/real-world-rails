@@ -35,6 +35,33 @@ bundle install
 echo "All done! Why not run some inspections? Run bin/rwr"
 ```
 
+If you prefer cloning with HTTPS instead of SSH, you can do so by running the following instead:
+
+```bash
+# Clone this git repo:
+git clone https://github.com/jeromedalbert/real-world-ruby-apps.git
+
+cd real-world-rails/
+
+rm .gitmodules
+
+mv .gitmodules-https .gitmodules
+
+git submodule sync
+
+# The Rails apps are linked to as git submodules.
+# This will take some time...(see comment below for possible speedup)
+git submodule update --init
+
+# OR If you've got git 2.9+ installed try to run updates in parallel:
+# git submodule update --init --jobs 4
+
+# To run the `bin/rwr` inspectors, install gems:
+bundle install
+
+echo "All done! Why not run some inspections? Run bin/rwr"
+```
+
 ## Other Real World Codebase Collections
 
 - Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
