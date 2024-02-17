@@ -163,6 +163,9 @@ To update the revisions, run:
 
 ```bash
 # This will take some time:
+
+# TODO: Which one to use?
+GIT_LFS_SKIP_SMUDGE=1 git submodule foreach 'default_branch=`basename $(git rev-parse --abbrev-ref origin/HEAD)`; git fetch; git checkout $default_branch'
 GIT_LFS_SKIP_SMUDGE=1 git submodule foreach git pull
 ```
 
