@@ -11,15 +11,15 @@ jobs:
   generate-doc:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Setup Ruby
         # Docs: https://github.com/ruby/setup-ruby
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # Runs bundle install and caches gems
-          ruby-version: '2.7.8'
-
-      - name: Checkout code
-        uses: actions/checkout@v4
+          ruby-version: .ruby-version
 
       - name: Generate repos markdown file
         env:
