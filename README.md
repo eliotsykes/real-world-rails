@@ -16,6 +16,8 @@ If you've got an idea for something that'd be interesting or fun to find out abo
 
 ## How to install on your computer
 
+Ensure you have git-lfs installed: https://git-lfs.com
+
 ```bash
 # Clone this git repo:
 git clone git@github.com:eliotsykes/real-world-rails.git
@@ -23,7 +25,7 @@ git clone git@github.com:eliotsykes/real-world-rails.git
 cd real-world-rails/
 
 # The Rails apps are linked to as git submodules.
-git submodule update --init --single-branch --jobs 4
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --single-branch --jobs 4
 
 # To run the `bin/rwr` inspectors, install gems:
 bundle install
@@ -139,7 +141,7 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 
 ```bash
 # Inside real-world-rails root:
-git submodule add -b master git@github.com:githubuser/foo.git apps/foo
+GIT_LFS_SKIP_SMUDGE=1 git submodule add -b master git@github.com:githubuser/foo.git apps/foo
 ```
 
 Regenerate [`repos.md`](repos.md):
@@ -160,7 +162,7 @@ To update the revisions, run:
 
 ```bash
 # This will take some time:
-git submodule foreach git pull
+GIT_LFS_SKIP_SMUDGE=1 git submodule foreach git pull
 ```
 
 #### How to remove a git submodule
