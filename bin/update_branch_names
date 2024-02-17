@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-# TODO: Is this file needed? Can it be replaced with this command:
+# TODO: Is this file needed? Can it be replaced with this command below? Will this also update the branch names in
+#       .gitmodules? If not, consider adding a git config --file .gitmodules $some_key=$default_branch to this command.
 # git submodule foreach 'default_branch=`basename $(git rev-parse --abbrev-ref origin/HEAD)`; git fetch; git checkout $default_branch'
 
 require 'pathname'
