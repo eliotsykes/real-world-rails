@@ -679,10 +679,6 @@
 	path = apps/octobox
 	url = git@github.com:octobox/octobox.git
 	branch = master
-[submodule "apps/worldcubeassociation.org"]
-	path = apps/worldcubeassociation.org
-	url = git@github.com:thewca/worldcubeassociation.org.git
-	branch = master
 [submodule "engines/field_test"]
 	path = engines/field_test
 	url = git@github.com:ankane/field_test.git
@@ -862,4 +858,8 @@
 [submodule "apps/gitlabhq"]
 	path = apps/gitlabhq
 	url = git@github.com:gitlabhq/gitlabhq.git
+	branch = master
+[submodule "apps/worldcubeassociation.org"]
+	path = apps/worldcubeassociation.org
+	url = git@github.com:thewca/worldcubeassociation.org.git
 	branch = master
