@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
+
+# TODO: Is this file needed? Can it be replaced with this command:
+# git submodule foreach 'default_branch=`basename $(git rev-parse --abbrev-ref origin/HEAD)`; git fetch; git checkout $default_branch'
+
 require 'pathname'
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile',
   Pathname.new(__FILE__).realpath)
