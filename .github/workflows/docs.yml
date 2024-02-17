@@ -21,7 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Generate repos.md
+      - name: Generate repos markdown file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bin/get_project_data > repos.md
