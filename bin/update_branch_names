@@ -1,0 +1,112 @@
+#!/usr/bin/env ruby
+require 'pathname'
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile',
+  Pathname.new(__FILE__).realpath)
+
+require 'rubygems'
+require 'bundler/setup'
+
+require 'open3'
+
+class Config
+  VALID_KEY_SUFFIXES = %w[path url branch ignore].freeze
+  attr_reader :key, :value, :file
+
+  def initialize(line, file)
+    @file = file
+    @key, @value = line.split("=")
+    raise ArgumentError, "Key #{key} has unexpected suffix '#{key_suffix}'" unless VALID_KEY_SUFFIXES.include?(key_suffix)
+  end
+
+  def key_suffix
+    @key_suffix ||= key.split(".").last
+  end
+
+  def submodule_name
+    @submodule_name ||= key.split(".")[1]
+  end
+
+  def set(new_value)
+    @value = new_value
+    file.set(self)
+  end
+
+  def to_s
+    "#{key}=#{value}"
+  end
+end
+
+class GitmodulesFile
+  def initialize
+    @pathname = Pathname('.gitmodules')
+  end
+
+  def set(config)
+    command = "git config --file #{self} #{config.key} #{config.value}"
+    _output, _status = Open3.capture2(command)
+  end
+
+  def to_s
+    @pathname.to_s
+  end
+
+  def self.submodules
+    file = new
+    output, _status = Open3.capture2("git config --file #{file} --list")
+    lines = output.split("\n")
+    submodules_by_name = {}
+    lines.each do |line|
+      config = Config.new(line, file)
+      submodules_by_name[config.submodule_name] ||= {}
+      submodules_by_name[config.submodule_name][config.key_suffix.to_sym] = config
+    end
+    submodules_by_name.values.map do |submodule_attrs|
+      Submodule.new(**submodule_attrs)
+    end
+  end
+end
+
+class Submodule
+  attr_reader :pathname, :branch
+
+  def initialize(path:, url:, branch:, ignore: nil)
+    @pathname = Pathname(path.is_a?(Config) ? path.value : path)
+    @branch = branch
+  end
+
+  def self.all
+    GitmodulesFile.new
+  end
+
+  def default_origin_branch
+    @default_origin_branch ||= origin_head_short_name.sub(/\Aorigin\//, '')
+  end
+
+  def non_default_branch?
+    branch.value != default_origin_branch
+  end
+
+  def set_branch_to_default
+    branch.set(default_origin_branch)
+  end
+
+  def to_s
+    @pathname.to_s
+  end
+
+  private
+
+  def origin_head_short_name
+    short_name, _status = Open3.capture2('git rev-parse --abbrev-ref origin/HEAD', chdir: pathname)
+    short_name.strip!
+    short_name
+  end
+end
+
+GitmodulesFile.submodules.select(&:non_default_branch?).each do |submodule|
+  puts "Submodule: #{submodule}"
+  puts "  Branch in .gitmodules needs updating from: #{submodule.branch.value}"
+  puts "  Updating to default origin branch: #{submodule.default_origin_branch}"
+  submodule.set_branch_to_default
+  puts "\n"
+end
