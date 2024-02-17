@@ -835,10 +835,6 @@
 	path = engines/heya
 	url = git@github.com:honeybadger-io/heya.git
 	branch = main
-[submodule "apps/mastodon"]
-	path = apps/mastodon
-	url = git@github.com:tootsuite/mastodon.git
-	branch = main
 [submodule "apps/identity-idp"]
 	path = apps/identity-idp
 	url = git@github.com:18F/identity-idp.git
@@ -863,3 +859,7 @@
 	path = engines/sail
 	url = git@github.com:vinistock/sail.git
 	branch = master
+[submodule "apps/mastodon"]
+	path = apps/mastodon
+	url = git@github.com:mastodon/mastodon.git
+	branch = main
