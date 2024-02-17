@@ -141,7 +141,8 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 
 ```bash
 # Inside real-world-rails root:
-GIT_LFS_SKIP_SMUDGE=1 git submodule add -b master git@github.com:githubuser/foo.git apps/foo
+# Replace <DEFAULT_BRANCH> with correct branch (probably 'main').
+GIT_LFS_SKIP_SMUDGE=1 git submodule add -b <DEFAULT_BRANCH> git@github.com:githubuser/foo.git apps/foo
 ```
 
 Regenerate [`repos.md`](repos.md):
