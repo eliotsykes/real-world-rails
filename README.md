@@ -23,11 +23,7 @@ git clone git@github.com:eliotsykes/real-world-rails.git
 cd real-world-rails/
 
 # The Rails apps are linked to as git submodules.
-# This will take some time...(see comment below for possible speedup)
-git submodule update --init
-
-# OR If you've got git 2.9+ installed try to run updates in parallel:
-# git submodule update --init --jobs 4
+git submodule update --init --single-branch --jobs 4
 
 # To run the `bin/rwr` inspectors, install gems:
 bundle install
