@@ -12,8 +12,6 @@ Real World Rails was begun to help teach newer developers and to research and wr
 - See how Rails engines are built
 - &hellip;and much, much more.
 
-If you've got an idea for something that'd be interesting or fun to find out about these Real World Rails apps, [contribute your idea on the issue tracker](https://github.com/eliotsykes/real-world-rails/issues) &mdash; [_Eliot Sykes_](https://eliotsykes.com)
-
 ## How to install on your computer
 
 Ensure you have git-lfs installed: https://git-lfs.com
@@ -39,7 +37,6 @@ echo "All done! Why not run some inspections? Run bin/rwr"
 - Real World Ember https://github.com/eliotsykes/real-world-ember
 - Real World Ruby Apps https://github.com/jeromedalbert/real-world-ruby-apps
 - Real World React https://github.com/jeromedalbert/real-world-react
-- Know any others? Please open a PR and add the link here
 
 ## How you can analyze Real World Rails apps
 
@@ -191,10 +188,3 @@ Review the existing [inspectors](lib/real_world_rails/inspectors) if you're look
 - http://whitequark.github.io/ast/AST/Node.html
 - http://www.rubydoc.info/github/whitequark/parser/master/Parser/AST/Processor
 - http://whitequark.github.io/ast/AST/Processor.html
-
----
-
-# Contributors
-
-- Eliot Sykes https://eliotsykes.com/
-- Contributions are welcome, fork the GitHub repo, make your changes, then submit your pull request! Reach out if you'd like some help.
