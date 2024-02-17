@@ -77,10 +77,6 @@ class Submodule
     @pathname = Pathname(path.is_a?(Config) ? path.value : path)
   end
 
-  def self.all
-    GitmodulesFile.new
-  end
-
   def default_origin_branch
     @default_origin_branch ||= origin_head_short_name.sub(/\Aorigin\//, '')
     assert_safe_branch_name @default_origin_branch
@@ -113,7 +109,12 @@ class Submodule
   end
 end
 
-GitmodulesFile.submodules.select(&:non_default_branch?).each do |submodule|
+submodules_to_update = GitmodulesFile.submodules.select(&:non_default_branch?)
+if submodules_to_update.empty?
+  puts "No submodule branch names need updating."
+  exit
+end
+submodules_to_update.each do |submodule|
   puts "Submodule: #{submodule}"
   puts "  Branch in .gitmodules needs updating from: #{submodule.branch.value}"
   puts "  Updating to default origin branch: #{submodule.default_origin_branch}"
