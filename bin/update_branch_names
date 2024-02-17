@@ -67,11 +67,14 @@ class GitmodulesFile
 end
 
 class Submodule
+  ACCEPTED_BRANCHES = %w[dev develop development main master staging the-future].freeze
+
   attr_reader :pathname, :branch
 
   def initialize(path:, url:, branch:, ignore: nil)
-    @pathname = Pathname(path.is_a?(Config) ? path.value : path)
+    assert_safe_branch_name(branch.value)
     @branch = branch
+    @pathname = Pathname(path.is_a?(Config) ? path.value : path)
   end
 
   def self.all
@@ -80,6 +83,8 @@ class Submodule
 
   def default_origin_branch
     @default_origin_branch ||= origin_head_short_name.sub(/\Aorigin\//, '')
+    assert_safe_branch_name @default_origin_branch
+    @default_origin_branch
   end
 
   def non_default_branch?
@@ -96,9 +101,14 @@ class Submodule
 
   private
 
+  def assert_safe_branch_name(name)
+    raise ArgumentError, "Unexpected branch name '#{name}'" unless ACCEPTED_BRANCHES.include?(name)
+  end
+
   def origin_head_short_name
     short_name, _status = Open3.capture2('git rev-parse --abbrev-ref origin/HEAD', chdir: pathname)
     short_name.strip!
+
     short_name
   end
 end
