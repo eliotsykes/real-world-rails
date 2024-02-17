@@ -145,7 +145,7 @@ GIT_LFS_SKIP_SMUDGE=1 git submodule add -b <DEFAULT_BRANCH> git@github.com:githu
 Regenerate [`repos.md`](repos.md):
 
 ```bash
-# Requires valid GITHUB_ACCESS_TOKEN
+# Requires valid GITHUB_TOKEN
 bin/get_project_data > repos.md
 
 # OR, if GitHub GraphQL API v4 schema has changed, update cached copy of schema:

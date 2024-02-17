@@ -6,8 +6,6 @@ ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile',
 require 'rubygems'
 require 'bundler/setup'
 
-
-
 # https://developer.github.com/early-access/graphql/explorer/
 # https://stackoverflow.com/questions/39666940/how-to-batch-github-graphql-api-queries
 
@@ -34,7 +32,7 @@ class Repo
   def self.all
     @repos ||= File.read('.gitmodules').scan(REPO_PATTERN).map do |login, name|
       new(login: login, name: name)
-    end
+    end.sort_by(&:name)
   end
 
   def to_s
@@ -54,8 +52,8 @@ module GitHub
 
   HTTP = GraphQL::Client::HTTP.new("https://api.github.com/graphql") do
     def headers(context)
-      unless token = context[:access_token] || ENV['GITHUB_ACCESS_TOKEN']
-        # $ GITHUB_ACCESS_TOKEN=abc123
+      unless token = context[:access_token] || ENV['GITHUB_TOKEN']
+        # $ GITHUB_TOKEN=abc123
         #   https://help.github.com/articles/creating-an-access-token-for-command-line-use
         # Get temporary access token from ~/.config/hub
         fail 'Missing GitHub access token. Get temporary access token from ~/.config/hub'
@@ -83,7 +81,7 @@ module GitHub
 
   def self.fetch_all
     variables = {}
-    client_context = { access_token: ENV['GITHUB_ACCESS_TOKEN'] }
+    client_context = { access_token: ENV['GITHUB_TOKEN'] }
 
     puts "# Real World Rails"
     puts "\n"

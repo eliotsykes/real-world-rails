@@ -1,0 +1,33 @@
+name: Docs
+on: [push]
+
+# Restrict to one CI run at a time, per branch. In progress runs are *not* cancelled, but pending runs are
+# cancelled, except for the most recent: https://docs.github.com/en/actions/using-jobs/using-concurrency
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
+
+jobs:
+  repos.md:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Ruby
+        # Docs: https://github.com/ruby/setup-ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true # Runs bundle install and caches gems
+          ruby-version: .ruby-version
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate repos.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bin/get_project_data > repos.md
+
+      - name: Debug repos.md
+        run: cat repos.md
+
+      - name: Commit repos.md
+        run: echo "TODO Commit repos.md"
