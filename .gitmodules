@@ -38,10 +38,6 @@
 	path = apps/radiant
 	url = git@github.com:radiant/radiant.git
 	branch = master
-[submodule "apps/gitlabhq"]
-	path = apps/gitlabhq
-	url = git@github.com:gitlabhq/gitlabhq.git
-	branch = master
 [submodule "apps/fat_free_crm"]
 	path = apps/fat_free_crm
 	url = git@github.com:fatfreecrm/fat_free_crm.git
@@ -863,3 +859,7 @@
 	path = apps/mastodon
 	url = git@github.com:mastodon/mastodon.git
 	branch = main
+[submodule "apps/gitlabhq"]
+	path = apps/gitlabhq
+	url = git@github.com:gitlabhq/gitlabhq.git
+	branch = master
