@@ -16,7 +16,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # Runs bundle install and caches gems
-          ruby-version: .ruby-version
 
       - name: Checkout code
         uses: actions/checkout@v4
