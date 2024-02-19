@@ -258,10 +258,6 @@
 	path = apps/uk-postcodes
 	url = git@github.com:theodi/uk-postcodes.git
 	branch = master
-[submodule "apps/panopticon"]
-	path = apps/panopticon
-	url = git@github.com:alphagov/panopticon.git
-	branch = master
 [submodule "apps/kevlar"]
 	path = apps/kevlar
 	url = git@github.com:adambutler/kevlar.git
@@ -862,4 +858,16 @@
 [submodule "apps/worldcubeassociation.org"]
 	path = apps/worldcubeassociation.org
 	url = git@github.com:thewca/worldcubeassociation.org.git
+	branch = master
+[submodule "apps/alphagov-publishing-api"]
+	path = apps/alphagov-publishing-api
+	url = git@github.com:alphagov/publishing-api.git
+	branch = master
+[submodule "apps/alphagov-publisher"]
+	path = apps/alphagov-publisher
+	url = git@github.com:alphagov/publisher.git
+	branch = master
+[submodule "apps/alphagov-content-tagger"]
+	path = apps/alphagov-content-tagger
+	url = git@github.com:alphagov/content-tagger.git
 	branch = master
