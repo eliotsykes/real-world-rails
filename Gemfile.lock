@@ -71,7 +71,7 @@ GEM
       unicode_utils (~> 1.4.0)
       verse (~> 0.4.0)
     tty-which (0.1.0)
-    tzinfo (1.2.3)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unicode_utils (1.4.0)
     verse (0.4.0)
