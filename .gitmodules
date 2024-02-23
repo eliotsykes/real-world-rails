@@ -863,3 +863,7 @@
 	path = apps/worldcubeassociation.org
 	url = git@github.com:thewca/worldcubeassociation.org.git
 	branch = master
+[submodule "apps/caley"]
+	path = apps/caley
+	url = git@github.com:caley-io/caley.git
+	branch = main
