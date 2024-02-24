@@ -1,6 +1,9 @@
 name: Update submodules
+# TODO: Remove push, only using push temporarily while building this workflow
+on: [push]
+
 # Manual workflow: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
-on: workflow_dispatch
+#on: workflow_dispatch
 
 # TODO: Use schedule below once finalized
 #on:
