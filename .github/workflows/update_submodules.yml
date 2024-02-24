@@ -44,7 +44,9 @@ jobs:
         run: git commit --all -m "Update submodules $TODAY"
 
       - name: Push branch
-        run: git push
+        run: |
+          git config push.autoSetupRemote true
+          git push
 
       - name: Open pull request
         run: echo 'TODO'
