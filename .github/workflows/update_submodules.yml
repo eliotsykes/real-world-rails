@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create branch
-        run: git checkout --branch submodules-update-${{ github.event.created_at }}
+        run: git checkout -b submodules-update-${{ github.event.created_at }}
 
       - name: Run submodule updates
         run: git submodule update --remote --merge --jobs 4
