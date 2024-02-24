@@ -31,6 +31,15 @@ bundle install
 echo "All done! Why not run some inspections? Run bin/rwr"
 ```
 
+## How to update your local copy of real-world-rails
+
+Pull the latest commits from this repo and update submodules:
+```bash
+git pull
+GIT_LFS_SKIP_SMUDGE=1 git submodule update
+```
+
+
 ## Other Real World Codebase Collections
 
 - Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
@@ -140,24 +149,6 @@ Given a GitHub repo for a Rails app `githubuser/foo`:
 # Inside real-world-rails root:
 # Replace <DEFAULT_BRANCH> with correct branch (probably 'main').
 GIT_LFS_SKIP_SMUDGE=1 git submodule add -b <DEFAULT_BRANCH> git@github.com:githubuser/foo.git apps/foo
-```
-
-Regenerate [`repos.md`](repos.md):
-
-```bash
-# Requires valid GITHUB_TOKEN
-bin/get_project_data > repos.md
-
-# OR, if GitHub GraphQL API v4 schema has changed, update cached copy of schema:
-FETCH_LATEST_SCHEMA=true bin/get_project_data > repos.md
-```
-
-#### Updating your local copy of real-world-rails
-
-Pull the latest commits from this repo and update submodules:
-```bash
-git pull
-GIT_LFS_SKIP_SMUDGE=1 git submodule update
 ```
 
 #### How to remove a git submodule
