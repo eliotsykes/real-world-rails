@@ -1,0 +1,57 @@
+name: Docs
+on:
+  schedule:
+    - cron: '43 8 10 * *' # Run monthly on the 10th, at 8:43am
+  workflow_dispatch: # Can be run manually from GitHub UI
+
+jobs:
+  generate-doc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permit git push
+      pull-requests: write
+    steps:
+      - name: Set TODAY env var
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Create branch
+        run: git checkout -b docs-$TODAY
+
+      - name: Setup Ruby
+        # Docs: https://github.com/ruby/setup-ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true # Runs bundle install and caches gems
+          ruby-version: .ruby-version
+
+      - name: Generate repos markdown file
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bin/get_project_data > repos.md
+
+      - name: Configure git user
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email ${{ github.actor }}@users.noreply.github.com
+
+      - name: Commit
+        run: |
+          git add repos.md
+          git commit -m "Update repos.md $TODAY"
+
+      - name: Push branch
+        run: |
+          git config push.autoSetupRemote true
+          git push
+
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --fill \
+            --reviewer eliotsykes \
+            --base ${{ github.ref_name }}
