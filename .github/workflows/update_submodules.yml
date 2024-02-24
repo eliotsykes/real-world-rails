@@ -33,7 +33,7 @@ jobs:
         run: git checkout -b submodules-update-$TODAY
 
       - name: Run submodule updates
-        run: git submodule update --remote --merge --jobs 4
+        run: git submodule update --remote --checkout --jobs 4
 
       - name: Commit results
         run: git commit -m "Update submodules $TODAY" .
