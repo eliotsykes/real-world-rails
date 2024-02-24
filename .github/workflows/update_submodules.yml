@@ -35,7 +35,8 @@ jobs:
         run: git checkout -b submodules-update-$TODAY
 
       - name: Run submodule updates
-        run: git submodule update --remote --checkout
+        run: git submodule update --remote --checkout apps/24pullrequests
+#        run: git submodule update --remote --checkout
 
       - name: Configure git user
         run: |
@@ -43,7 +44,8 @@ jobs:
           git config user.email ${{ github.actor }}@users.noreply.github.com
 
       - name: Commit
-        run: git commit --all -m "Update submodules $TODAY"
+        run: git commit --all -m "Update submodules $TODAY" apps/24pullrequests
+#        run: git commit --all -m "Update submodules $TODAY"
 
       - name: Push branch
         run: |
