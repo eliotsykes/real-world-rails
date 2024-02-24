@@ -1,0 +1,37 @@
+name: Update submodules
+# Manual workflow: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+on: workflow_dispatch
+
+# TODO: Use schedule below once finalized
+#on:
+#  schedule:
+#    - cron: '17 8 10 * *' # Run monthly on the 10th, at 8:17am
+
+# TODO:
+# 1. Checkout then create a branch like submodules-update-<timestamp>
+# 2. Run `git submodule update --remote --merge` to update all git submodules (https://stackoverflow.com/questions/8191299/update-a-submodule-to-the-latest-commit/42175412#42175412)
+# 3. Commit results
+# 4. Push branch
+# 5. Open PR
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Create branch
+        run: git checkout --branch submodules-update-${{ github.event.created_at }}
+
+      - name: Run submodule updates
+        run: git submodule update --remote --merge --jobs 4
+
+      - name: Commit results
+        run: git commit -m "Update submodules ${{ github.event.created_at }}" .
+
+      - name: Push branch
+        run: echo 'TODO'
+
+      - name: Open pull request
+        run: echo 'TODO'
