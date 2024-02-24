@@ -56,6 +56,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr create \
+            --fill \
+            --reviewer eliotsykes \
             --base ${{ github.ref_name }}
-            --fill
-            --reviewer eliotsykes
