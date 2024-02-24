@@ -35,11 +35,16 @@ jobs:
       - name: Run submodule updates
         run: git submodule update --remote --checkout
 
-      - name: Commit results
-        run: git commit -m "Update submodules $TODAY" .
+      - name: Configure git user
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email ${{ github.actor }}@users.noreply.github.com
+
+      - name: Commit
+        run: git commit --all -m "Update submodules $TODAY"
 
       - name: Push branch
-        run: echo 'TODO'
+        run: git push
 
       - name: Open pull request
         run: echo 'TODO'
