@@ -152,18 +152,12 @@ bin/get_project_data > repos.md
 FETCH_LATEST_SCHEMA=true bin/get_project_data > repos.md
 ```
 
-#### Updating the Rails apps submodules to latest
+#### Updating your local copy of real-world-rails
 
-The Rails apps in `apps/` are git submodules. Git submodules are locked to a revision and don't stay in sync with the latest revision.
-
-To update the revisions, run:
-
+Pull the latest commits from this repo and update submodules:
 ```bash
-# This will take some time:
-
-# Which of these is faster?
-GIT_LFS_SKIP_SMUDGE=1 git submodule update --remote --checkout --jobs 4
-GIT_LFS_SKIP_SMUDGE=1 git submodule foreach git pull
+git pull
+GIT_LFS_SKIP_SMUDGE=1 git submodule update
 ```
 
 #### How to remove a git submodule
