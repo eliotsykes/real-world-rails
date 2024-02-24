@@ -44,7 +44,9 @@ jobs:
           git config user.email ${{ github.actor }}@users.noreply.github.com
 
       - name: Commit
-        run: git commit --all -m "Update submodules $TODAY" apps/24pullrequests
+        run: |
+          git add apps/24pullrequests
+          git commit -m "Update submodules $TODAY"
 #        run: git commit --all -m "Update submodules $TODAY"
 
       - name: Push branch
