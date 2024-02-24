@@ -20,6 +20,8 @@ on: [push]
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permit git push
     steps:
       - name: Set TODAY env var
         run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
