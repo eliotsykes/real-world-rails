@@ -51,7 +51,10 @@ jobs:
           git push
 
       - name: Open pull request
-        run: echo 'TODO'
+        run: |
+          gh pr create \
+            --fill
+            --reviewer eliotsykes
 
 #on: push
 #jobs:
