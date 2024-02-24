@@ -1,13 +1,8 @@
 name: Docs
-on: [push]
-
-# Manual workflow: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
-#on: workflow_dispatch
-
-# TODO: Use schedule below once finalized
-#on:
-#  schedule:
-#    - cron: '17 8 10 * *' # Run monthly on the 10th, at 8:17am
+on:
+  schedule:
+    - cron: '43 8 10 * *' # Run monthly on the 10th, at 8:43am
+  workflow_dispatch: # Can be run manually from GitHub UI
 
 jobs:
   generate-doc:
