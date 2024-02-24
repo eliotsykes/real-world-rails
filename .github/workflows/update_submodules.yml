@@ -26,12 +26,14 @@ jobs:
 
       - name: Checkout project
         uses: actions/checkout@v4
+        with:
+          submodules: true
 
       - name: Create branch
         run: git checkout -b submodules-update-$TODAY
 
       - name: Run submodule updates
-        run: git submodule update --init --remote --merge --jobs 4
+        run: git submodule update --remote --merge --jobs 4
 
       - name: Commit results
         run: git commit -m "Update submodules $TODAY" .
@@ -41,3 +43,17 @@ jobs:
 
       - name: Open pull request
         run: echo 'TODO'
+
+#on: push
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v4
+#      - run: |
+#          date > generated.txt
+#          git config user.name github-actions
+#          git config user.email github-actions@github.com
+#          git add .
+#          git commit -m "generated"
+#          git push
