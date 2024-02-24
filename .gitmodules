@@ -366,10 +366,6 @@
 	path = apps/accelerated_claims
 	url = git@github.com:ministryofjustice/accelerated_claims.git
 	branch = master
-[submodule "apps/courtfinder"]
-	path = apps/courtfinder
-	url = git@github.com:ministryofjustice/courtfinder.git
-	branch = master
 [submodule "apps/ds-auth"]
 	path = apps/ds-auth
 	url = git@github.com:ministryofjustice/ds-auth.git
