@@ -1,18 +1,26 @@
 name: Docs
 on: [push]
 
-# Restrict to one CI run at a time, per branch. In progress runs are *not* cancelled, but pending runs are
-# cancelled, except for the most recent: https://docs.github.com/en/actions/using-jobs/using-concurrency
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+# Manual workflow: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+#on: workflow_dispatch
 
+# TODO: Use schedule below once finalized
+#on:
+#  schedule:
+#    - cron: '17 8 10 * *' # Run monthly on the 10th, at 8:17am
 
 jobs:
   generate-doc:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Set TODAY env var
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Checkout project
         uses: actions/checkout@v4
+
+      - name: Create branch
+        run: git checkout -b docs-$TODAY
 
       - name: Setup Ruby
         # Docs: https://github.com/ruby/setup-ruby
@@ -26,8 +34,25 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bin/get_project_data > repos.md
 
-      - name: Debug repos.md
-        run: cat repos.md
+      - name: Configure git user
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email ${{ github.actor }}@users.noreply.github.com
 
-      - name: Commit repos.md
-        run: echo "TODO Commit repos.md"
+      - name: Commit
+        run: |
+          git add repos.md
+          git commit -m "Update repos.md $TODAY"
+
+      - name: Push branch
+        run: |
+          git config push.autoSetupRemote true
+          git push
+
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --fill
+            --reviewer eliotsykes
