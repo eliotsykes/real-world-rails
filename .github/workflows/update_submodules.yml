@@ -21,17 +21,20 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Set TODAY env var
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
       - name: Checkout project
         uses: actions/checkout@v4
 
       - name: Create branch
-        run: git checkout -b submodules-update-${{ github.event.created_at }}
+        run: git checkout -b submodules-update-$TODAY
 
       - name: Run submodule updates
-        run: git submodule update --remote --merge --jobs 4
+        run: git submodule update --init --remote --merge --jobs 4
 
       - name: Commit results
-        run: git commit -m "Update submodules ${{ github.event.created_at }}" .
+        run: git commit -m "Update submodules $TODAY" .
 
       - name: Push branch
         run: echo 'TODO'
