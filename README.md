@@ -161,6 +161,8 @@ To update the revisions, run:
 ```bash
 # This will take some time:
 
+# Which of these is faster?
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --remote --checkout --jobs 4
 GIT_LFS_SKIP_SMUDGE=1 git submodule foreach git pull
 ```
 
