@@ -295,10 +295,6 @@ A/B testing for Rails
 Flip lets you declare and manage feature flags, backed by cookies (private testing) and database (site-wide).  
 [https://github.com/pda/flip](https://github.com/pda/flip)
 
-### followr
-Rails Twitter follow & unfollow bot based on hashtags of user choice [http://twitterblast.herokuapp.com/](http://twitterblast.herokuapp.com/)  
-[https://github.com/kevinchandler/followr](https://github.com/kevinchandler/followr)
-
 ### foodsoft
 Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). [https://foodcoops.net/](https://foodcoops.net/)  
 [https://github.com/foodcoops/foodsoft](https://github.com/foodcoops/foodsoft)
@@ -603,7 +599,7 @@ Politwoops web front end
 [https://github.com/sunlightlabs/politwoops](https://github.com/sunlightlabs/politwoops)
 
 ### postal
-✉️ A fully featured open source mail delivery platform for incoming & outgoing e-mail [https://docs.postalserver.io](https://docs.postalserver.io)  
+✉️ A fully featured open source mail delivery platform for incoming & outgoing e-mail [https://postalserver.io](https://postalserver.io)  
 [https://github.com/atech/postal](https://github.com/atech/postal)
 
 ### postgresql_lo_streamer
@@ -747,7 +743,7 @@ Self-hosted snippet manager [https://snibox.github.io/](https://snibox.github.io
 [https://github.com/solidusio/solidus](https://github.com/solidusio/solidus)
 
 ### speakerinnen_liste
-International Women* Speaker Directory [ https://speakerinnen.org]( https://speakerinnen.org)  
+International Women* Speaker Directory [https://speakerinnen.org](https://speakerinnen.org)  
 [https://github.com/rubymonsters/speakerinnen_liste](https://github.com/rubymonsters/speakerinnen_liste)
 
 ### speakerline
@@ -849,5 +845,6 @@ Zammad is a web based open source helpdesk/customer support system [https://zamm
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
 
+- https://github.com/kevinchandler/followr
 - https://github.com/churchio/onebody
 - https://github.com/FlyoverWorks/storytime
