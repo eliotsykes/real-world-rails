@@ -755,7 +755,7 @@ A simple UI for browsing and inspecting diffs, and an API for runner scripts to 
 [https://github.com/wearefriday/spectre](https://github.com/wearefriday/spectre)
 
 ### spree
-Open Source multi-language/multi-currency/multi-store eCommerce platform [https://spreecommerce.org](https://spreecommerce.org)  
+Open Source eCommerce platform for global brands. An alternative to Shopify, Salesforce Commerce Cloud, Adobe Commerce etc. 🛒 [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### stripe_event
@@ -845,6 +845,5 @@ Zammad is a web based open source helpdesk/customer support system [https://zamm
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
 
-- https://github.com/kevinchandler/followr
 - https://github.com/churchio/onebody
 - https://github.com/FlyoverWorks/storytime
