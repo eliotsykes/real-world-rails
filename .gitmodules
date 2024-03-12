@@ -707,10 +707,6 @@
 	path = apps/feedbunch
 	url = git@github.com:amatriain/feedbunch.git
 	branch = master
-[submodule "apps/followr"]
-	path = apps/followr
-	url = git@github.com:kevinchandler/followr.git
-	branch = master
 [submodule "apps/lale-help"]
 	path = apps/lale-help
 	url = git@github.com:lale-help/lale-help.git
