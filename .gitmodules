@@ -854,4 +854,4 @@
 [submodule "apps/worldcubeassociation.org"]
 	path = apps/worldcubeassociation.org
 	url = git@github.com:thewca/worldcubeassociation.org.git
-	branch = master
+	branch = main
