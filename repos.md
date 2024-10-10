@@ -423,7 +423,7 @@ Secrets created by kevlar.io are kept until they are accessed, they are then del
 [https://github.com/adambutler/kevlar](https://github.com/adambutler/kevlar)
 
 ### kitsu-server
-:steam_locomotive: Rails API server for Kitsu [https://kitsu.io](https://kitsu.io)  
+:steam_locomotive: Rails API server for Kitsu [https://kitsu.app/api/playground](https://kitsu.app/api/playground)  
 [https://github.com/hummingbird-me/kitsu-server](https://github.com/hummingbird-me/kitsu-server)
 
 ### klaxon
@@ -751,7 +751,7 @@ A simple UI for browsing and inspecting diffs, and an API for runner scripts to 
 [https://github.com/wearefriday/spectre](https://github.com/wearefriday/spectre)
 
 ### spree
-An open source eCommerce platform giving you full control and customizability. Modular and API-first. Build any eCommerce solution that your business requires. [https://spreecommerce.org](https://spreecommerce.org)  
+An open source eCommerce platform giving you full control and customizability. Modular and API-first. Build any eCommerce solution that your business requires. Developed by @vendo-dev [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### stripe_event
