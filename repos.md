@@ -423,7 +423,7 @@ Secrets created by kevlar.io are kept until they are accessed, they are then del
 [https://github.com/adambutler/kevlar](https://github.com/adambutler/kevlar)
 
 ### kitsu-server
-:steam_locomotive: Rails API server for Kitsu [https://kitsu.io](https://kitsu.io)  
+:steam_locomotive: Rails API server for Kitsu [https://kitsu.app/api/playground](https://kitsu.app/api/playground)  
 [https://github.com/hummingbird-me/kitsu-server](https://github.com/hummingbird-me/kitsu-server)
 
 ### klaxon
@@ -751,7 +751,7 @@ A simple UI for browsing and inspecting diffs, and an API for runner scripts to 
 [https://github.com/wearefriday/spectre](https://github.com/wearefriday/spectre)
 
 ### spree
-An open source eCommerce platform giving you full control and customizability. Modular and API-first. Build any eCommerce solution that your business requires. [https://spreecommerce.org](https://spreecommerce.org)  
+An open source eCommerce platform giving you full control and customizability. Modular and API-first. Multi-vendor, multi-tenant, multi-store, multi-currency, multi-language. Built using Ruby on Rails. Developed by @vendo-dev [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### stripe_event
@@ -767,7 +767,7 @@ Server app for the TestTrack multi-platform split-testing and feature-gating sys
 [https://github.com/Betterment/test_track](https://github.com/Betterment/test_track)
 
 ### theodinproject
-Main Website for The Odin Project [http://www.theodinproject.com](http://www.theodinproject.com)  
+Main Website for The Odin Project [https://www.theodinproject.com](https://www.theodinproject.com)  
 [https://github.com/TheOdinProject/theodinproject](https://github.com/TheOdinProject/theodinproject)
 
 ### thredded
@@ -834,7 +834,7 @@ Xrono is an asset and time tracking application for consultants and consulting c
 [https://github.com/isotope11/xrono](https://github.com/isotope11/xrono)
 
 ### zammad
-Zammad is a web based open source helpdesk/customer support system [https://zammad.org](https://zammad.org)  
+Zammad is a web based open source helpdesk/customer support system. [https://zammad.org](https://zammad.org)  
 [https://github.com/zammad/zammad](https://github.com/zammad/zammad)
 
 
