@@ -82,7 +82,7 @@ A free, open source, non-commercial home for musicians and their music [https://
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
 ### askthem
-Monitor and interact with local governments in the United States  
+Q and A [https://askthem.us](https://askthem.us)  
 [https://github.com/opengovernment/askthem](https://github.com/opengovernment/askthem)
 
 ### et-pet-et1
@@ -131,10 +131,6 @@ Connect Any App to Any Service [https://github.com/nebulab/cangaroo](https://git
 ### canvas-lms
 The open LMS by Instructure, Inc. [https://github.com/instructure/canvas-lms/wiki](https://github.com/instructure/canvas-lms/wiki)  
 [https://github.com/instructure/canvas-lms](https://github.com/instructure/canvas-lms)
-
-### cartodb
-Location Intelligence & Data Visualization tool [http://carto.com](http://carto.com)  
-[https://github.com/CartoDB/cartodb](https://github.com/CartoDB/cartodb)
 
 ### case_file_editor
 An editor for digital case files.  
@@ -260,7 +256,7 @@ network visualization & pentest reporting [https://evait-security.github.io/envi
 [https://github.com/evait-security/envizon](https://github.com/evait-security/envizon)
 
 ### errbit
-The open source error catcher that's Airbrake API compliant [http://errbit.github.com/errbit/](http://errbit.github.com/errbit/)  
+The open source error catcher that's Airbrake API compliant :ukraine: [http://errbit.github.com/errbit/](http://errbit.github.com/errbit/)  
 [https://github.com/errbit/errbit](https://github.com/errbit/errbit)
 
 ### eventkit-rails
@@ -350,10 +346,6 @@ Open data project for small-scale food growers [http://growstuff.org/](http://gr
 A Rails plugin which provides a health checking and monitoring API of various services and application aspects.  
 [https://github.com/lbeder/health-monitor-rails](https://github.com/lbeder/health-monitor-rails)
 
-### heaven
-:walking: Rails app for GitHub Flow  
-[https://github.com/atmos/heaven](https://github.com/atmos/heaven)
-
 ### helpy
 Helpy is a modern, open source helpdesk customer support application. Features include knowledgebase, community discussions and support tickets integrated with email. [http://helpy.io/?source=ghh](http://helpy.io/?source=ghh)  
 [https://github.com/helpyio/helpy](https://github.com/helpyio/helpy)
@@ -365,10 +357,6 @@ Heya 👋 is a campaign mailer for Rails. Think of it like ActionMailer, but for
 ### high_voltage
 Easily include static pages in your Rails app. [http://thoughtbot.github.io/high_voltage](http://thoughtbot.github.io/high_voltage)  
 [https://github.com/thoughtbot/high_voltage](https://github.com/thoughtbot/high_voltage)
-
-### hound
-Automated code review for GitHub pull requests. [https://houndci.com](https://houndci.com)  
-[https://github.com/thoughtbot/hound](https://github.com/thoughtbot/hound)
 
 ### hourglass
 Client and internal time management with Harvest [hourglass.collectiveidea.com](hourglass.collectiveidea.com)  
@@ -423,7 +411,7 @@ Secrets created by kevlar.io are kept until they are accessed, they are then del
 [https://github.com/adambutler/kevlar](https://github.com/adambutler/kevlar)
 
 ### kitsu-server
-:steam_locomotive: Rails API server for Kitsu [https://kitsu.io](https://kitsu.io)  
+:steam_locomotive: Rails API server for Kitsu [https://kitsu.app/api/playground](https://kitsu.app/api/playground)  
 [https://github.com/hummingbird-me/kitsu-server](https://github.com/hummingbird-me/kitsu-server)
 
 ### klaxon
@@ -455,7 +443,7 @@ Rails engine for cache-friendly, client-side local time
 [https://github.com/basecamp/local_time](https://github.com/basecamp/local_time)
 
 ### loomio
-Loomio is a collaborative decision making tool [https://www.loomio.com](https://www.loomio.com)  
+Loomio is a collaborative decision making tool [https://loomio.com](https://loomio.com)  
 [https://github.com/loomio/loomio](https://github.com/loomio/loomio)
 
 ### mailkick
@@ -659,7 +647,7 @@ Redmine is a flexible project management web application written using Ruby on R
 [https://github.com/edavis10/redmine](https://github.com/edavis10/redmine)
 
 ### refinerycms
-An extendable Ruby on Rails CMS that supports Rails 6.0+ [https://www.refinerycms.com/](https://www.refinerycms.com/)  
+An extendable Ruby on Rails CMS that supports Rails 6.1 to 8.1+ and Ruby 3.x to 4.x [https://github.com/refinery/refinerycms](https://github.com/refinery/refinerycms)  
 [https://github.com/refinery/refinerycms](https://github.com/refinery/refinerycms)
 
 ### remit
@@ -751,7 +739,7 @@ A simple UI for browsing and inspecting diffs, and an API for runner scripts to 
 [https://github.com/wearefriday/spectre](https://github.com/wearefriday/spectre)
 
 ### spree
-An open source eCommerce platform giving you full control and customizability. Modular and API-first. Build any eCommerce solution that your business requires. [https://spreecommerce.org](https://spreecommerce.org)  
+Open-source headless eCommerce platform with REST API, TypeScript SDK, and Next.js storefront for cross-border, B2B or marketplace eCommerce. [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### stripe_event
@@ -767,7 +755,7 @@ Server app for the TestTrack multi-platform split-testing and feature-gating sys
 [https://github.com/Betterment/test_track](https://github.com/Betterment/test_track)
 
 ### theodinproject
-Main Website for The Odin Project [http://www.theodinproject.com](http://www.theodinproject.com)  
+Main website for The Odin Project [https://www.theodinproject.com](https://www.theodinproject.com)  
 [https://github.com/TheOdinProject/theodinproject](https://github.com/TheOdinProject/theodinproject)
 
 ### thredded
@@ -834,13 +822,16 @@ Xrono is an asset and time tracking application for consultants and consulting c
 [https://github.com/isotope11/xrono](https://github.com/isotope11/xrono)
 
 ### zammad
-Zammad is a web based open source helpdesk/customer support system [https://zammad.org](https://zammad.org)  
+Zammad is a web based open source helpdesk/customer support system. [https://zammad.org](https://zammad.org)  
 [https://github.com/zammad/zammad](https://github.com/zammad/zammad)
 
 
 ## Moved/Missing/Deleted Repos
 TODO: check the repos below - moved, renamed or deleted?
 
+- https://github.com/CartoDB/cartodb
 - https://github.com/education/classroom
+- https://github.com/atmos/heaven
+- https://github.com/thoughtbot/hound
 - https://github.com/churchio/onebody
 - https://github.com/FlyoverWorks/storytime
